@@ -1,0 +1,117 @@
+/*======================================================================
+
+Project: JaguarCV - Responsive Resume Template
+Version: 1.0
+Author: Jaguar Themes
+
+======================================================================*/
+
+/*================== 01 Common ====================== */
+a:hover{
+  color: #cc005f;
+}
+/* Button */
+
+.btn_color
+{
+	background-color:#cc005f !important;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	color: #fff;
+	background-color: #cc005f;
+	border-color: #cc005f;
+}
+ 
+/*================== /01 Common ====================== */
+
+/*================== 03 Header ====================== */
+
+.header_content h5
+{
+	color: #cc005f;
+}
+.header_social li a:hover, .header_social li a:focus {
+	color: #cc005f;
+}
+/*================== /03 Header ====================== */
+
+/*================== 04 Navigation ====================== */
+
+.navbar-custom .nav li a:hover {
+	color: #cc005f;
+}
+
+.navbar-custom .nav li a:active {
+	color: #cc005f;
+}
+.navbar-custom .nav > li.active > a {
+  color: #cc005f !important;
+}
+
+/*================== /04 Navigation ====================== */
+
+/*================== 05 About ====================== */
+
+.sort_info ul li::before 
+{
+    color:#cc005f;
+}
+
+.sort_info .btn
+{
+	border-color:#cc005f;
+}
+/*================== /05 About ====================== */
+
+
+/*================== 07 Resume ====================== */
+
+.resume>li .resume-image {
+	border: 1px solid #cc005f;
+	background-color:#cc005f;
+}
+.resume .resume-heading h4.subheading {
+	color: #cc005f;
+}
+
+/*================== /07 Resume ====================== */
+/*================== 08 Skills ====================== */
+.skill_progress .progress-bar
+{
+	background-color:#cc005f !important;
+}
+
+.circliful .outer {
+    stroke: #cc005f;
+
+}
+
+/*================== /08 Skills ====================== */
+
+/*================== 09 Portfolio ====================== */
+
+ol.type li a {
+	background:#cc005f;
+}
+/* gallery effect */
+.gallery_effect {
+	background:#cc005f;
+}	
+
+/*================== /09 Portfolio ====================== */
+
+/*================== 11 Contact ====================== */
+
+.single_contact_info:hover .contact_icon
+{
+	background-color:#cc005f;
+	border-color:#cc005f;
+}
+
+/*================== /11 Contact ====================== */
+/*================== 13 Scroll To top ====================== */
+.scroll-top-wrapper {
+    background-color:#cc005f;
+
+}
+/*================== /	13 Scroll To top ====================== */

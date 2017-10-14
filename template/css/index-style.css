@@ -47,3 +47,11 @@ body, html {
     color: #424242;
     font-family: 'Slabo 27px', serif;
 }
+
+.loader {
+    width: 68px;
+}
+
+.loadermsg {
+    font-family: 'Lato', sans-serif;
+}
