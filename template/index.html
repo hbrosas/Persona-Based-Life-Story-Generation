@@ -4,27 +4,24 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-	<title>Index | PSLG</title>
-
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<title>Index | You.</title>
 
 	<!-- Stylesheets -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/index-style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="the-body">
 	<div class="main-container">
-			<img src = "img/logo.png" class="img-responsive logo">
-            <h3 class="header">Persona-Based Life Story Generator</h3>
-			<button class="btn btn-small btn-success btn-block submitbtn" type="button" id="startModalBtn">Let's Get Started!</button>
-            <button class="btn btn-small btn-info btn-block submitbtn" type="button" id="startModalBtn">Help</button>
+			<img src = "img/you_dark.png" class="img-responsive logo">
+            <h3 class="header">A Persona-Based Life Story Generator</h3>
+			<button class="btn btn-small btn-block submitbtn lgsBtn" type="button" id="startModalBtn">Let's Get Started!</button>
+            <button class="btn btn-small btn-block submitbtn helpBtn" type="button" id="helpModalBtn">Help</button>
     </div>
     
     <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal fade" id="startModal" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -32,8 +29,14 @@
                 </div>
                 
                 <div class="modal-body">
-                    insert rules, instructions, terms and conditions, etc. here!<br><br>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                    Proceeding to our next steps in generating your story requires you to perform and to agree on the following: <br><br>
+                    <ol>
+                        <li>You will enter your Facebook login credentials. We will not have an access to your email and password. Facebook is responsible for connecting your account to our system.</li>
+                        <li>You will approve the permissions which allows the software system to access your Facebook data to generate your persona-based life story. These permissions will allow the system to access specifically your profile information, posts, liked pages, managed and joined groups.</li>
+                        <li>The system will generate your persona-based life story according to your posts, liked pages and groups. You may examine and confirm the persona generated.</li>
+                        <li>You have the option to save the story generated in a text file. You will be the one responsible for keeping the file.</li>
+                    </ol>
+                    Note that by using the YOU: A Persona-Based Life Story Generator, you agree that the generated persona-based life story will be stored for research purposes. Rest assured that the generated story will be kept confidential.
                 </div>
                 
                 <div class="modal-footer">
@@ -47,12 +50,50 @@
                     
                     <div class="pull-right">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Log in on Facebook</button>
+                        <button type="button" class="btn btn-primary" id="loginFB">
+                            <i class="fa fa-facebook" aria-hidden="true"></i> &nbsp; Log in on Facebook
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="helpModal" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Need Help?</h4>
+                </div>
+                
+                <div class="modal-body">
+                    <mark>You.</mark> is an application that generates your persona-based life story using your facebook data. This application will generate your <mark>Top 3</mark> personas and will create stories on each of them.
+                    <br><br>
+                    
+                    <strong><mark><i class="fa fa-question-circle" aria-hidden="true"></i> &nbsp;Frequently Asked Questions</mark></strong>
+                    
+                    <dl class="faqs">
+                        <dt>How are you going to access my Facebook data?</dt>
+                        <dd>You will log in on your facebook account by clicking the "Log in on Facebook" button in the Let's Get Started Modal.</dd>
+                        <dt>How can I ensure that you are not hacking me?</dt>
+                        <dd>The Facebook Login API that we used came from Facebook. Thus, we have no access to your user credentials.</dd>
+                        <dt>Since I have logged in using my Facebook account, can I logout my account too?</dt>
+                        <dd>Yes, you can! Logout button can be found in the profile page.</dd>
+                        <dt>I liked the story. Can I save it?</dt>
+                        <dd>Yes, you can! Just click the "Save" button that can be found at the bottom part of the profile page.</dd>
+                    </dl>
+                </div>
+                
+                <div class="modal-footer">                    
+                    <div class="pull-right">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
      <!-- Scripts -->
 	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
@@ -61,8 +102,54 @@
 	<!-- body -->    
     <script>
         $(document).on("click", "#startModalBtn", function() {
-           console.log("Clicked!");
-            $("#myModal").modal('toggle');
+            $("#startModal").modal('toggle');
+        });
+        
+        $(document).on("click", "#helpModalBtn", function() {
+            $("#helpModal").modal('toggle');
+        });
+    </script>
+    
+    
+    <script>
+        $(document).ready(function() {
+           window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '139479073449755',
+              cookie     : true,
+              xfbml      : true,
+              version    : 'v2.10'
+            });
+
+            FB.AppEvents.logPageView();   
+
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "https://connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk')); 
+        });
+               
+        $(document).on("click", "#loginFB", function() {
+//            FB.getLoginStatus(function(response) {
+//                console.log(response);
+//                statusChangeCallback(response);
+//            });    
+            
+            FB.login(function(response) {
+                if (response.authResponse) {
+                 console.log('Welcome!  Fetching your information.... ');
+                 FB.api('/me', function(response) {
+                   console.log('Good to see you, ' + response.name + '.');
+                 });
+                } else {
+                 console.log('User cancelled login or did not fully authorize.');
+                }
+            });
         });
     </script>
 

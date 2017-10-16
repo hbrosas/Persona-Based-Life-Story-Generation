@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Questrial|Raleway|Yanone+Kaffeesatz');
+
 body, html {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background-color: #ffffff;
 }
 
 .the-body {
-    color: #f2f2f2;
-    background: url('../img/home-bg.jpg') no-repeat center center;
+/*    background: url('../img/home-bg.jpg') no-repeat center center;*/
     background-size: cover;
 }
 
@@ -25,27 +25,61 @@ body, html {
 }
 
 .header {
-    font-family: 'Slabo 27px', serif;
-    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 26spx;
     letter-spacing: 1px;
     margin-bottom: 25px;
+    color: #424242;
 }
 
 .submitbtn {
-    width: 250px;
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    width: 400px;
     letter-spacing: 2px;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 5px;
+}
+
+.lgsBtn {
+    background-color: #ff4081;
+    color: white;
+}
+
+.lgsBtn:hover {
+    background-color: #ff80ab;
+    color: white;
+}
+
+.helpBtn {
+    background-color: #333;
+    color: #fefefe;
+}
+
+.helpBtn:hover {
+    background-color: #424242;
+    color: #fff;
 }
 
 .logo {
-    width: 150px;
-    margin-bottom: 20px;
+    width: 250px;
+/*    margin-bottom: 10px;*/
 }
 
-.modal-title, .modal-body, .agree-text {
+.modal-title {
     color: #424242;
-    font-family: 'Slabo 27px', serif;
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.modal-body, .agree-text {
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+}
+
+.agree-text {
+    font-weight:900;
 }
 
 .loader {
@@ -54,4 +88,9 @@ body, html {
 
 .loadermsg {
     font-family: 'Lato', sans-serif;
+}
+
+.faqs {
+    margin-left: 20px;
+    margin-top: 10px;
 }
