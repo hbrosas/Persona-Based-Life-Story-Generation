@@ -99,7 +99,7 @@
      <!-- Scripts -->
 	<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
 	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
-
+    <script type="text/javascript" src="{% static 'js/facebook-api.js' %}"></script>
 	<!-- body -->
     <script>
         $(document).on("click", "#startModalBtn", function() {
@@ -111,49 +111,6 @@
         });
     </script>
 
-
-    <script>
-        $(document).ready(function() {
-           window.fbAsyncInit = function() {
-            FB.init({
-              appId      : '139479073449755',
-              cookie     : true,
-              xfbml      : true,
-              version    : 'v2.10'
-            });
-
-            FB.AppEvents.logPageView();
-
-          };
-
-          (function(d, s, id){
-             var js, fjs = d.getElementsByTagName(s)[0];
-             if (d.getElementById(id)) {return;}
-             js = d.createElement(s); js.id = id;
-             js.src = "https://connect.facebook.net/en_US/sdk.js";
-             fjs.parentNode.insertBefore(js, fjs);
-           }(document, 'script', 'facebook-jssdk'));
-        });
-
-        $(document).on("click", "#loginFB", function() {
-//            FB.getLoginStatus(function(response) {
-//                console.log(response);
-//                statusChangeCallback(response);
-//            });
-
-            FB.login(function(response) {
-                if (response.authResponse) {
-                 console.log('Welcome!  Fetching your information.... ');
-                 FB.api('/me', function(response) {
-                   console.log('Good to see you, ' + response.name + '.');
-									 window.location.href = "http://localhost:8000/loading/";
-                 });
-                } else {
-                 console.log('User cancelled login or did not fully authorize.');
-                }
-            });
-        });
-    </script>
 
 </body>
 
