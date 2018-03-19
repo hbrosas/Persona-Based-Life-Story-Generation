@@ -7,4 +7,5 @@ urlpatterns = [
     url(r'^loading/$', views.LoadPageView.as_view(), name='loading'),
 	url(r'^profile/$', views.ProfilePageView.as_view(), name='profile'),
     url(r'^ajax/extract_fb_data', facebookgraphapi.extract_fb_data, name='extract_fb_data'),
+    url(r'^ajax/extract_likes', facebookgraphapi.extract_likes, name='extract_likes'),
 ]
