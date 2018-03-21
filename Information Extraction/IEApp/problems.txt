@@ -1,0 +1,4 @@
+Observed problem/s:
+
+- Spacy. Determining entities. 
+	Ex. "I am eager to win" - Eager is NOUN/PERSON because of "I am"

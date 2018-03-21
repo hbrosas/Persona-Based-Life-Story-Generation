@@ -46,7 +46,10 @@ class ApostropheDictionary(object):
 			"youre"		:	"you are",
 			"couldnt"		:	"could not",
 			"shouldnt"	:	"should not",
-			"wouldnt"		:	"would not"			
+			"wouldnt"		:	"would not",
+			"'cos"		:	"because",
+			"'cause"		:	"because",
+			"'coz"		:	"because",
 		}
 
 	def lookup(self, key):

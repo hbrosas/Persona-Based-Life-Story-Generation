@@ -7,6 +7,7 @@ import spacy
 import ciseau
 import language_check
 import html.parser
+import itertools
 
 """
 	From  Source: https://www.analyticsvidhya.com/blog/2014/11/text-data-cleaning-steps-python/ (Not all)
@@ -36,21 +37,26 @@ class Clean:
 		html_parser = html.parser.HTMLParser()
 		post = html_parser.unescape(original_post)
 
-		#2 Spell Correction for Tagalog Words
+		#2 Standardize
+		post = ''.join(''.join(s)[:2] for _, s in itertools.groupby(post))
+		print("STANDARDIZED: ", post)
+
+		#3 Spell Correction for Tagalog Words
+		#4 Apostrophe Lookup
+		#5 Slang Lookup
 		sc = SpellChecker()
-		sc.spell(post)
+		post = sc.spell(post)
+		print("")
 
-		#3 Lowercase post
-		nlp_post = nlp(post)
-		lowercased = nlp_post.text.lower()
+		#6 Split Attached Words
+		# post = " ".join(re.findall('[A-Z][^A-Z]*', post))
 
-		#3 Apostrophe Lookup
-		# aposdic = ApostropheDictionary()
+		#4 Google Translate
 
 
-		# tool = language_check.LanguageTool('en-US')
-		# matches = tool.check(original_post)
-		# print(language_check.correct(original_post, matches))
+		tool = language_check.LanguageTool('en-US')
+		matches = tool.check(post)
+		print(language_check.correct(original_post, matches))
 
 	def cleanData(self, posts):
 		for p in posts:

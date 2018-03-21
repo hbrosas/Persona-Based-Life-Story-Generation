@@ -2,8 +2,13 @@ from prepros.entity import Entity
 from hunspell import Hunspell
 from textblob import TextBlob
 from prepros.dictionaries.apostrophe_dic import ApostropheDictionary
+from prepros.dictionaries.slang_dic import SlangDictionary
 import spacy
 import os 
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
+import collections
+import numpy as np
 
 class SpellChecker:
 
@@ -23,42 +28,85 @@ class SpellChecker:
 	def spell(self, post):
 		nlp = spacy.load('en')
 		ent = Entity()
+		fpost = ""
 
 		toBeTokenized = nlp(post)
 		for token in toBeTokenized:
 			aposdic = ApostropheDictionary()
+			slangdic = SlangDictionary()
 			aposLookup = aposdic.lookup(token.orth_.lower())
+			slangLookup = aposdic.lookup(token.orth_.lower())
+			# print("Token: ", token.orth_, " Entity: ", token.ent_type_ + " POS: " + token.pos_ + " TAG: " + token.tag_ + " DEP: " + token.dep_)
 			if aposLookup == None:
-				if not token.ent_type_ == None and not token.is_stop and not token.like_url:
-					ent.isAnEntity(token)
-					# fil_tok = self.spell_Fil(token.text)
-					# eng_tok = self.spell_Eng(token.text)
-					# print(fil_tok)
-					# print(eng_tok)
+				if slangLookup == None:
+					if token.ent_type_ == "" and not token.is_digit and not token.like_url and not token.like_email:
+						if not token.is_punct:
+							entity = ent.doesExists(token)
+							if not ent.doesExists(token):
+								fil_tok = self.spell_Fil(token.text)
+								fil_similar = self.findMostSimilar(token.text, fil_tok)
+								eng_tok = self.spell_Eng(token.text)
+								eng_similar = self.findMostSimilar(token.text, eng_tok)
+								final = self.compareWord(token.text, fil_similar, eng_similar)
+								fpost = fpost + final + " "
+							else:
+								fpost = fpost + entity + " "	
+						else:
+							fpost = fpost + token.text + " "	
+					else:
+						fpost = fpost + token.text + " "
 				else:
-					print(token.text)
+					fpost = fpost + slangLookup + " "
+			else:
+				fpost = fpost + aposLookup + " "
+
+		print("Spelled: ", fpost)
+		return fpost;
+
+	def compareWord(self, word, fil, eng):
+		fscore = fuzz.ratio(word, fil)
+		escore = fuzz.ratio(word, eng)
+
+		if fscore == escore:
+			return eng
+		elif fscore > escore:
+			return fil
+		else:
+			return eng
+
+	def findMostSimilar(self, word, tokens):
+		similar = ""
+		highest = 0
+
+		for t in tokens:
+			score = fuzz.ratio(word, t)
+			# print(t, " to ", word, " SCORE: ", score)
+			if score > highest:
+				similar = t
+
+		return similar
 
 	def spell_Fil(self, token):
 		dir_path = os.path.dirname(os.path.realpath(__file__))
-		tok = None
+		tok = []
 		h = Hunspell('tl', hunspell_data_dir = dir_path + '/dictionaries/')
 
 		if not h.spell(token):
 			tok = h.suggest(token)
 		else:
-			tok = token
+			tok.append(token)
 
 		return tok
 
 	def spell_Eng(self, token):
 		dir_path = os.path.dirname(os.path.realpath(__file__))
-		tok = None
+		tok = []
 		h = Hunspell('en_us', hunspell_data_dir=dir_path + '/dictionaries/')
 
 		if not h.spell(token):
 			tok = h.suggest(token)
 		else:
-			tok = token
+			tok.append(token)
 
 		return tok
 		

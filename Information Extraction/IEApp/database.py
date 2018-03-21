@@ -19,7 +19,12 @@ class Database:
 		database = "ieappdb"
 		db = MySQLdb.connect(host=host, user=user, passwd=password, db=database)
 		cursor = db.cursor()
-		cursor.execute(("INSERT INTO semantic_ontology (relation_id,term_1,term_2) VALUES(%s,%s,%s)"), (int(relationid), term_1, term_2))
+		cursor.execute(("""	INSERT INTO semantic_ontology (relation_id,term_1,term_2) 
+		                	VALUES(%s,%s,%s) 
+		                	WHERE NOT EXISTS (
+		                		SELECT * FROM semantic_ontology 
+		                		WHERE relation_id = $s AND term_1 LIKE $s AND term_2 LIKE $s
+		                	) LIMIT 1;"""), (int(relationid), term_1, term_2,int(relationid), term_1, term_2))
 		db.commit()
 
 	def findRelation(self, relation):
@@ -47,11 +52,24 @@ class Database:
 
 		return semrel
 
+	def searchTerm(self, term):
+		semrel = []
+		db = Database()
+		cursor = db.connectDB()
+		cursor.execute("SELECT * FROM semantic_ontology WHERE term_1 LIKE '" + term + "';")
+		rows = cursor.fetchall()
+
+		for row in rows:
+			s = SemanticRelation(row[0], row[1], row[2], row[3] )
+			semrel.append(s)
+
+		return semrel
+
 	def getPosts(self):
 		posts = []
 		db = Database()
 		cursor = db.connectDB()
-		cursor.execute("SELECT * FROM labelled_posts WHERE id = 16;")
+		cursor.execute("SELECT * FROM labelled_posts;")
 		rows = cursor.fetchall()
 
 		for row in rows:

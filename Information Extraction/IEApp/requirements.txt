@@ -15,3 +15,5 @@ pip install tensorflow
 pip install matplotlib
 sklearn
 scipy
+pip install fuzzywuzzy
+easy_install python-Levenshtein
