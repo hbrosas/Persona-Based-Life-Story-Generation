@@ -2,15 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f206cf8f-b3f3-4cb8-ace0-159b85516117" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/YOUapp/clientapp/datacollection/training_data.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/Hello!.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/2.0.6" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/context/conceptnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/context/dbpedia.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/context/googlesearch.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/context/npextractor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/context/translator.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/database.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/dependencies/NormAPI.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/driver.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/models/post.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/models/semanticrelation.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/models/tokent.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/clean.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/dictionaries/apostrophe_dic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/dictionaries/en_us.aff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/dictionaries/en_us.dic" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/dictionaries/slang_dic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/dictionaries/tl.aff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/dictionaries/tl.dic" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/emojiremove.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/entity.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/normie.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/spacy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/prepros/spellcheck.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/problems.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/requirements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/sample.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/sample.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/IEApp/setup.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/hunspell-en_US-large-2017.01.22/README_en_US-large.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/hunspell-en_US-large-2017.01.22/en_US-large.aff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/hunspell-en_US-large-2017.01.22/en_US-large.dic" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/src/build.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/src/dictionaries/README_tl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/src/dictionaries/tl.aff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/src/dictionaries/tl.dic" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Information Extraction/tagfil-dictionary-master/tagfil-dictionary-master/src/install.rdf" />
       <change beforePath="$PROJECT_DIR$/YOUapp/YOUapp/settings.py" afterPath="$PROJECT_DIR$/YOUapp/YOUapp/settings.py" />
-      <change beforePath="$PROJECT_DIR$/YOUapp/YOUapp/urls.py" afterPath="$PROJECT_DIR$/YOUapp/YOUapp/urls.py" />
-      <change beforePath="$PROJECT_DIR$/YOUapp/clientapp/facebookgraphapi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/YOUapp/clientapp/models.py" afterPath="$PROJECT_DIR$/YOUapp/clientapp/models.py" />
-      <change beforePath="$PROJECT_DIR$/YOUapp/clientapp/templates/index.html" afterPath="$PROJECT_DIR$/YOUapp/clientapp/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/YOUapp/clientapp/facebookgraphapi.py" afterPath="$PROJECT_DIR$/YOUapp/clientapp/facebookgraphapi.py" />
       <change beforePath="$PROJECT_DIR$/YOUapp/clientapp/urls.py" afterPath="$PROJECT_DIR$/YOUapp/clientapp/urls.py" />
-      <change beforePath="$PROJECT_DIR$/YOUapp/static/js/facebook-api.js" afterPath="$PROJECT_DIR$/YOUapp/static/js/facebook-api-training.js" />
+      <change beforePath="$PROJECT_DIR$/template/js/main.min.js" afterPath="$PROJECT_DIR$/template/js/main.min.js" />
+      <change beforePath="$PROJECT_DIR$/template/profile.html" afterPath="$PROJECT_DIR$/template/profile.html" />
     </list>
     <ignored path="venv1/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,14 +84,16 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="109" lean-forward="false" selection-start-line="12" selection-start-column="109" selection-end-line="12" selection-end-column="109" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facebook-api-testing.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="facebook-api-testing.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YOUapp/static/js/facebook-api-testing.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -64,7 +103,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testing_data.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="facebookgraphapi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/facebookgraphapi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing_data.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/datacollection/testing_data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -108,7 +159,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/YOUapp/static/js/facebook-sdk.js" />
-        <option value="$PROJECT_DIR$/YOUapp/clientapp/facebookgraphapi.py" />
         <option value="$PROJECT_DIR$/YOUapp/clientapp/database.py" />
         <option value="$PROJECT_DIR$/YOUapp/clientapp/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/YOUapp/clientapp/training_data.py" />
@@ -125,10 +175,11 @@
         <option value="$PROJECT_DIR$/YOUapp/static/js/facebook-api-training.js" />
         <option value="$PROJECT_DIR$/YOUapp/clientapp/templates/index.html" />
         <option value="$PROJECT_DIR$/YOUapp/clientapp/testing_data.py" />
-        <option value="$PROJECT_DIR$/YOUapp/clientapp/urls.py" />
         <option value="$PROJECT_DIR$/YOUapp/clientapp/datacollection/training_data.py" />
         <option value="$PROJECT_DIR$/YOUapp/clientapp/datacollection/testing_data.py" />
         <option value="$PROJECT_DIR$/YOUapp/static/js/facebook-api-testing.js" />
+        <option value="$PROJECT_DIR$/YOUapp/clientapp/facebookgraphapi.py" />
+        <option value="$PROJECT_DIR$/YOUapp/clientapp/urls.py" />
       </list>
     </option>
   </component>
@@ -274,6 +325,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19866072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -342,13 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="58" lean-forward="false" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -628,19 +673,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YOUapp/static/js/facebook-api-training.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YOUapp/static/js/facebook-api-testing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="87" column="17" lean-forward="false" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/facebookgraphapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YOUapp/clientapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="109" lean-forward="false" selection-start-line="12" selection-start-column="109" selection-end-line="12" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -661,14 +726,6 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YOUapp/static/js/facebook-api-testing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="87" column="17" lean-forward="false" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>

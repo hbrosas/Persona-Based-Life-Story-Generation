@@ -1,0 +1,20 @@
+mysqlclient==1.3.12
+normalizr==0.1.7
+MySQLdb
+CyHunspell - change setup.py link
+https://pypi.python.org/pypi/CyHunspell/1.2.1
+pip install -U spacy
+python -m spacy download en
+wikiapi
+textblob
+language-check
+ciseau
+requests
+pip install sparqlwrapper
+pip install tensorflow
+pip install matplotlib
+sklearn
+scipy
+pip install fuzzywuzzy
+easy_install python-Levenshtein
+pip install googletrans
