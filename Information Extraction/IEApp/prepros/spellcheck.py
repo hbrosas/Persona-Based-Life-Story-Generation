@@ -3,56 +3,57 @@ from hunspell import Hunspell
 from textblob import TextBlob
 from prepros.dictionaries.apostrophe_dic import ApostropheDictionary
 from prepros.dictionaries.slang_dic import SlangDictionary
+from models.tokent import Tokent
 import spacy
 import os 
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import collections
 import numpy as np
+import re
 
 class SpellChecker:
-
-	"""
-	NOTE: Find ways to maximize the use of textblob and hunspell
-
-	1. Check first the entity - if there is an entity, return.
-	2. Check if exists in Wikipedia and ConceptNet. If yes, it means the spelling is correct thus return the token.
-	3. Else, correct spelling.
-
-	ISSUE # 1:
-	- Since one dictionary can only be used at a time, don't know when to use the each dictionary.
-	SOLUTION: Try to install hunspell (this one's cyhunspell), but that'll be hard.
-
-	"""
 
 	def spell(self, post):
 		nlp = spacy.load('en')
 		ent = Entity()
 		fpost = ""
+		words = []
+		hyphen = re.compile('^-([A-Z]*[a-z]*)*') # Regex for any word that ends in -
+		reservedWord = ""
 
 		toBeTokenized = nlp(post)
 		for token in toBeTokenized:
+			word = token.text
+			if not token.like_url and not token.like_email:
+				if not reservedWord == "":
+					words.append(Tokent((reservedWord + word), token.pos_, token.ent_type_))
+					reservedWord = ""
+				else:
+					if hyphen.match(word):
+						reservedWord = word
+					else:
+						words.append(Tokent(word, token.pos_, token.ent_type_))
+
+		for w in words:
+			print("Word: " + w.token)
 			aposdic = ApostropheDictionary()
 			slangdic = SlangDictionary()
-			aposLookup = aposdic.lookup(token.orth_.lower())
-			slangLookup = aposdic.lookup(token.orth_.lower())
-			# print("Token: ", token.orth_, " Entity: ", token.ent_type_ + " POS: " + token.pos_ + " TAG: " + token.tag_ + " DEP: " + token.dep_)
+			aposLookup = aposdic.lookup(w.token.lower())
+			slangLookup = aposdic.lookup(w.token.lower())
 			if aposLookup == None:
 				if slangLookup == None:
-					if token.ent_type_ == "" and not token.is_digit and not token.like_url and not token.like_email:
-						if not token.is_punct:
-							entity = ent.doesExists(token)
-							if not ent.doesExists(token):
-								fil_tok = self.spell_Fil(token.text)
-								fil_similar = self.findMostSimilar(token.text, fil_tok)
-								eng_tok = self.spell_Eng(token.text)
-								eng_similar = self.findMostSimilar(token.text, eng_tok)
-								final = self.compareWord(token.text, fil_similar, eng_similar)
-								fpost = fpost + final + " "
-							else:
-								fpost = fpost + entity + " "	
+					if w.entity == "" :
+						entity = ent.doesExists(w.token)
+						if not ent.doesExists(w.token):
+							fil_tok = self.spell_Fil(w.token)
+							fil_similar = self.findMostSimilar(w.token, fil_tok)
+							eng_tok = self.spell_Eng(w.token)
+							eng_similar = self.findMostSimilar(w.token, eng_tok)
+							final = self.compareWord(token.text, fil_similar, eng_similar)
+							fpost = fpost + final + " "
 						else:
-							fpost = fpost + token.text + " "	
+							fpost = fpost + entity + " "	
 					else:
 						fpost = fpost + token.text + " "
 				else:
@@ -83,6 +84,7 @@ class SpellChecker:
 			# print(t, " to ", word, " SCORE: ", score)
 			if score > highest:
 				similar = t
+				highest = score
 
 		return similar
 

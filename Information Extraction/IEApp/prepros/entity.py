@@ -7,7 +7,7 @@ class Entity:
 
 	def isAnEntity(self, token):
 		db = Database()
-		semrel = db.searchSemRel(token.orth_)
+		semrel = db.searchSemRel(token)
 		if len(semrel) == 0:
 			ent = Entity()
 			ent.learn(token)
@@ -17,7 +17,7 @@ class Entity:
 	# 	semrel = db.searchTerm(token.orth_)
 		
 	def doesExists(self, token):
-		tokText = token.orth_.capitalize()
+		tokText = token.capitalize()
 		url = "http://dbpedia.org/resource/" + tokText
 		sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 		sparql.setQuery( """ 
@@ -40,7 +40,7 @@ class Entity:
 			return results["results"]["bindings"][0]["value"]["value"]
 
 	def learn(self, token):
-		tokText = token.orth_.capitalize()
+		tokText = token.capitalize()
 		ent = Entity()
 		ent.conceptNet(tokText)
 		ent.dbPedia("http://dbpedia.org/resource/" + tokText, tokText)

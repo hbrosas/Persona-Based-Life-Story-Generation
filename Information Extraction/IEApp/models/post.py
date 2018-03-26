@@ -1,12 +1,16 @@
 class Post(object):
 	id = 0
+	fbID = ""
 	post = ""
 	label = ""
+	timestamp = None
 
-	def __init__(self, id, post, label):
+	def __init__(self, id, fbID, post, label, timestamp):
 		self.id = id
+		self.fbID = fbID
 		self.post = post
 		self.label = label
+		self.timestamp = timestamp
 
 	def getID(self):
 		return self.id

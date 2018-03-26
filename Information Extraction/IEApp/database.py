@@ -1,6 +1,7 @@
 import MySQLdb
 from models.post import Post
 from models.semanticrelation import SemanticRelation
+import dateutil.parser
 
 class Database:
 	def connectDB(self):
@@ -73,7 +74,27 @@ class Database:
 		rows = cursor.fetchall()
 
 		for row in rows:
-			p = Post(row[0], row[1], row[2])
+			self.getDateTime(row[3])
+			p = Post(row[0], row[1], row[2], row[4], row[3])
 			posts.append(p)
 
 		return posts
+
+	def getPostsByLabel(self, persona):
+		posts = []
+		db = Database()
+		cursor = db.connectDB()
+		cursor.execute("SELECT * FROM labelled_posts WHERE label = '" + persona + "';")
+		rows = cursor.fetchall()
+
+		for row in rows:
+			self.getDateTime(row[3])
+			p = Post(row[0], row[1], row[2], row[4], row[3])
+			posts.append(p)
+
+		return posts
+
+	def getDateTime(self, timestamp):
+		timestamp = timestamp[:-5]
+		print(timestamp)
+		# d = dateutil.parser.parse(timestamp)

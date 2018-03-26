@@ -2,12 +2,16 @@
 
 from prepros.spellcheck import SpellChecker
 from prepros.normie import Normalizer
+from prepros.emojiremove import EmojiRemove
 from prepros.dictionaries.apostrophe_dic import ApostropheDictionary
+from context.npextractor import NPExtractor
+from context.translator import TGENTranslator
 import spacy
 import ciseau
 import language_check
 import html.parser
 import itertools
+import re
 
 """
 	From  Source: https://www.analyticsvidhya.com/blog/2014/11/text-data-cleaning-steps-python/ (Not all)
@@ -29,7 +33,13 @@ import itertools
 
 class Clean:
 
+	def cleanData(self, posts):
+		for p in posts:
+			print(p.getPost())
+			self.clean(p.getPost())
+
 	def clean(self, original_post):
+		print("")
 
 		nlp = spacy.load('en')
 
@@ -41,12 +51,33 @@ class Clean:
 		post = ''.join(''.join(s)[:2] for _, s in itertools.groupby(post))
 		print("STANDARDIZED: ", post)
 
+		#3 Removal of Expression. Ex. Haha, Hehe, Huhu
+		post = re.sub('(a*ha+h[ha]*|(?:l+o+)+l+|e*he+h[he]*|i*hi+h[hi]*|o*ho+h[ho]*|u*hu+h[hu]*)', '', post)
+		post = re.sub('(A*HA+H[HA]*|(?:L+O+)+L+|E*HE+H[HE]*|I*HI+H[HI]*|O*HO+H[HO]*|U*HU+H[HU]*)', '', post)
+		print("Removed Expressions: ", post)
+
+		#4 Removal of Emoticons
+		post = EmojiRemove.remove_emoji(post)
+		print("Removed Emojis: ", post)
+
+		nlp = spacy.load('en')
+		#5 Separate to sentences
+		doc = nlp(post)
+
+		for sent in doc.sents:
+			# sc = SpellChecker()
+			# sentence = sc.spell(sent.text)
+			self.separateEntities(sentence)
+
+			print("")
+
+
+
 		#3 Spell Correction for Tagalog Words
 		#4 Apostrophe Lookup
 		#5 Slang Lookup
-		sc = SpellChecker()
-		post = sc.spell(post)
-		print("")
+		
+		# print("")
 
 		#6 Split Attached Words
 		# post = " ".join(re.findall('[A-Z][^A-Z]*', post))
@@ -54,34 +85,38 @@ class Clean:
 		#4 Google Translate
 
 
-		tool = language_check.LanguageTool('en-US')
-		matches = tool.check(post)
-		print(language_check.correct(original_post, matches))
+		# tool = language_check.LanguageTool('en-US')
+		# matches = tool.check(post)
+		# print(language_check.correct(original_post, matches))
 
-	def cleanData(self, posts):
-		for p in posts:
-			print(p.getPost())
-			# print(ciseau.tokenize(p.getPost()))
-			self.clean(p.getPost())
+	def separateEntities(self, post):
+		# nlp = spacy.load('en')
+		# doc = nlp(post.text)
 
-			# normedSentences = []
-			# # print('')
-			# # print("Input: ", post)
+		np_extractor = NPExtractor(post)
+		result = np_extractor.extract()
+		print ("This sentence is about: %s" % ", ".join(result))
+		translator = TGENTranslator()
+		translator.translateQuery(post)
+
+		# for token in doc:
+		# 	print(token.text + " | " + token.pos_ + " | " + token.dep_)
 			# nlp = spacy.load('en')
-			# nm = Normalizer()
-			# sc = SpellChecker()
+			# doc = nlp(post)
+			# tokens = []
 
-			# doc = nlp(p.getPost())
-			# for st in doc.sents:
-			# 	# print("Before: ", st)
-			# 	# newpost = nm.normalize(st.text)
-			# 	# newpost = sc.spell3(st)
-			# 	# print("After: ", newpost)
-			# 	normedSentences.append(st.text)
+			# for token in doc:
+			# 	tokens.append(token.text)
 
-			# for nsen in normedSentences:
-			# 	tokens = []
-			# 	toBeTokenized = nlp(nsen)
-			# 	for token in toBeTokenized:
-			# 		tok = sc.spell(token.text)
-			# 		print(token.text, " - ", token.ent_type_, " - ", token.norm_)
+			# print(tokens)
+			# print(self.combinations(tokens))
+
+	def combinations(self, list):
+		combos = []
+
+		# n = 0
+		# while n < len(list): 11 m 
+
+
+
+	
