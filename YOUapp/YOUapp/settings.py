@@ -26,7 +26,7 @@ SECRET_KEY = 't*vc466-6r)xc7m43*)-m*(+m6^rhebdxqp^2304d#7q6qev(+'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+DATA_UPLOAD_MAX_MEMORY_SIZE = None
 
 # Application definition
 
@@ -73,6 +73,8 @@ WSGI_APPLICATION = 'YOUapp.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
+DATABASE_ROUTERS = ['YOUapp.routers.TestingDBSports_Router']
+DATABASE_APPS_MAPPING = {'testingdb_sports': 'testingdb_sports'}
 
 DATABASES = {
     'default': {
@@ -82,7 +84,7 @@ DATABASES = {
         'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '3306',
-    }
+    },
 }
 
 

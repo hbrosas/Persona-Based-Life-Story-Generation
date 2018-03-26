@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+	<title>Processing | PSLG</title>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'css/index-style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="main-container">
+			<img src = "{% static 'img/122.gif' %}" class="img-responsive loader">
+            <h4 class="loadermsg">writing your life story</h4>
+    </div>
+
+     <!-- Scripts -->
+	<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+</body>
+
+</html>
