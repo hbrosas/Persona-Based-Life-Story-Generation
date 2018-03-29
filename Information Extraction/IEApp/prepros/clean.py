@@ -4,6 +4,7 @@ from prepros.spellcheck import SpellChecker
 from prepros.normie import Normalizer
 from prepros.emojiremove import EmojiRemove
 from prepros.dictionaries.apostrophe_dic import ApostropheDictionary
+from prepros.dictionaries.slang_dic import SlangDictionary
 from context.npextractor import NPExtractor
 from context.translator import TGENTranslator
 import spacy
@@ -22,7 +23,7 @@ import re
 	3. Lowercase everything first because of lookup dictionary
 	4. Google Translate
 	5. Apostrophe Lookup
-	8. Removal of Punctuations except “.”, “,”,”?”
+	8. Removal of Punctuations except “.”, “,”, ”?”
 	9. Removal of Expressions. Ex. Haha, Hehe, Huhu
 	10. Split Attached Words
 	11. Slang Lookup
@@ -34,13 +35,15 @@ import re
 class Clean:
 
 	def cleanData(self, posts):
+		cleaned_posts = []
 		for p in posts:
-			print(p.getPost())
-			self.clean(p.getPost())
+			# print(p.getPost())
+			post = self.clean(p.getPost())
+			cleaned_posts.append(post)
+
+		return cleaned_posts
 
 	def clean(self, original_post):
-		print("")
-
 		nlp = spacy.load('en')
 
 		#1 Escape HTML Characters
@@ -49,45 +52,80 @@ class Clean:
 
 		#2 Standardize
 		post = ''.join(''.join(s)[:2] for _, s in itertools.groupby(post))
-		print("STANDARDIZED: ", post)
+		# print("STANDARDIZED: ", post)
 
 		#3 Removal of Expression. Ex. Haha, Hehe, Huhu
 		post = re.sub('(a*ha+h[ha]*|(?:l+o+)+l+|e*he+h[he]*|i*hi+h[hi]*|o*ho+h[ho]*|u*hu+h[hu]*)', '', post)
 		post = re.sub('(A*HA+H[HA]*|(?:L+O+)+L+|E*HE+H[HE]*|I*HI+H[HI]*|O*HO+H[HO]*|U*HU+H[HU]*)', '', post)
-		print("Removed Expressions: ", post)
+		# print("Removed Expressions: ", post)
 
-		#4 Removal of Emoticons
+		# Remove New Line
+		post = EmojiRemove.removeNewLine(post)
+		# print("Removed New Lines: ", post)
+
+		# Remove Emoticons
 		post = EmojiRemove.remove_emoji(post)
-		print("Removed Emojis: ", post)
+		# print("Removed Emojis: ", post)
 
-		nlp = spacy.load('en')
-		#5 Separate to sentences
+		# Remove Special Characters
+		post = EmojiRemove.remove_specialChars(post)
+		# print("Removed Special Characters: ", post)
+
+		aposdic = ApostropheDictionary()
+		fromIsApos = False
 		doc = nlp(post)
+		post = ""
 
-		for sent in doc.sents:
-			# sc = SpellChecker()
-			# sentence = sc.spell(sent.text)
-			self.separateEntities(sentence)
+		for x in range(0, len(doc)):
+			if fromIsApos:
+				# Ignore next token
+				fromIsApos = False
+			else:
+				if not x == len(doc)-1:
+					key = doc[x].text + doc[x+1].text
 
-			print("")
+					#3 Apostrophe Lookup
+					isApos = aposdic.lookup(key.lower())
 
-
-
-		#3 Spell Correction for Tagalog Words
-		#4 Apostrophe Lookup
-		#5 Slang Lookup
+					if not isApos == None:
+						post += isApos + " "
+						fromIsApos = True
+					else:
+						post += doc[x].text + " "
+				else:
+					post += doc[x].text + " "
 		
-		# print("")
+		# print("Apostrophe Lookup: ", post)
 
-		#6 Split Attached Words
-		# post = " ".join(re.findall('[A-Z][^A-Z]*', post))
+		# Remove URLS and Emails
+		post = EmojiRemove.removeExtras(post)
+		# print("Removed URLs and Emails: ", post)
 
-		#4 Google Translate
+		#4 Slang Lookup
+		slangdic = SlangDictionary()
+		post = slangdic.replace(post.lower())
+		# print("Slang Lookup: ", post)
 
+		# Whitespaces
+		post = EmojiRemove.removeWhitespaces(post)
+		# print("Removed Whitespaces: ", post)
 
+		# Spell Correct
+		sc = SpellChecker()
+		post = sc.spell(post)
+
+		# Google Translate
+		translator = TGENTranslator()
+		post = translator.translateQuery(post)
+
+		# print("CLEANED: ", post)
+
+		# Language Check
 		# tool = language_check.LanguageTool('en-US')
-		# matches = tool.check(post)
-		# print(language_check.correct(original_post, matches))
+		# matches = tool.check(post) 
+		# print(language_check.correct(post, matches))
+
+		return post
 
 	def separateEntities(self, post):
 		# nlp = spacy.load('en')
@@ -98,24 +136,6 @@ class Clean:
 		print ("This sentence is about: %s" % ", ".join(result))
 		translator = TGENTranslator()
 		translator.translateQuery(post)
-
-		# for token in doc:
-		# 	print(token.text + " | " + token.pos_ + " | " + token.dep_)
-			# nlp = spacy.load('en')
-			# doc = nlp(post)
-			# tokens = []
-
-			# for token in doc:
-			# 	tokens.append(token.text)
-
-			# print(tokens)
-			# print(self.combinations(tokens))
-
-	def combinations(self, list):
-		combos = []
-
-		# n = 0
-		# while n < len(list): 11 m 
 
 
 

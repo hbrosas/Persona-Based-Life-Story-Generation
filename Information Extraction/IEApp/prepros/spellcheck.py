@@ -16,52 +16,34 @@ class SpellChecker:
 
 	def spell(self, post):
 		nlp = spacy.load('en')
+		doc = nlp(post)
 		ent = Entity()
 		fpost = ""
 		words = []
-		hyphen = re.compile('^-([A-Z]*[a-z]*)*') # Regex for any word that ends in -
 		reservedWord = ""
 
-		toBeTokenized = nlp(post)
-		for token in toBeTokenized:
-			word = token.text
-			if not token.like_url and not token.like_email:
-				if not reservedWord == "":
-					words.append(Tokent((reservedWord + word), token.pos_, token.ent_type_))
-					reservedWord = ""
-				else:
-					if hyphen.match(word):
-						reservedWord = word
-					else:
-						words.append(Tokent(word, token.pos_, token.ent_type_))
-
-		for w in words:
-			print("Word: " + w.token)
-			aposdic = ApostropheDictionary()
-			slangdic = SlangDictionary()
-			aposLookup = aposdic.lookup(w.token.lower())
-			slangLookup = aposdic.lookup(w.token.lower())
-			if aposLookup == None:
-				if slangLookup == None:
-					if w.entity == "" :
-						entity = ent.doesExists(w.token)
-						if not ent.doesExists(w.token):
-							fil_tok = self.spell_Fil(w.token)
-							fil_similar = self.findMostSimilar(w.token, fil_tok)
-							eng_tok = self.spell_Eng(w.token)
-							eng_similar = self.findMostSimilar(w.token, eng_tok)
-							final = self.compareWord(token.text, fil_similar, eng_similar)
+		for w in doc:
+			if w.is_punct:
+				fpost = fpost + w.text + " "
+			else:
+				if w.ent_type_ == "":
+					if not self.spellCorrect(w.text):
+						entity = ent.doesExists(w.text)
+						if not ent.doesExists(w.text):
+							fil_tok = self.spell_Fil(w.text)
+							fil_similar = self.findMostSimilar(w.text, fil_tok)
+							eng_tok = self.spell_Eng(w.text)
+							eng_similar = self.findMostSimilar(w.text, eng_tok)
+							final = self.compareWord(w.text, fil_similar, eng_similar)
 							fpost = fpost + final + " "
 						else:
-							fpost = fpost + entity + " "	
+							fpost = fpost + w.text + " "	
 					else:
-						fpost = fpost + token.text + " "
+						fpost = fpost + w.text + " "	
 				else:
-					fpost = fpost + slangLookup + " "
-			else:
-				fpost = fpost + aposLookup + " "
+					fpost = fpost + w.text + " "
 
-		print("Spelled: ", fpost)
+		# print("Spelled: ", fpost)
 		return fpost;
 
 	def compareWord(self, word, fil, eng):
@@ -111,4 +93,17 @@ class SpellChecker:
 			tok.append(token)
 
 		return tok
+
+	def spellCorrect(self, token):
+		dir_path = os.path.dirname(os.path.realpath(__file__))
+		h = Hunspell('tl', hunspell_data_dir = dir_path + '/dictionaries/')
+
+		if not h.spell(token):
+			h = Hunspell('en_us', hunspell_data_dir=dir_path + '/dictionaries/')
+			if not h.spell(token):
+				return False
+			else:
+				return True
+		else:
+			return True
 		
