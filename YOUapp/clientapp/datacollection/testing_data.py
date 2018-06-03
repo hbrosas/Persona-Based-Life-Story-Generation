@@ -37,7 +37,7 @@ def store_testing_data(request):
     print('Total Likes: ', len(likesArray))
     print('Total Events: ', len(eventsArray))
 
-    conn = setTargetDB('testingdb_foodie3')              #change accordingly
+    conn = setTargetDB('testingdb_fangirl')              #change accordingly
 
     store_profile(personalInfoDict, conn)
     if(educationArray != None):
