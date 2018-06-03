@@ -18,3 +18,4 @@ scipy
 pip install fuzzywuzzy
 easy_install python-Levenshtein
 pip install googletrans
+neuralcoref

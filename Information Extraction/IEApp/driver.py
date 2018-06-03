@@ -17,6 +17,7 @@ class Driver:
 		cleaner = Clean()
 		print("PRE-PROCESSING: Preparing for cleaning stage")
 		cleaner.cleanData(posts)
+		print("PRE-PROCESSING: Posts successfully cleaned")
 
 	def init2():
 		query = "DLSU vs ADMU March 17, 2018"
@@ -28,7 +29,7 @@ class Driver:
 		gs = ConceptNet()
 		gs.search(query)		
 
-	init("The Sports Fanatic")
+	init("The Foodie")
 	# init2() # Google Search
 	# init3() # ConceptNet
 

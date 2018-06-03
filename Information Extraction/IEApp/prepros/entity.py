@@ -11,10 +11,6 @@ class Entity:
 		if len(semrel) == 0:
 			ent = Entity()
 			ent.learn(token)
-
-	# def searchEntity(self, token):
-	# 	db = Database()
-	# 	semrel = db.searchTerm(token.orth_)
 		
 	def doesExists(self, token):
 		tokText = token.capitalize()
@@ -25,19 +21,28 @@ class Entity:
 
 		    			SELECT ?label, ?value
 		    			WHERE { <""" + url + """> 
-		    				?label ?value
-		    				FILTER (LANG(?value)='en') }""")
+		    				?label ?value }""")
 		sparql.setReturnFormat(JSON)
 		results = sparql.query().convert()
-
-		# for result in results["results"]["bindings"]:
-		# 	print(result["value"]["value"])
-
-
 		if len(results["results"]["bindings"]) == 0:
+			# Check if ABBREVIATION
+			tokText = token.upper()
+			url = "http://dbpedia.org/resource/" + tokText
+			sparql.setQuery( """ 
+			               PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+			    			SELECT ?label, ?value
+			    			WHERE { <""" + url + """> 
+			    				?label ?value }""")
+			sparql.setReturnFormat(JSON)
+			results = sparql.query().convert()
+			if len(results["results"]["bindings"]) == 0:
+				return False
+			else:
+				return True
 			return False
 		else: 
-			return results["results"]["bindings"][0]["value"]["value"]
+			return True
 
 	def learn(self, token):
 		tokText = token.capitalize()
