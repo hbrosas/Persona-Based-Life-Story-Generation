@@ -1,0 +1,43 @@
+.color_panel {
+    margin: 0px;
+    padding: 5px;
+    position: fixed;
+    z-index:99999;
+    min-width: 40px;
+    background-color: #2c3e50;
+    top: 20%;
+}
+
+.color_panel ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: none;
+}
+
+.color_panel ul li {
+    display: block;
+    margin-top: 5px;
+}
+
+.color_panel ul a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: #95a5a6 1px solid;
+}
+
+#cp_toggle {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url(settings_panel.png);
+    background-size: cover;
+}
+@media only screen and (max-width: 430px) and (min-width: 300px)  
+{
+.color_panel
+{
+	display:none;
+}
+}
