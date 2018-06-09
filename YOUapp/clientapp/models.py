@@ -4,7 +4,7 @@ from django.db import models
 
 #from __future__ import unicode_literals
 from django.db import models
-# Add recognized model option to django
+# Add recognized 1 - Persona Identification option to django
 
 class TrainingPosts(models.Model):
     fbid = models.CharField(max_length=50)

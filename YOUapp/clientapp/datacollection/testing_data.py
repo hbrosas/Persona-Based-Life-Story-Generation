@@ -10,14 +10,14 @@ def store_testing_data(request):
     print('STORE TESTING DATA')
 
     personalInfo = request.POST.get('personalInfo', None)
-    education = request.POST.get('education', None)
-    work = request.POST.get('work', None)
+    ''' DEPRACATED: education = request.POST.get('education', None)
+    work = request.POST.get('work', None) '''
     posts = request.POST.get('posts', None)
     likes = request.POST.get('likes', None)
     events = request.POST.get('events', None)
 
     personalInfoDict = json.loads(personalInfo)
-
+    ''' DEPRACATED:
     try:
         educationArray = json.loads(education)
     except:
@@ -27,6 +27,7 @@ def store_testing_data(request):
         workArray = json.loads(work)
     except:
         workArray = None
+    '''
 
     postsArray = json.loads(posts)[0]
     likesArray = json.loads(likes)[0]
@@ -37,16 +38,22 @@ def store_testing_data(request):
     print('Total Likes: ', len(likesArray))
     print('Total Events: ', len(eventsArray))
 
-    conn = setTargetDB('testingdb_fangirl')              #change accordingly
 
+    targetDB = 'thesis_testing_db'
+    conn = setTargetDB(targetDB)                    #change accordingly
+    tableName = personalInfoDict['name'].replace(" ", "")
+    createTables(conn, targetDB, tableName)
+
+    print('CREATED TABLES...')
     store_profile(personalInfoDict, conn)
-    if(educationArray != None):
-        store_education(educationArray, conn)
-    if(workArray != None):
-        store_work(workArray, conn)
-    store_testing_posts(postsArray, conn)
-    store_testing_likes(likesArray, conn)
-    store_testing_events(eventsArray, conn)
+    # if(educationArray != None):
+    #     store_education(educationArray, conn)
+    # if(workArray != None):
+    #     store_work(workArray, conn)
+    store_testing_posts(postsArray, conn, tableName)
+    store_testing_likes(likesArray, conn, tableName)
+    store_testing_events(eventsArray, conn, tableName)
+    print('STORED FB DATA TO DB...')
 
     # dummy data
     data = {
@@ -71,6 +78,43 @@ def setTargetDB(targetDB):
                            charset="utf8mb4")
 
     return conn
+
+
+def createTables(conn, targetDB, tableName):
+    cursor = conn.cursor()
+
+    sql = "CREATE TABLE " + targetDB + "." + tableName + "_posts"
+    sql += ''' 
+            (
+                id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+                fbid VARCHAR(50) NOT NULL,
+                post LONGTEXT NOT NULL,
+                updated_time LONGTEXT NOT NULL,
+                label VARCHAR(50)
+            );
+    '''
+
+    sql += "CREATE TABLE " + targetDB + "." + tableName + "_likes"
+    sql += '''
+            (
+                id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+                fbid VARCHAR(50) NOT NULL,
+                liked_page LONGTEXT NOT NULL,
+                category LONGTEXT NOT NULL,
+                label VARCHAR(50)
+            );   
+    '''
+
+    sql += "CREATE TABLE " + targetDB + "." + tableName + "_events"
+    sql += '''
+            (
+                id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+                fbid VARCHAR(50) NOT NULL,
+                event LONGTEXT NOT NULL,
+                label VARCHAR(50) 
+            );
+    '''
+    cursor.execute(sql)
 
 def store_profile(personalInfo, conn):
 
@@ -192,7 +236,7 @@ def store_work(works, conn):
 
     print('Work successfully stored in DB!')
 
-def store_testing_posts(posts, conn):
+def store_testing_posts(posts, conn, tableName):
     for post in posts:
         fbid = post['id']
 
@@ -229,7 +273,7 @@ def store_testing_posts(posts, conn):
 
         cursor = conn.cursor()
         cursor.execute(
-            ("INSERT INTO testingposts(fbid, post, updated_time) VALUES(%s,%s,%s)"),
+            ("INSERT INTO " + tableName + "_posts(fbid, post, updated_time) VALUES(%s,%s,%s)"),
             (fbid, text_post, updated_time)
         )
         conn.commit()
@@ -239,7 +283,7 @@ def store_testing_posts(posts, conn):
 
     print('Text-based posts successfully stored in DB')
 
-def store_testing_likes(likes, conn):
+def store_testing_likes(likes, conn, tableName):
     for like in likes:
         fbid = like['id']
 
@@ -270,7 +314,7 @@ def store_testing_likes(likes, conn):
 
         cursor = conn.cursor()
         cursor.execute(
-            ("INSERT INTO testinglikes(fbid, category, liked_page) VALUES(%s,%s,%s)"),
+            ("INSERT INTO " + tableName + "_likes(fbid, category, liked_page) VALUES(%s,%s,%s)"),
             (fbid, category, liked_page)
         )
         conn.commit()
@@ -280,7 +324,7 @@ def store_testing_likes(likes, conn):
         #l = TrainingLikes(fbid=fbid, category=category, liked_page=liked_page)
         #l.save()
 
-def store_testing_events(events, conn):
+def store_testing_events(events, conn, tableName):
     for event in events:
         fbid = event['id']
 
@@ -306,7 +350,7 @@ def store_testing_events(events, conn):
 
         cursor = conn.cursor()
         cursor.execute(
-            ("INSERT INTO testingevents(fbid, event) VALUES(%s,%s)"),
+            ("INSERT INTO " + tableName + "_events(fbid, event) VALUES(%s,%s)"),
             (fbid, he_rsvp + name + space + description)
         )
         conn.commit()

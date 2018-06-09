@@ -9,5 +9,8 @@ class HomePageView(TemplateView):
 class LoadPageView(TemplateView):
     template_name = "loading.html"
 
+class Module1PageView(TemplateView):
+    template_name = "module1_loading.html"
+
 class ProfilePageView(TemplateView):
     template_name = "profile.html"
