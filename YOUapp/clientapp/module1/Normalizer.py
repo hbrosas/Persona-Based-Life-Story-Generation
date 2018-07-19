@@ -9,7 +9,13 @@ class Normalizer:
         for text in texts:
             postCleaner = PostCleaner.PostCleaner()
             # print(ctr, "----", text)
-            text = bytes(text, "utf-8").decode("unicode_escape")
+            try:
+                text = bytes(text, "utf-8").decode("unicode_escape")
+            except:
+                text = text
+            finally:
+                text = text
+
             text = postCleaner.changeEmojisToText(text)
             text = postCleaner.changeForeignToText(text)
             text = postCleaner.changeLinkToText(text)

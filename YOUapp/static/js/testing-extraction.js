@@ -190,6 +190,8 @@ $(document).ready(function() {
         function getEvents(response){
             origresponse = response;
             console.log("EVENTS");
+
+            if(response.events != null){
             eString += JSON.stringify(response.events.data).substring(0, JSON.stringify(response.events.data).length - 1);
             if (response.events.paging.next != undefined){
                 nextPage = response.events.paging.next;
@@ -225,13 +227,15 @@ $(document).ready(function() {
                 console.log(events);
                 storeToDb();
             }
-
+            } //outest loop
+            storeToDb();
         } // end of function getEvents
 
         //Execute facebookgraphapi.py
         function storeToDb(){
             console.log("Store to DB!!!");
             console.log(personalInfo);
+
             $.ajax({
                 url: '/ajax/store_testing_data/',
                 type : "POST",

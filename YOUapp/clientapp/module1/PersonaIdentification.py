@@ -138,21 +138,18 @@ class PersonaIdentification:
         cursor_posts.execute("""
                         SELECT label, COUNT(*) AS num 
                         FROM """ + self.user +"""_posts
-                        WHERE label NOT LIKE 'No Label'
                         GROUP BY label
                         ORDER BY num DESC        
                         """)
         cursor_likes.execute("""
                         SELECT label, COUNT(*) AS num 
                         FROM """ + self.user +"""_likes
-                        WHERE label NOT LIKE 'No Label'
                         GROUP BY label
                         ORDER BY num DESC        
                         """)
         cursor_events.execute("""
                         SELECT label, COUNT(*) AS num 
                         FROM """ + self.user +"""_events
-                        WHERE label NOT LIKE 'No Label'
                         GROUP BY label
                         ORDER BY num DESC        
                         """)
@@ -207,6 +204,10 @@ class PersonaIdentification:
             except:
                 final_persona[key] = value
 
+        # Convert to percentages
+        total = sum(final_persona.values())
+        for key, value in final_persona.items():
+            final_persona[key] = (value/total)*100
 
         # Print out all personas found
         print('FINAL PERSONAS:')
@@ -214,9 +215,19 @@ class PersonaIdentification:
         self.store_personas(conn, final_persona)
 
         # Final Persona
-        print('MOST FREQ:')
-        print(max(final_persona.items(), key=operator.itemgetter(1))[0])
+        # print(max(final_persona.items(), key=operator.itemgetter(1))[0])
+        print('Online Persona:', self.identify_online_persona(final_persona))
         return self.personas
+
+    def identify_online_persona(self, final_persona):
+        online_persona = ''
+        max_percentage = 0
+        for key, value in final_persona.items():
+            if value > max_percentage and key != 'No Label':
+                max_percentage = value
+                online_persona = key
+
+        return online_persona
 
     def run(self):
         test_predicted_labels = []
@@ -248,12 +259,13 @@ class PersonaIdentification:
         self.append_labels(conn, self.user + '_likes', predictions)
         test_predicted_labels.extend(predictions)
 
-        print('EVENTS:', len(self.test_events))
-        self.test_events = self.preprocess(self.test_events)
-        predictions = self.machine_learning(self.bestmodel, self.test_events)
-        # print('Predictions:', predictions)
-        self.append_labels(conn, self.user + '_events', predictions)
-        test_predicted_labels.extend(predictions)
+        if(len(self.test_events) != 0): #IN CASE WHEN THERE ARE NO EVENTS
+            print('EVENTS:', len(self.test_events))
+            self.test_events = self.preprocess(self.test_events)
+            predictions = self.machine_learning(self.bestmodel, self.test_events)
+            # print('Predictions:', predictions)
+            self.append_labels(conn, self.user + '_events', predictions)
+            test_predicted_labels.extend(predictions)
 
         print('Test texts: ', len(test_predicted_labels))
         #self.evaluate(self.get_actual_labels(testing_dataset_filename), test_predicted_labels)

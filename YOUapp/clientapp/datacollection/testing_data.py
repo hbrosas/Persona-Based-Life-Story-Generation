@@ -15,6 +15,7 @@ def store_testing_data(request):
     posts = request.POST.get('posts', None)
     likes = request.POST.get('likes', None)
     events = request.POST.get('events', None)
+    print("NYAAAAAARUUUUUUUUT", events)
 
     personalInfoDict = json.loads(personalInfo)
     ''' DEPRACATED:
@@ -31,12 +32,15 @@ def store_testing_data(request):
 
     postsArray = json.loads(posts)[0]
     likesArray = json.loads(likes)[0]
-    eventsArray = json.loads(events)[0]
+
+    if(events != '[]'):
+        eventsArray = json.loads(events)[0]         # IN THE CASE OF NO EVENTS
 
     print('personalInfo: ', personalInfoDict['id'])
     print('Total Posts: ', len(postsArray))
     print('Total Likes: ', len(likesArray))
-    print('Total Events: ', len(eventsArray))
+    if (events != '[]'):
+        print('Total Events: ', len(eventsArray))   # IN THE CASE OF NO EVENTS
 
 
     targetDB = 'thesis_testing_db'
@@ -52,7 +56,8 @@ def store_testing_data(request):
     #     store_work(workArray, conn)
     store_testing_posts(postsArray, conn, tableName)
     store_testing_likes(likesArray, conn, tableName)
-    store_testing_events(eventsArray, conn, tableName)
+    if (events != '[]'):
+        store_testing_events(eventsArray, conn, tableName)      # IN THE CASE OF NO EVENTS
     print('STORED FB DATA TO DB...')
 
     # dummy data
