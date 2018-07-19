@@ -1,0 +1,127 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "TeeTitans.",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Vector: Leading You with Direction.",
+    "CATEGORY": "Political Party",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Noynoy Aquino.",
+    "CATEGORY": "Politician",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Adventure Time.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Chinoy TV ?????. .",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Unofficial: Toni Gonzaga.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Cristine Reyes.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Avatar.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Erich Gonzales.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Megan Fox. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Angel Locsin.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "NE-YO.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Simpsons.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Wimpy kid. .",
+    "CATEGORY": "Book",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Vice Ganda.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Transformers: Revenge of the Fallen. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Stomp the Yard. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Holy Bible King James Version. .",
+    "CATEGORY": "Book",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

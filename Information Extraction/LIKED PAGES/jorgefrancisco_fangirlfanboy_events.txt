@@ -1,0 +1,155 @@
+{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "CCS Boljakan Night 2017",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "SCG Fundraising Activity [FIND OUT MORE FIRST]",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Lasallian Showtime: Dance Competition powered by Sony Extra Bass",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Social Conversations: Where do we go from here?",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "DLSU-PUSO FAMILY DAY",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Startup Weekend Manila DLSU",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "FAME 2017",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "2017 FIFA 17 Jan",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Final LA Session",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Santugon Thanksgiving Party 2016",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "No Pressure at Supremo",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "The Silent Sit-In Before the Presidential Debates",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Party Manila Traffic Light Pub Crawl",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "UAAP FOOTBALL OPENING DAY",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Frosh Block Officers Meeting",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Legislative Assembly Year-End Session and Dinner",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Coachilla",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Hail! (The Culminating Concert for DLSU's University Week 2015)",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Alyssa's 18th Birthday",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Please vote for me as your baby lips candy cutie!!!!!!!!!!!",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Alec Gabriel Niguidula Ducusin's Baptism",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "CSA FAMILY FUN RUN",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

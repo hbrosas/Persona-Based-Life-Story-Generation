@@ -1,0 +1,169 @@
+{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Nina Gigantes: The Book Launch Party",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Curves Circuit with Zumba Pink Party",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "#25YearsStrong CCWZ Party",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Birthday Buffet 3: Let's Destroy the Bourgeoisie",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Marvel Madness: The Third General Assembly",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "FEBRUARY 2016 KOMIKET",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Reverie: Spoken Word Night",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Character Creation",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Zine-Making Seminar & Workshop (with Paolo Jose Cruz)",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "My Weird Birthday Intimate (But not really intimate) Get-Together",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "NOT A CELEBRATION JUST A HANG OUT",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "GRAD PICS/NOTES",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Mickey's ACTUAL Birthday Thing",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Mickey's Birthday..",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "2013",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Alternate Name Day II",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Birthday Celebration @ Don Day",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "BE PART OF A GROUP EXERCISE/ SCIENCE EXPERIMENT",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "DEADLINE OF FILIPINO SCRAPBOOK!",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "HOLA WILDHEARTS, HELP PLEASE",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "REPRESENT! The Legit Status Fundraising Concert",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Christmas Day...",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "CIRCA: MCHS fair concert 2010",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "INFANZIA - MCHS Fair 2010",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

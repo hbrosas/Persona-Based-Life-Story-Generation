@@ -1,0 +1,339 @@
+{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Smitty Werbenjagermanjensen",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "KPOPJOE",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Channel Surfers",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Hit Mackay and the Whitsundays",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Daniel Padilla Fans",
+    "Type": [
+      "actor"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Writers Write",
+    "Type": [
+      "books",
+      "writer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Hym",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Khiza Music",
+    "Type": [
+      "music",
+      "musical"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Anna Akana",
+    "Type": [
+      "actress",
+      "producer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Samy Irssak",
+    "Type": [
+      "producer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Elite Readers",
+    "Type": [
+      "book",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Typical Pinoy Crap",
+    "Type": [
+      "author"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Typical Pinoy Crap",
+    "Sentiment": "negative",
+    "Type": [
+      "author"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Words. ",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Pinoy Big Bloggers",
+    "Type": [
+      "blogger"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "Filmygyan",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "MYX Philippines",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "MYX Philippines",
+    "Sentiment": "negative",
+    "Type": [
+      "music"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Jason Abadejos",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},

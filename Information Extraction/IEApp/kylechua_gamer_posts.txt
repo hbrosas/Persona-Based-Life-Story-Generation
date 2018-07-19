@@ -1,0 +1,57 @@
+{
+  "type": "Play",
+  "values": {
+    "Person": "Kyle Chua",
+    "Game": "Tekken",
+    "Type": "Fighting Game"
+  },
+  "persona": "The Gamer"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Kyle Chua",
+    "Game": "Defense of the Ancients",
+    "Type": "Multiplayer Online Battle Arena"
+  },
+  "persona": "The Gamer"
+},{
+  "type": "Supports",
+  "values": {
+    "Person": "Kyle Chua",
+    "Team": "Team Solo Mid",
+    "Game": [
+      "League of Legends",
+      "Fortnite",
+      "Player Unkown's Battlegrounds",
+      "H1Z1",
+      "Super Smash Bros",
+      "Overwatch",
+      "VainGlory"
+    ],
+    "Country": [
+      "North America"
+    ]
+  },
+  "persona": "The Gamer"
+},{
+  "type": "Supports",
+  "values": {
+    "Person": "Kyle Chua",
+    "Team": "Cloud 9",
+    "Game": [
+      "League of Legends",
+      "Fortnite",
+      "Player Unkown's Battlegrounds",
+      "H1Z1",
+      "Super Smash Bros",
+      "Overwatch",
+      "Clash Royale",
+      "Rocket League",
+      "Rainbow Six Siege"
+    ],
+    "Country": [
+      "North America"
+    ]
+  },
+  "persona": "The Gamer"
+},

@@ -1,0 +1,13 @@
+Collecting pyOpenSSL
+  Using cached https://files.pythonhosted.org/packages/96/af/9d29e6bd40823061aea2e0574ccb2fcf72bfd6130ce53d32773ec375458c/pyOpenSSL-18.0.0-py2.py3-none-any.whl
+Requirement not upgraded as not directly required: cryptography>=2.2.1 in c:\users\hazel\appdata\local\programs\python\python36-32\lib\site-packages (from pyOpenSSL) (2.2.2)
+Requirement not upgraded as not directly required: six>=1.5.2 in c:\users\hazel\appdata\local\programs\python\python36-32\lib\site-packages (from pyOpenSSL) (1.11.0)
+Requirement not upgraded as not directly required: idna>=2.1 in c:\users\hazel\appdata\local\programs\python\python36-32\lib\site-packages (from cryptography>=2.2.1->pyOpenSSL) (2.6)
+Requirement not upgraded as not directly required: asn1crypto>=0.21.0 in c:\users\hazel\appdata\local\programs\python\python36-32\lib\site-packages (from cryptography>=2.2.1->pyOpenSSL) (0.24.0)
+Requirement not upgraded as not directly required: cffi>=1.7; platform_python_implementation != "PyPy" in c:\users\hazel\appdata\local\programs\python\python36-32\lib\site-packages (from cryptography>=2.2.1->pyOpenSSL) (1.11.5)
+Requirement not upgraded as not directly required: pycparser in c:\users\hazel\appdata\local\programs\python\python36-32\lib\site-packages (from cffi>=1.7; platform_python_implementation != "PyPy"->cryptography>=2.2.1->pyOpenSSL) (2.18)
+Installing collected packages: pyOpenSSL
+  Found existing installation: pyOpenSSL 0.15.1
+    Uninstalling pyOpenSSL-0.15.1:
+      Successfully uninstalled pyOpenSSL-0.15.1
+Successfully installed pyOpenSSL-18.0.0

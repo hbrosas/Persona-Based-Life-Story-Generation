@@ -1,0 +1,57 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "South Manila Educational Consortium - Student Council.",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "S?kat FC (formerly Sm\u00fcch FC).",
+    "CATEGORY": "Amateur Sports Team",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Weekend Futbol League.",
+    "CATEGORY": "Sports League",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Premier League.",
+    "CATEGORY": "Sports League",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "David Villa S\u00e1nchez.",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Undertaker.",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Younghusband Football.",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Anton Edward Del Rosario Of Azkals Philippine Football Team..",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},

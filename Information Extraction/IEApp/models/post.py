@@ -1,25 +1,24 @@
 class Post(object):
 	id = 0
 	fbID = ""
-	post = ""
+	original_post = ""
 	label = ""
-	timestamp = None
+	date = ""
+	time = ""
+	person = []
+	hashtags = []
+	mentions = []
+	story = ""
+	post = ""
+	sentiment = ""
 
-	def __init__(self, id, fbID, post, label, timestamp):
+	def __init__(self, id, fbID, post, label, date, time):
 		self.id = id
 		self.fbID = fbID
-		self.post = post
+		self.original_post = post
 		self.label = label
-		self.timestamp = timestamp
-
-	def getID(self):
-		return self.id
-
-	def getPost(self):
-		return self.post
-
-	def getLabel(self):
-		return self.label
+		self.date = date
+		self.time = time
 
 	def printDetails(self):
 		print(self.id)

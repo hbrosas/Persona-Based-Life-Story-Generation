@@ -1,0 +1,465 @@
+{
+  "PAGE": "Hana-tox.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "CinemaBravo.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Musical Theatre Moments.",
+  "CATEGORY": "Theatrical Productions",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Art Capitol.",
+  "CATEGORY": "Arts & Crafts Store",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Curves.",
+  "CATEGORY": "Gym/Physical Fitness Center",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Lana Jay.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tastemade Store.",
+  "CATEGORY": "Kitchen/Cooking",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Liza Koshy.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "PJ's Art Box.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Postize.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "TED-Ed.",
+  "CATEGORY": "Education Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Daily Dogs Stories.",
+  "CATEGORY": "Personal Blog",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Art of Patricia Ramos.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "HGTV.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "LGBTQ@Facebook.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Circus-usagi.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Rosso Mimi.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Curves Eastwood.",
+  "CATEGORY": "Gym/Physical Fitness Center",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Rejected Princesses.",
+  "CATEGORY": "Arts & Humanities Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jubilee.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "So Yummy.",
+  "CATEGORY": "Cooking School",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Amazing Life.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Green & White 2017.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Parada.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Dodo.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Bored Panda Art.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "WhiteHole. \"",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "How to DAD.",
+  "CATEGORY": "Coach",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jasu Wonder World.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Emily Canham.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Writing About Writing.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Nerd Corner.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Fandom Trinkets.",
+  "CATEGORY": "Accessories",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tasty.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Manila International Book Fair. .",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Harry Potter - the story that I grew up with..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Depression Kills.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "YAOI na THIS..",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "BuzzFeed.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "BuzzFeed Food.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Nobiru Gemu - A Visual Novel Project.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Upworthy.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Brain Dare.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Hiro Hamada. ?",
+  "CATEGORY": "Fictional Character",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ligaya.",
+  "CATEGORY": "Book Series",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Yellow Diamond Universe.",
+  "CATEGORY": "Fictional Character",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Alvin and the Chipmunks.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "DLSU Business College Government.",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "DLSU CSO: Frosh Welcoming and Annual Recruitment Week. .",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Squishy Star.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Tonight Show Starring Jimmy Fallon.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Gamefowl Art by: Miko Kaw Hok Uy.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Voice of the POOR.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "StylishEve.",
+  "CATEGORY": "Magazine",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "McDonald's.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Chillingo.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "DLSU Library - Turn 1 into a Million.",
+  "CATEGORY": "Library",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Fluffyparcel.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pocket Princesses.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Anime Manga v.2.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "LEAP 2K14.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Disney Memes.",
+  "CATEGORY": "Arts & Humanities Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Walt Disney Studios.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Everything Nerdy and Anything in Between.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Potterolgic.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "FarmVille.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Saturday Night Live.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Sushi. .",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Maltesers UK.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Sims.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Did You Know.",
+  "CATEGORY": "News & Media Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Procrastinating. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tetris Battle.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Fred.",
+  "CATEGORY": "Comedian",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Dippin' Dots.",
+  "CATEGORY": "Ice Cream Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jesus Daily.",
+  "CATEGORY": "Broadcasting & Media Production Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Avatar: The Last Airbender.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "C.L.A.S.S - Come Late And Start Sleeping.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Little Women. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Glee.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "\"Is there gonna be food?\"",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "laying in bed for hours just thinking about everything.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "How Everyone has their own version of okay.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I Want To STOP \"Becoming a Fan\"",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "BABY, BABY, BABY, OH.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I Love Laughing. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Logan Lerman. .",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I LOVE IT",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Masarap ang pagkain, lalo na pag libre. :-).",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I WILL NEVER CHEAT ON SOMEBODY",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I stayed up for YOU and you fell asleep,thanks..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "GALIT KA NA NGA, pero isang ngiti niya lang, nawala na lahat ng galit mo..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "1st day of school: I'm so excited!",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Missing the good old days...",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ok im gonna study now...",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Science Lovers Only.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "STOP MOVING!!",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Regrets when you just bought something & then found something better..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "laughing until you run out of air and it sounds like you are suffocating.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Russell.",
+  "CATEGORY": "Movie Character",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "New Year = New Start :).",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I Have Always Wanted to Get in a Cab and Say.\"FOLLOW THAT CAR!!\".",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Squirt. \"",
+  "CATEGORY": "Movie Character",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Starbucks.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Weekends!. Everybody loves 'em!.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I LOVE JESUS. .",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Chewing Gum.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Skittles.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "TGIFriday's Philippines.",
+  "CATEGORY": "American Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Green Day.",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jason Mraz.",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Linkin Park. .",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I Love Jesus.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jeff Dunham.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Manny Pacquiao.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},

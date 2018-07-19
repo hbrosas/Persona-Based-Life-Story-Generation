@@ -1,0 +1,664 @@
+{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Khaled Hosseini",
+    "Type": [
+      "author",
+      "novelist",
+      "novel",
+      "novels"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Avatar Korra",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "David Archuleta",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Ben Schwartz",
+    "Type": [
+      "actor",
+      "producer",
+      "writer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Avatar Korra",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Maynila. Sa mga Kuko ng Liwanag. The Musical",
+    "Type": [
+      "musical",
+      "novel",
+      "theater",
+      "film"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Maynila. Sa mga Kuko ng Liwanag. The Musical",
+    "Sentiment": "negative",
+    "Type": [
+      "musical",
+      "novel",
+      "theater",
+      "film"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "EDM Sauce",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "EDM Sauce",
+    "Sentiment": "negative",
+    "Type": [
+      "music"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hamilton: An American Musical s",
+    "Type": [
+      "musical",
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "David Bonifacio",
+    "Type": [
+      "writer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Doctor Who and the T.A.R.D.I.S.",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "BuzzFeed Geeky",
+    "Type": [
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hamilton: An American Musical",
+    "Type": [
+      "musical",
+      "book",
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Kiseki no Sedai Team (Kuroko no Basuke) ",
+    "Type": [
+      "series",
+      "anime"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Jon Cozart",
+    "Type": [
+      "personality",
+      "musician",
+      "actor"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Cool 92.5",
+    "Type": [
+      "music",
+      "podcasts"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "UNILAD",
+    "Type": [
+      "publisher"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "CollegeHumor",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Fire Nation",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Harry Potter is my Oxygen",
+    "Type": [
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Simon Shackleton Music",
+    "Type": [
+      "music",
+      "producer",
+      "musical"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Kiseki no Sedai Team (Kuroko no Basuke) ",
+    "Type": [
+      "series",
+      "anime"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "DJ Billy Daniel Bunter",
+    "Type": [
+      "producer",
+      "music",
+      "actor",
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Daniel Padilla"
+    ],
+    "Fandom": "DJ",
+    "Type": [
+      "producer",
+      "music",
+      "actor",
+      "movie"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Daniel Padilla"
+    ],
+    "Type": [
+      "producer",
+      "music",
+      "actor",
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Books Rock My World",
+    "Type": [
+      "books",
+      "singer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Avatar Korra",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hermionaphobia- The fear of being killed -or worse- expelled",
+    "Type": [
+      "movie",
+      "actress"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hermionaphobia- The fear of being killed -or worse- expelled",
+    "Sentiment": "positive",
+    "Type": [
+      "movie",
+      "actress"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Kiseki no Sedai Team (Kuroko no Basuke) ",
+    "Type": [
+      "series",
+      "anime"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Harry Potter: Over the Years",
+    "Type": [
+      "series",
+      "novels",
+      "film"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Japanese ACGN",
+    "Type": [
+      "anime",
+      "novel"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Japanese ACGN",
+    "Sentiment": "negative",
+    "Type": [
+      "anime",
+      "novel"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "How I Met Your Mother",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},
