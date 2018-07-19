@@ -1,0 +1,86 @@
+{
+  "type": "Play",
+  "values": {
+    "Person": "Mickey Lindo",
+    "Sport": "baseball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Mickey Lindo",
+    "Action": "Shared About",
+    "Subject": "Ice hockey",
+    "Frequency": 2,
+    "Sport": [
+      "hockey",
+      "olympics"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Mickey Lindo",
+    "Action": "Shared About",
+    "Subject": "Baseball",
+    "Frequency": 1,
+    "Sport": [
+      "baseball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Mickey Lindo",
+    "Action": "Shared About",
+    "Subject": "Erik Spoelstra",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Mickey Lindo",
+    "Action": "Shared About",
+    "Subject": "Miami Heat",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "League",
+  "values": {
+    "Person": "Mickey Lindo",
+    "League": "UAAP",
+    "Sport": [
+      "Basketball",
+      "Table Tennis",
+      "Volleyball",
+      "Football",
+      "Cheering Squad",
+      "Badmintom",
+      "Baseball",
+      "Beach Volleyball",
+      "Chess"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "League",
+  "values": {
+    "Person": "Mickey Lindo",
+    "League": "NCAA",
+    "Sport": [
+      "Basketball",
+      "Volleyball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},

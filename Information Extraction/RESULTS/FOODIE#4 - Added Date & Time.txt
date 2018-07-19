@@ -1,0 +1,171 @@
+{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "lunch",
+    "Type": [
+      "Lunch"
+    ],
+    "Sentiment": "my breakfast, lunch and dinner snacks! ? ? .",
+    "Sentiment_Class": "positive",
+    "date": "September 13, 2017",
+    "time": "23:23"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "korean spicy noodles",
+    "Action": "crave",
+    "Organization": [],
+    "Type": [
+      "grains and pasta"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "June 20, 2017",
+    "time": "14:36"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "korean spicy noodles",
+    "Type": [
+      "grains and pasta"
+    ],
+    "Sentiment": "i am craving for korean spicy noodles right now! ! ? ?",
+    "Sentiment_Class": "positive",
+    "date": "June 20, 2017",
+    "time": "14:36"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "pizza",
+    "Type": [
+      "italian cuisine"
+    ],
+    "Sentiment": "Are we pizza, arcade bags? penge happiness!",
+    "Sentiment_Class": "positive",
+    "date": "June 18, 2017",
+    "time": "13:34"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "isaw",
+    "Action": "crave",
+    "Organization": [],
+    "Type": [
+      "Offal",
+      "Philippine cuisine",
+      "Street food"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "April 09, 2017",
+    "time": "09:46"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "isaw",
+    "Type": [
+      "Offal",
+      "Philippine cuisine",
+      "Street food"
+    ],
+    "Sentiment": "craving for isaw! ! ? ?",
+    "Sentiment_Class": "positive",
+    "date": "April 09, 2017",
+    "time": "09:46"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": "be",
+    "Organization": [
+      "Bubblicitea Cafe"
+    ],
+    "Type": null,
+    "Tagged_Friends": [
+      "Mariz Quintos"
+    ],
+    "Location": [],
+    "date": "April 03, 2017",
+    "time": "10:57"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "ramen",
+    "Action": "crave",
+    "Organization": [],
+    "Type": [
+      "japanese cuisine"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "ramen",
+    "Type": [
+      "japanese cuisine"
+    ],
+    "Sentiment": "craving for ramen! ! ? ?",
+    "Sentiment_Class": "positive",
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "isaw delivery",
+    "Type": [
+      "Offal",
+      "Philippine cuisine",
+      "Street food"
+    ],
+    "Sentiment": "isaw delivery from my love! ? ? ughh craving satisfied? thank you, iloveyou! ? ? I'm full asdfghjkl? .",
+    "Sentiment_Class": "positive",
+    "date": "July 18, 2016",
+    "time": "12:20"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "oreo cheesecake",
+    "Type": [
+      "desserts and baking"
+    ],
+    "Sentiment": "oreo cheesecake.",
+    "Sentiment_Class": "positive",
+    "date": "September 02, 2013",
+    "time": "06:26"
+  },
+  "persona": "The Foodie"
+},

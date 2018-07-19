@@ -1,0 +1,217 @@
+{
+  "type": "Play",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Sport": "soccer"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Sport": "sport fishing"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Sport": "basketball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Celtic F.C.",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Manchester United F.C.",
+    "Frequency": 2,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Baseball",
+    "Frequency": 1,
+    "Sport": [
+      "baseball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Basketball",
+    "Frequency": 3,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "DeAndre Jordan",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "LeBron James",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Detroit Pistons",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "National Basketball Association",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "NBA Most Valuable Player Award",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "All-NBA Team",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Stephanie McMahon",
+    "Frequency": 1,
+    "Sport": [
+      "wrestling"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Real Madrid C.F.",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "FIFA World Player of the Year",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "NBA on ESPN",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Supports",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Supports",
+    "Team": "Dallas Mavericks",
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "League",
+  "values": {
+    "Person": "Jorge Francisco",
+    "League": "NBA",
+    "Sport": "Basketball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "League",
+  "values": {
+    "Person": "Jorge Francisco",
+    "League": "WWE",
+    "Sport": "Wrestling"
+  },
+  "persona": "The Sports Fanatic"
+},

@@ -1,0 +1,8 @@
+{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Finding Cayetano",
+    "RSVP": "unsure",
+    "PERSONA": "The Sports Fanatic"
+  }
+},

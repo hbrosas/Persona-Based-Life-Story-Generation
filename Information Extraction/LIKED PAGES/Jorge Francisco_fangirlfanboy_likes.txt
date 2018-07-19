@@ -1,0 +1,529 @@
+{
+  "PAGE": "Gadget Addict.",
+  "CATEGORY": "Video Creator",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Lasallian Mission at DLSU.",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Navara Nation Philippines.",
+  "CATEGORY": "Social Club",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Abangers Session.",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "DLSU School of Economics Government.",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Investagrams.",
+  "CATEGORY": "Internet Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jason Chaffetz. .",
+  "CATEGORY": "Politician",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "De La Salle University, College of Computer Studies.",
+  "CATEGORY": "Community College",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Hackachu.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "CarGuide.",
+  "CATEGORY": "News & Media Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Makati Ford.",
+  "CATEGORY": "Car Dealership",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "NFL.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Aries Tee.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "ISportsTimes.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Associa\u00e7\u00e3o Chapecoense de Futebol.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Futbol Atbp.. the most comprehensive football shop in the Philippines.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Captivate Solutions.",
+  "CATEGORY": "Advertising Agency",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Dance Central. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Right Side Broadcasting.",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "De La Salle University - Fencing Team.",
+  "CATEGORY": "School Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Sports Central.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Coach Lee.",
+  "CATEGORY": "Coach",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Mae Mae Gonzales.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Burger Transit #TBT.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Overwatch.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "FIFA Manila.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ateneans for Roxas Robredo 2016.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "BMS Presents: Art & Appetite.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Kirstie Alley.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Leicester City Football Club.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ate Che Che Gonzales For Congresswoman District 2 Taguig City.",
+  "CATEGORY": "Government Official",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ivanka Trump.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Donald Trump Is My President.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Under Armour.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Philippine Tackle Football League.",
+  "CATEGORY": "Sports & Recreation",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "LMG Events.",
+  "CATEGORY": "Event Planner",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Leila de Lima.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Viddsee.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Party Manila.",
+  "CATEGORY": "Travel Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "DLSU CSG.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "De La Salle Floorball.",
+  "CATEGORY": "School Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Philippine Floorball Association.",
+  "CATEGORY": "Community Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Open Court.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "UAAP Sports TV.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Green Giant FM.",
+  "CATEGORY": "Radio Station",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "TUGON Ateneo.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Philippine Star.",
+  "CATEGORY": "Newspaper",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "FIFA.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "A+C Sport.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Shrek.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "adidas.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Football Champion by Pascual Creamy Delight.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Positive Playlist.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Football Manila.",
+  "CATEGORY": "Stadium, Arena & Sports Venue",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Calle Agno.",
+  "CATEGORY": "Grocery Store",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "PlayBook Video Game Lounge and Bookshop.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Rajon Rondo.",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "La Nordiques Nation.",
+  "CATEGORY": "Recreation & Sports Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Xbox Philippines.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Beings Of Gokongwei.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jus & Jerry's Food Corp..",
+  "CATEGORY": "Fast Food Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "De La Salle Zobel Basketball Teams.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Derecho Productions.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Philippine Social Security System.",
+  "CATEGORY": "Government Building",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "MMDA.",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "ADO Den Haag. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Walt Disney Studios.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Futbol Filipinas Academia.",
+  "CATEGORY": "School",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pilipinas Cup.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Asian Basketball.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Kinect Sports. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Xbox UK.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Nike Football.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tune Hotels. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Football Manager.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Patrick Star.",
+  "CATEGORY": "Fictional Character",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Fast & Furious. .",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Alicia Keys.",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Basketball. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Mizuno Morelia.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "PUMA Football.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "American Dad.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Barangay Ginebra Kings.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Kathryn Bernardo.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Soccer.",
+  "CATEGORY": "Sport",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "FIFA 13 Ultimate Team Page. .",
+  "CATEGORY": "Community Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "EA SPORTS NBA LIVE.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "NBA Live 10. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "WorldGaming.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "UEFA EURO 2020. .",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Bambi's House of Desserts.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Shoccer.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "FarmVille.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Xbox.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "PlayStation.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Olongapo VINES.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Disneyland.",
+  "CATEGORY": "Amusement & Theme Park",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "A Walk",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Dallas Mavericks.",
+  "CATEGORY": "Sports Club",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "PBA 2K Series.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Kinect Sports.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "PBA.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Happy Feet (OLSTAH).",
+  "CATEGORY": "Professional Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "We want The Script to come back in Manila. .",
+  "CATEGORY": "Concert Tour",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Gary Payton. .",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Seattle Supersonics.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "NBA G League.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Starbucks.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Toy Story.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Manchester United is better than Manchester Shity. .",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Texas Rangers. .",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Mr Bean.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Eve Torres. .",
+  "CATEGORY": "Dancer",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "God gives us blessings, let's give Him glory..",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "ASEAN Basketball League.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Like stars, God's promise shines the brightest in the dark..",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "NBA 2K11. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Michael Owen. .",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "2006 FIFA World Cup. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Azkals (Philippine National Football Team).",
+  "CATEGORY": "Sports",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "NBA.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Uncle Kracker. ",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Fifa 11.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I Love Jesus, by iLoveJesusonline.com.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "MANG ROMY.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Save Our Sonics. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "WWE SmackDown. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "EA SPORTS FIFA.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Nba Basketball. .",
+  "CATEGORY": "TV",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Association football. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Texas Rangers.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Straight Edge Society.",
+  "CATEGORY": "Nonprofit Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},

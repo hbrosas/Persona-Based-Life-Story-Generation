@@ -75,7 +75,7 @@ class SlangDictionary(object):
 			 " 2day " 		:	 " today " ,
 			 " awol " 		:	 " absent without leave " ,
 			 " b4 " 			:	 " before " ,
-			 " b-day " 		:	 " birthday " ,
+			 "b-day"	 		:	 "birthday" ,
 			 " bday " 		:	 " birthday " ,
 			 " bb " 			:	 " baby " ,
 			 " brb " 			:	 " be right back " ,
@@ -220,10 +220,19 @@ class SlangDictionary(object):
 			 " zz " 			:	 " bored " ,
 			 " i lab " 		:	 " i love ",
 			 "@"				:	"at",
-			 "&"				:	"and",
+			 " adik "			:	" addict ",
+			 " isaaw "		:	" isaw ",
+			 " bby "			:	" baby ",
+			 " nyo "			:	" niyo ",
+			 " nkyo "			:	" na kayo ",
+			 " npo "			:	" na po ",
+			 " khit "			:	" kahit ",
+			 " uyy "			:	" uy ",
+			 # "&"				:	"and",
 		}
 
 	def replace(self, key):
+		# print("Key: ", key)
 		return self.replace_all(key, self.dictionary)
 
 	def replace_all(self, text, dic):

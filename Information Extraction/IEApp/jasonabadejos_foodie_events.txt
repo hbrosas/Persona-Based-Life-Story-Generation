@@ -1,0 +1,8 @@
+{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "National Breakfast Day 2014",
+    "RSVP": "attending",
+    "PERSONA": "The Foodie"
+  }
+},

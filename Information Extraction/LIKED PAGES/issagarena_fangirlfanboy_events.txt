@@ -1,0 +1,15 @@
+{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "AOV 317 City Invasion (Philippines)",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Ozine Fest Anime Figure Special 2017",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

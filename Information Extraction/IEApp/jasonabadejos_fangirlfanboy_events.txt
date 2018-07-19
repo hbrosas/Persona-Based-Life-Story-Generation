@@ -1,0 +1,15 @@
+{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "The 7th Philippine Kpop Convention",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Marichelle Turns 18",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

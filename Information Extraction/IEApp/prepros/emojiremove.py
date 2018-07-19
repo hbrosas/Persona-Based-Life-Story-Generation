@@ -29,7 +29,7 @@ class EmojiRemove:
 		return text.decode('utf8')
 
 	def remove_specialChars(text):
-		specialCharPattern = re.compile(u"""[^A-Za-z0-9.!?,'" @&:/]+""", flags=re.UNICODE)
+		specialCharPattern = re.compile(u"""[^A-Za-z0-9.!?,'" @&:/-]+""", flags=re.UNICODE)
 		text = specialCharPattern.sub(r'', text).encode('utf8')
 		return text.decode('utf8')
 

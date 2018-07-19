@@ -1,0 +1,703 @@
+{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Nachos 1L Pineapple",
+    "Description": null,
+    "Organization": [
+      "Bistro Barkadas"
+    ],
+    "Type": [
+      "Ananas",
+      "Articles containing video clips",
+      "Crops originating from the Americas",
+      "Edible fruits",
+      "Hawaiian cuisine",
+      "Medicinal plants",
+      "Pineapples",
+      "Tropical agriculture",
+      "Tropical fruit"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Nachos 1L Pineapple",
+    "Action": null,
+    "Organization": [
+      "Bistro Barkadas"
+    ],
+    "Type": [
+      "Ananas",
+      "Articles containing video clips",
+      "Crops originating from the Americas",
+      "Edible fruits",
+      "Hawaiian cuisine",
+      "Medicinal plants",
+      "Pineapples",
+      "Tropical agriculture",
+      "Tropical fruit"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Nachos 1L Pineapple",
+    "Type": [
+      "Ananas",
+      "Articles containing video clips",
+      "Crops originating from the Americas",
+      "Edible fruits",
+      "Hawaiian cuisine",
+      "Medicinal plants",
+      "Pineapples",
+      "Tropical agriculture",
+      "Tropical fruit"
+    ],
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [],
+    "Type": null,
+    "Tagged_Friends": [
+      "bess"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "COOKIE CHEESECAKE",
+    "Description": null,
+    "Organization": [],
+    "Type": [
+      "Cakes",
+      "Cheese dishes",
+      "Custard desserts",
+      "American cuisine",
+      "Articles containing video clips",
+      "English cuisine",
+      "World cuisine"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "COOKIE CHEESECAKE",
+    "Action": null,
+    "Organization": [],
+    "Type": [
+      "Cakes",
+      "Cheese dishes",
+      "Custard desserts",
+      "American cuisine",
+      "Articles containing video clips",
+      "English cuisine",
+      "World cuisine"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "COOKIE CHEESECAKE",
+    "Type": [
+      "Cakes",
+      "Cheese dishes",
+      "Custard desserts",
+      "American cuisine",
+      "Articles containing video clips",
+      "English cuisine",
+      "World cuisine"
+    ],
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [],
+    "Type": null,
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Mango Float Cake",
+    "Description": null,
+    "Organization": [
+      "Starbucks"
+    ],
+    "Type": [
+      "desserts and baking"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Mango Float Cake",
+    "Action": null,
+    "Organization": [
+      "Starbucks"
+    ],
+    "Type": [
+      "desserts and baking"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Mango Float Cake",
+    "Type": [
+      "desserts and baking"
+    ],
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "lunch",
+    "Description": null,
+    "Organization": [],
+    "Type": [
+      "Lunch"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "lunch",
+    "Action": null,
+    "Organization": [],
+    "Type": [
+      "Lunch"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "lunch",
+    "Type": [
+      "Lunch"
+    ],
+    "Sentiment": "my breakfast, lunch and dinner snacks! ? ? .",
+    "Sentiment_Class": "positive"
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [
+      "Dairy Queen"
+    ],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [
+      "Dairy Queen"
+    ],
+    "Type": null,
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "new R.Reyes Pizza",
+    "Description": null,
+    "Organization": [],
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "new R.Reyes Pizza",
+    "Action": null,
+    "Organization": [],
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "new R.Reyes Pizza",
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [],
+    "Type": null,
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [],
+    "Type": null,
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [],
+    "Type": null,
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "finest pizza",
+    "Description": null,
+    "Organization": [
+      "Yellow Cab"
+    ],
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "finest pizza",
+    "Action": null,
+    "Organization": [
+      "Yellow Cab"
+    ],
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "finest pizza",
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [],
+    "Type": null,
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Description": null,
+    "Organization": [],
+    "Type": null,
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": null,
+    "Organization": [],
+    "Type": null,
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Type": null,
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "korean spicy noodles",
+    "Description": null,
+    "Organization": [],
+    "Type": [
+      "grains and pasta"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "korean spicy noodles",
+    "Action": "craving",
+    "Organization": [],
+    "Type": [
+      "grains and pasta"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "korean spicy noodles",
+    "Type": [
+      "grains and pasta"
+    ],
+    "Sentiment": "i am craving for korean spicy noodles right now! ! ? ?",
+    "Sentiment_Class": "positive"
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "pizza",
+    "Description": null,
+    "Organization": [],
+    "Type": [
+      "italian cuisine"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "pizza",
+    "Action": null,
+    "Organization": [],
+    "Type": [
+      "italian cuisine"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "pizza",
+    "Type": [
+      "italian cuisine"
+    ],
+    "Sentiment": "Are we pizza, arcade bags? penge happiness!",
+    "Sentiment_Class": "positive"
+  }
+},{
+  "type": "food_describe",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Piccolo Pizza",
+    "Description": null,
+    "Organization": [
+      "Piccolo Pizza",
+      "Bigoli"
+    ],
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Location": []
+  }
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Piccolo Pizza",
+    "Action": null,
+    "Organization": [
+      "Piccolo Pizza",
+      "Bigoli"
+    ],
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Tagged_Friends": [],
+    "Location": []
+  }
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "Piccolo Pizza",
+    "Type": [
+      "Flatbread dishes",
+      "Greek inventions",
+      "Italian-American cuisine",
+      "Italian cuisine",
+      "Italian inventions",
+      "Mediterranean cuisine",
+      "Pizza",
+      "Popular culture",
+      "World cuisine"
+    ],
+    "Sentiment": null,
+    "Sentiment_Class": null
+  }
+},

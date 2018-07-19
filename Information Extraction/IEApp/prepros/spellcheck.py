@@ -14,9 +14,9 @@ import re
 
 class SpellChecker:
 
-	def spell(self, post):
+	def spell(self, text, post):
 		nlp = spacy.load('en')
-		doc = nlp(post)
+		doc = nlp(text)
 		ent = Entity()
 		fpost = ""
 		words = []
@@ -27,15 +27,17 @@ class SpellChecker:
 				fpost = fpost + w.text + " "
 			else:
 				if w.ent_type_ == "":
-					if not self.spellCorrect(w.text):
-						entity = ent.doesExists(w.text)
-						if not ent.doesExists(w.text):
-							fil_tok = self.spell_Fil(w.text)
-							fil_similar = self.findMostSimilar(w.text, fil_tok)
-							eng_tok = self.spell_Eng(w.text)
-							eng_similar = self.findMostSimilar(w.text, eng_tok)
-							final = self.compareWord(w.text, fil_similar, eng_similar)
-							fpost = fpost + final + " "
+					if not self.inPeople(w.text, post.person):
+						if not self.spellCorrect(w.text):
+							if not ent.doesExists(w.text):
+								fil_tok = self.spell_Fil(w.text)
+								fil_similar = self.findMostSimilar(w.text, fil_tok)
+								eng_tok = self.spell_Eng(w.text)
+								eng_similar = self.findMostSimilar(w.text, eng_tok)
+								final = self.compareWord(w.text, fil_similar, eng_similar)
+								fpost = fpost + final + " "
+							else:
+								fpost = fpost + w.text + " "	
 						else:
 							fpost = fpost + w.text + " "	
 					else:
@@ -45,6 +47,12 @@ class SpellChecker:
 
 		# print("Spelled: ", fpost)
 		return fpost;
+
+	def inPeople(self, text, people):
+		if any(text in s for s in people):
+			return True
+		else:
+			return False
 
 	def compareWord(self, word, fil, eng):
 		fscore = fuzz.ratio(word, fil)

@@ -1,0 +1,185 @@
+{
+  "PAGE": "Shopee.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Wendy's Philippines.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Camanava Foodtrip.",
+  "CATEGORY": "Reference Website",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Turks Porta Vaga.",
+  "CATEGORY": "Shopping Mall",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "When In Manila Food.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "La Verti Residences Pasay City Condominium.",
+  "CATEGORY": "Apartment & Condo Building",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Pepero Philippines.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Cadbury Dairy Milk.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Turks.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Sky Ranch.",
+  "CATEGORY": "Amusement & Theme Park",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Jazzy Chicken.",
+  "CATEGORY": "Fast Food Restaurant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Doc2Us.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Folded&Hung.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "kate spade new york.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Elite Chat Chemistry Memes.",
+  "CATEGORY": "Chemical Company",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Papa John's Pizza.",
+  "CATEGORY": "Pizza Place",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Amare la cucina.",
+  "CATEGORY": "Pizza Place",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Grub Hub.",
+  "CATEGORY": "Food Consultant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Red Ribbon.",
+  "CATEGORY": "Bakery",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Cup Fiction.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Infinitea.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Super Bowl of China.",
+  "CATEGORY": "Cantonese Restaurant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Faminioz.",
+  "CATEGORY": "Family Style Restaurant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "",
+  "CATEGORY": "Local & Travel Website",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "True Skateboarding.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "happyplus Card.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Parisian Shoes and Bags.",
+  "CATEGORY": "Shopping & Retail",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Starfeed Food.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "MANOEUVRES.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "TagaytayFoodtrip.",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Muscle Worx Gym. .",
+  "CATEGORY": "Gym/Physical Fitness Center",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Penshoppe.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Sobrang Short Stories.",
+  "CATEGORY": "Publisher",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "PEPE Clothing. .",
+  "CATEGORY": "Men's Clothing Store",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Crush ng LCCian.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "TeaNapay milktea, frappe, sandwiches atbp..",
+  "CATEGORY": "Breakfast & Brunch Restaurant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Everything But Cheese.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Mikee Quintos.",
+  "CATEGORY": "Actor",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "La Consolacion College-Caloocan.",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Niana Guerrero.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Caloocan High School-Campus Integrity Crusader.",
+  "CATEGORY": "Political Organization",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "MOCHA GIRLS.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Cool Spotted ?.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "Ang taong madramang magpost, malamang may pinapatamaan :\">.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "CHS Robotics Club.",
+  "CATEGORY": "School",
+  "PERSONA": "The Foodie"
+},{
+  "PAGE": "MallWorldGame.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Foodie"
+},

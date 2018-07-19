@@ -1,0 +1,581 @@
+{
+  "PAGE": "Cheez Whiz.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Philippine Star.",
+  "CATEGORY": "Newspaper",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "CNN Philippines.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "adidas.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Carousel Creamery.",
+  "CATEGORY": "Ice Cream Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Thinking Minds.",
+  "CATEGORY": "Education Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Maria's Backyard.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Rody Day's Jr..",
+  "CATEGORY": "Filipino Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ino.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "H&M. Fashion and quality at the best price in a sustainable way..",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Larawan ni Geof - Jihofri.",
+  "CATEGORY": "Photographer",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Skulptz. .",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Artzs.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Business Solutions.",
+  "CATEGORY": "Marketing Agency",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "N\u00f6veked\u00e9s.hu.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Baby Lover.",
+  "CATEGORY": "Media",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I Can See Your Voice PH. \"",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Limited Edt.",
+  "CATEGORY": "Footwear Store",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pub Express PH. .",
+  "CATEGORY": "Pub",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Emperador Brandy.",
+  "CATEGORY": "Wine/Spirits",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Kami.com.ph.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Depression Kills.",
+  "CATEGORY": "Library",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Depression Kills.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Lazada Super Moms.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Lazada.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pwesto Community Mall.",
+  "CATEGORY": "Shopping Mall",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "MAC Cosmetics.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Studio Zen Taft Avenue Private Dormitel Residences.",
+  "CATEGORY": "Apartment & Condo Building",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "7-Eleven Philippines.",
+  "CATEGORY": "Convenience Store",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jazzy Chicken, Malabon.",
+  "CATEGORY": "Chicken Joint",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Cloud9 Philippines.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Bike Attack Moto Gear & Apparel.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Lyrics Art.",
+  "CATEGORY": "Art",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Mr. Softy Ice Cream.",
+  "CATEGORY": "Ice Cream Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pedigree Philippines.",
+  "CATEGORY": "Pet Supplies",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Malabon Food Trip.",
+  "CATEGORY": "Blogger",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Macky Kassandra's online shop.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Philhealth Local Health Insurance Office - Caloocan City. .",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "CHOCOLATE FACTORY.",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Sports5.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "TV5.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Starbucks.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "MEET UP Bar & Restaurant. .",
+  "CATEGORY": "Pub",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Mabini Home Bakeshop. .",
+  "CATEGORY": "Cupcake Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Adober Studios.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pinoy Big Brother Abs-Cbn.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Beat  Makers Dance Crew. .",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Sinangag Club.",
+  "CATEGORY": "Food Stand",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Papa Bol.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "HYGO Pretty.",
+  "CATEGORY": "Magazine",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Farron Cafe.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Purpose Tour Manila.",
+  "CATEGORY": "Concert Tour",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "HOT STAR Large Fried Chicken Philippines.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Hyper Blitz Gaming Corner.",
+  "CATEGORY": "Computer Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "GMA Drama.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "TKS NOODLE HOUSE.",
+  "CATEGORY": "Chinese Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Chachi Gonzales. .",
+  "CATEGORY": "Dancer",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Amoy Mo 'To Perfume Collection.",
+  "CATEGORY": "Cosmetics Store",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "HotBites.",
+  "CATEGORY": "Food Stand",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jess & Pat's.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Parenting.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Dunkin' Donuts.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tramway Garden Buffet - Timog.",
+  "CATEGORY": "Buffet Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tramway Buffet Restaurant, Roxas Boulevard.",
+  "CATEGORY": "Buffet Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "R. Lapids Chicharon and Barbecue.",
+  "CATEGORY": "Foodservice Distributor",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Sigsaga Yakiniku Buffet.",
+  "CATEGORY": "Yakiniku Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tita Mae's Kitchen.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "OtakuKart.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "CBI Aqua Park.",
+  "CATEGORY": "Park",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "I Love Milk tea.",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "La Consolacion College - Caloocan Inc..",
+  "CATEGORY": "School",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Rave Radio.",
+  "CATEGORY": "DJ",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "COPPER.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Coast Food Park.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "DJ Carlo Atendido.",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "ShoeElite.ph.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "DJ Chacha (Ang Nag-iisang",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Marimba Remix.",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "EconomyTrivia.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "BLK 513.",
+  "CATEGORY": "Frozen Yogurt Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "SPLASH ISLAND.",
+  "CATEGORY": "Sports & Recreation",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "OXYGEN\u0099. Fresh daily!",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pepper.ph.",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Typewriters voice.",
+  "CATEGORY": "Motivational Speaker",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "ANIME 101.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Backyardigans foodhubktv.",
+  "CATEGORY": "Bar & Grill",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The TapsiShop.",
+  "CATEGORY": "Filipino Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Eat Bulaga.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Coffee Bar.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Classic Model Philippines.",
+  "CATEGORY": "Event",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Pennyworthtravels.",
+  "CATEGORY": "Blogger",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Bo's Coffee.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "GLOCO Gaming.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Jollibee.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Adventure Food Park.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "ARMORY APPAREL.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Sinio Official.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Star City.",
+  "CATEGORY": "Amusement & Theme Park",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Maxim Dandan.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Angelo Barbecue+Drinks. .",
+  "CATEGORY": "Barbecue Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Blue Magic.",
+  "CATEGORY": "Gift Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "GMA News.",
+  "CATEGORY": "Broadcasting & Media Production Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The Yard Food Parks.",
+  "CATEGORY": "Locality",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Doctor ASKY.",
+  "CATEGORY": "News & Media Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Gamer's Secret Files.",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Mayor Oscar \"OCA\" Malapitan.",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Regal Entertainment Inc..",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "President Rodrigo  Duterte.",
+  "CATEGORY": "Media",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Trust me, I'm a Medical Technologist.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "NAYC Rumors.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Senyora.",
+  "CATEGORY": "Author",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Galawang Bida. ?",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "OFC AlDub-MaiDen Nation.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Beauty On a Budget (B.O.B).",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Street League Skateboarding.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Donnalyn Bartolome.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "FANCY FEET",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "The CHS Files.",
+  "CATEGORY": "School",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "McDonald's.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Angaz Online Souq.",
+  "CATEGORY": "Clothing Store",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "NAZARENUS COLLEGE AND HOSPITAL FOUNDATION INC.. Private Non-Sectarian",
+  "CATEGORY": "Hospital",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "boohoo.com.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Gilas Pilipinas program. .",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Barangay Ginebra Kings. .",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Happy Chaplin.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Fi\u00e8vre.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Basta Dancer.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Krystal Fanatics. .",
+  "CATEGORY": "Magazine",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "IWant TV.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "True Love Waits.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Dance Dance Revolution (Game Boy Color video games). .",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Teejay Marquez.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Seryoso ka?.",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Puppies. .",
+  "CATEGORY": "TV",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "GMA Network.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "A LOVE STORY QOUTES. .",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Gandang Di Mo Inakala :'>.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ivan Dorschner.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Badminton. .",
+  "CATEGORY": "Sport",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Ha Baket?",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Tramway Garden Buffet. .",
+  "CATEGORY": "Asian Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Noon:",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Bopler Tap Tour.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Cupid.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+},{
+  "PAGE": "Dance Dance Revolution EXTREME (North America). .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+},
