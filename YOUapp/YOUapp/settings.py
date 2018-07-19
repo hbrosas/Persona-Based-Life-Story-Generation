@@ -79,10 +79,9 @@ DATABASE_APPS_MAPPING = {'testingdb_sports': 'testingdb_sports'}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS': {'charset': 'utf8mb4'},
-        'NAME': 'libdb',
+        'NAME': 'testdatabase',
         'USER': 'root',
-        'PASSWORD': 'p@ssword',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '3306',
     },

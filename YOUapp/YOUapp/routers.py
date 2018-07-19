@@ -20,7 +20,7 @@ class TestingDBSports_Router:
         return None
 
     def allow_syncdb(self, db, model):
-        # Specify target database with field in_db in model's Meta class
+        # Specify target database with field in_db in 1 - Persona Identification's Meta class
         if hasattr(model._meta, 'testingdb_sports'):
             if model._meta.in_db == db:
                 return True
