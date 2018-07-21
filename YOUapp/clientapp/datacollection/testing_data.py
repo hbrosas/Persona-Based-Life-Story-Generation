@@ -120,6 +120,7 @@ def createTables(conn, targetDB, tableName):
             );
     '''
     cursor.execute(sql)
+    conn.commit()
 
 def store_profile(personalInfo, conn):
 
@@ -160,10 +161,12 @@ def store_profile(personalInfo, conn):
     except:
         friends = None
 
+    tablename = name.replace(" ", "").lower()
+
     cursor = conn.cursor()
     cursor.execute(
-        ("INSERT INTO profile VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)"),
-        (fbid, name, gender, birthday, address, location, hometown, about, int(friends))
+        ("INSERT INTO profile VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"),
+        (fbid, name, gender, birthday, address, location, hometown, about, int(friends), tablename)
     )
 
     conn.commit()

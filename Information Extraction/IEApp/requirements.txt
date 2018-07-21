@@ -4,6 +4,7 @@ normalizr==0.1.7
 ? mysqlclient==1.3.12
 ? CyHunspell - change setup.py link
 ? https://pypi.python.org/pypi/CyHunspell/1.2.1
+? pip install --upgrade setuptools
 ? pip install -U spacy
 ? python -m spacy download en
 ? wikiapi
