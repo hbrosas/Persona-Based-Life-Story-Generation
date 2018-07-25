@@ -1,0 +1,266 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>spellcheck &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for spellcheck</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">prepros.entity</span> <span class="k">import</span> <span class="n">Entity</span>
+<span class="kn">from</span> <span class="nn">hunspell</span> <span class="k">import</span> <span class="n">Hunspell</span>
+<span class="kn">from</span> <span class="nn">textblob</span> <span class="k">import</span> <span class="n">TextBlob</span>
+<span class="kn">from</span> <span class="nn">prepros.dictionaries.apostrophe_dic</span> <span class="k">import</span> <span class="n">ApostropheDictionary</span>
+<span class="kn">from</span> <span class="nn">prepros.dictionaries.slang_dic</span> <span class="k">import</span> <span class="n">SlangDictionary</span>
+<span class="kn">from</span> <span class="nn">models.tokent</span> <span class="k">import</span> <span class="n">Tokent</span>
+<span class="kn">import</span> <span class="nn">spacy</span>
+<span class="kn">import</span> <span class="nn">os</span> 
+<span class="kn">from</span> <span class="nn">fuzzywuzzy</span> <span class="k">import</span> <span class="n">fuzz</span>
+<span class="kn">from</span> <span class="nn">fuzzywuzzy</span> <span class="k">import</span> <span class="n">process</span>
+<span class="kn">import</span> <span class="nn">collections</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<div class="viewcode-block" id="SpellChecker"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker">[docs]</a><span class="k">class</span> <span class="nc">SpellChecker</span><span class="p">:</span>
+
+<div class="viewcode-block" id="SpellChecker.spell"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker.spell">[docs]</a>	<span class="k">def</span> <span class="nf">spell</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">post</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Main function for spell corrector</span>
+
+<span class="sd">		:param text: post that has already undergone cleaning process beforehand</span>
+<span class="sd">		:param post: raw post</span>
+<span class="sd">	    :return: spelled post</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;en&#39;</span><span class="p">)</span>
+		<span class="n">doc</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+		<span class="n">ent</span> <span class="o">=</span> <span class="n">Entity</span><span class="p">()</span>
+		<span class="n">fpost</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+		<span class="n">words</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">reservedWord</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+		<span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">doc</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">w</span><span class="o">.</span><span class="n">is_punct</span><span class="p">:</span>
+				<span class="n">fpost</span> <span class="o">=</span> <span class="n">fpost</span> <span class="o">+</span> <span class="n">w</span><span class="o">.</span><span class="n">text</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">w</span><span class="o">.</span><span class="n">ent_type_</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+					<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">inPeople</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="n">post</span><span class="o">.</span><span class="n">person</span><span class="p">):</span>
+						<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">spellCorrect</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">):</span>
+							<span class="k">if</span> <span class="ow">not</span> <span class="n">ent</span><span class="o">.</span><span class="n">doesExists</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">):</span>
+								<span class="n">fil_tok</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">spell_Fil</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+								<span class="n">fil_similar</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">findMostSimilar</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="n">fil_tok</span><span class="p">)</span>
+								<span class="n">eng_tok</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">spell_Eng</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+								<span class="n">eng_similar</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">findMostSimilar</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="n">eng_tok</span><span class="p">)</span>
+								<span class="n">final</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">compareWord</span><span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="n">fil_similar</span><span class="p">,</span> <span class="n">eng_similar</span><span class="p">)</span>
+								<span class="n">fpost</span> <span class="o">=</span> <span class="n">fpost</span> <span class="o">+</span> <span class="n">final</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
+							<span class="k">else</span><span class="p">:</span>
+								<span class="n">fpost</span> <span class="o">=</span> <span class="n">fpost</span> <span class="o">+</span> <span class="n">w</span><span class="o">.</span><span class="n">text</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>	
+						<span class="k">else</span><span class="p">:</span>
+							<span class="n">fpost</span> <span class="o">=</span> <span class="n">fpost</span> <span class="o">+</span> <span class="n">w</span><span class="o">.</span><span class="n">text</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>	
+					<span class="k">else</span><span class="p">:</span>
+						<span class="n">fpost</span> <span class="o">=</span> <span class="n">fpost</span> <span class="o">+</span> <span class="n">w</span><span class="o">.</span><span class="n">text</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>	
+				<span class="k">else</span><span class="p">:</span>
+					<span class="n">fpost</span> <span class="o">=</span> <span class="n">fpost</span> <span class="o">+</span> <span class="n">w</span><span class="o">.</span><span class="n">text</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
+
+		<span class="c1"># print(&quot;Spelled: &quot;, fpost)</span>
+		<span class="k">return</span> <span class="n">fpost</span><span class="p">;</span></div>
+
+<div class="viewcode-block" id="SpellChecker.inPeople"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker.inPeople">[docs]</a>	<span class="k">def</span> <span class="nf">inPeople</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">people</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Checks if the token belongs to the mentioned people</span>
+
+<span class="sd">		:param text: text</span>
+<span class="sd">		:param people: array of mentioned people</span>
+<span class="sd">	    :return: True or False</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">text</span> <span class="ow">in</span> <span class="n">s</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">people</span><span class="p">):</span>
+			<span class="k">return</span> <span class="kc">True</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="k">return</span> <span class="kc">False</span></div>
+
+<div class="viewcode-block" id="SpellChecker.compareWord"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker.compareWord">[docs]</a>	<span class="k">def</span> <span class="nf">compareWord</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">word</span><span class="p">,</span> <span class="n">fil</span><span class="p">,</span> <span class="n">eng</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Compares the original text to the suggested filipino and english text</span>
+
+<span class="sd">		:param word: original text</span>
+<span class="sd">		:param fil: Suggested Filipino text</span>
+<span class="sd">		:param eng: Suggested English text</span>
+<span class="sd">	    :return: Filipino or English word (which one is closest)</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">fscore</span> <span class="o">=</span> <span class="n">fuzz</span><span class="o">.</span><span class="n">ratio</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">fil</span><span class="p">)</span>
+		<span class="n">escore</span> <span class="o">=</span> <span class="n">fuzz</span><span class="o">.</span><span class="n">ratio</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">eng</span><span class="p">)</span>
+
+		<span class="k">if</span> <span class="n">fscore</span> <span class="o">==</span> <span class="n">escore</span><span class="p">:</span>
+			<span class="k">return</span> <span class="n">eng</span>
+		<span class="k">elif</span> <span class="n">fscore</span> <span class="o">&gt;</span> <span class="n">escore</span><span class="p">:</span>
+			<span class="k">return</span> <span class="n">fil</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="k">return</span> <span class="n">eng</span></div>
+
+<div class="viewcode-block" id="SpellChecker.findMostSimilar"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker.findMostSimilar">[docs]</a>	<span class="k">def</span> <span class="nf">findMostSimilar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">word</span><span class="p">,</span> <span class="n">tokens</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Finds the most similar word from the list of suggested spelled words</span>
+<span class="sd">		</span>
+<span class="sd">		:param word: original text</span>
+<span class="sd">		:param tokens: array of suggested spelled words from HunSpell</span>
+<span class="sd">	    :return: most similar text</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">similar</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+		<span class="n">highest</span> <span class="o">=</span> <span class="mi">0</span>
+
+		<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tokens</span><span class="p">:</span>
+			<span class="n">score</span> <span class="o">=</span> <span class="n">fuzz</span><span class="o">.</span><span class="n">ratio</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+			<span class="c1"># print(t, &quot; to &quot;, word, &quot; SCORE: &quot;, score)</span>
+			<span class="k">if</span> <span class="n">score</span> <span class="o">&gt;</span> <span class="n">highest</span><span class="p">:</span>
+				<span class="n">similar</span> <span class="o">=</span> <span class="n">t</span>
+				<span class="n">highest</span> <span class="o">=</span> <span class="n">score</span>
+
+		<span class="k">return</span> <span class="n">similar</span></div>
+
+<div class="viewcode-block" id="SpellChecker.spell_Fil"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker.spell_Fil">[docs]</a>	<span class="k">def</span> <span class="nf">spell_Fil</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Determines whether the spelling is in the Filipino dictionary and gets the suggested Filipino words</span>
+
+<span class="sd">		:param token: original text</span>
+<span class="sd">	    :return: array of suggested spelled Filipino words from HunSpell</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">dir_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+		<span class="n">tok</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">h</span> <span class="o">=</span> <span class="n">Hunspell</span><span class="p">(</span><span class="s1">&#39;tl&#39;</span><span class="p">,</span> <span class="n">hunspell_data_dir</span> <span class="o">=</span> <span class="n">dir_path</span> <span class="o">+</span> <span class="s1">&#39;/dictionaries/&#39;</span><span class="p">)</span>
+
+		<span class="k">if</span> <span class="ow">not</span> <span class="n">h</span><span class="o">.</span><span class="n">spell</span><span class="p">(</span><span class="n">token</span><span class="p">):</span>
+			<span class="n">tok</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">suggest</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="n">tok</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+
+		<span class="k">return</span> <span class="n">tok</span></div>
+
+<div class="viewcode-block" id="SpellChecker.spell_Eng"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker.spell_Eng">[docs]</a>	<span class="k">def</span> <span class="nf">spell_Eng</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Determines whether the spelling is in the English dictionary and gets the suggested English words</span>
+
+<span class="sd">		:param token: original text</span>
+<span class="sd">	    :return: array of suggested spelled English words from HunSpell</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">dir_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+		<span class="n">tok</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">h</span> <span class="o">=</span> <span class="n">Hunspell</span><span class="p">(</span><span class="s1">&#39;en_us&#39;</span><span class="p">,</span> <span class="n">hunspell_data_dir</span><span class="o">=</span><span class="n">dir_path</span> <span class="o">+</span> <span class="s1">&#39;/dictionaries/&#39;</span><span class="p">)</span>
+
+		<span class="k">if</span> <span class="ow">not</span> <span class="n">h</span><span class="o">.</span><span class="n">spell</span><span class="p">(</span><span class="n">token</span><span class="p">):</span>
+			<span class="n">tok</span> <span class="o">=</span> <span class="n">h</span><span class="o">.</span><span class="n">suggest</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="n">tok</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+
+		<span class="k">return</span> <span class="n">tok</span></div>
+
+<div class="viewcode-block" id="SpellChecker.spellCorrect"><a class="viewcode-back" href="../spellcheck.html#spellcheck.SpellChecker.spellCorrect">[docs]</a>	<span class="k">def</span> <span class="nf">spellCorrect</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Distinguishes whether the word is spelled correctly or not.</span>
+
+<span class="sd">		:param token: original text</span>
+<span class="sd">	    :return: True or False</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">dir_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+		<span class="n">h</span> <span class="o">=</span> <span class="n">Hunspell</span><span class="p">(</span><span class="s1">&#39;tl&#39;</span><span class="p">,</span> <span class="n">hunspell_data_dir</span> <span class="o">=</span> <span class="n">dir_path</span> <span class="o">+</span> <span class="s1">&#39;/dictionaries/&#39;</span><span class="p">)</span>
+
+		<span class="k">if</span> <span class="ow">not</span> <span class="n">h</span><span class="o">.</span><span class="n">spell</span><span class="p">(</span><span class="n">token</span><span class="p">):</span>
+			<span class="n">h</span> <span class="o">=</span> <span class="n">Hunspell</span><span class="p">(</span><span class="s1">&#39;en_us&#39;</span><span class="p">,</span> <span class="n">hunspell_data_dir</span><span class="o">=</span><span class="n">dir_path</span> <span class="o">+</span> <span class="s1">&#39;/dictionaries/&#39;</span><span class="p">)</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="n">h</span><span class="o">.</span><span class="n">spell</span><span class="p">(</span><span class="n">token</span><span class="p">):</span>
+				<span class="k">return</span> <span class="kc">False</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="kc">True</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="k">return</span> <span class="kc">True</span></div></div>
+		
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,169 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Gelatissimo.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "NESTEA.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Happy Lemon Philippines.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Gong Cha Philippines.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "GSM BLUE.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Starbucks Java Chip Frappuccino. .",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Party Fuel Mobile Bar.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Red Mango Philippines.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Cheddar Jalapeno Cheetos.",
+    "CATEGORY": "Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Skittles.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ice cream. .",
+    "CATEGORY": "Brand",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Coffee Bean & Tea Leaf (Philippines).",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Burger King.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Tutti Frutti Yogurt.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Pizza on Zeer.",
+    "CATEGORY": "Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "pasta.",
+    "CATEGORY": "Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Crunch.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Starbucks Frappuccino.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Lay's.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Oreo.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "HERSHEY'S. Welcome to HERSHEY\u0092S Philippines Official Facebook page!",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ferrero Rocher. .",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Red Horse Beer.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Nutella.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},

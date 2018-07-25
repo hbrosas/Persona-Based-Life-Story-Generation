@@ -1,0 +1,262 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>likedpagesevents &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for likedpagesevents</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">spacy</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<div class="viewcode-block" id="LikedPagesEvents"><a class="viewcode-back" href="../likedpagesevents.html#likedpagesevents.LikedPagesEvents">[docs]</a><span class="k">class</span> <span class="nc">LikedPagesEvents</span><span class="p">:</span>
+
+	<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;en&#39;</span><span class="p">)</span>
+
+	<span class="n">foodieCateg</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Agriculture Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Food &amp; Beverage Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Retail Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Tobacco Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Governmental Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Profit Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Retail Company&quot;</span><span class="p">,</span> <span class="s2">&quot;App Page&quot;</span><span class="p">,</span> <span class="s2">&quot;Brand&quot;</span><span class="p">,</span> <span class="s2">&quot;Food &amp; Beverage Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Chef&quot;</span><span class="p">]</span>
+
+	<span class="n">sportsCateg</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Community Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Community Services&quot;</span><span class="p">,</span> <span class="s2">&quot;Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Governmental Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Profit Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Retail Company&quot;</span><span class="p">,</span> <span class="s2">&quot;App Page&quot;</span><span class="p">,</span> <span class="s2">&quot;Brand&quot;</span><span class="p">,</span> <span class="s2">&quot;Amateur Sports Team&quot;</span><span class="p">,</span> <span class="s2">&quot;School Sports Team&quot;</span><span class="p">,</span> <span class="s2">&quot;Sports League&quot;</span><span class="p">,</span> <span class="s2">&quot;Sports Team&quot;</span><span class="p">,</span> <span class="s2">&quot;Stadium&quot;</span><span class="p">,</span> <span class="s2">&quot;Arena &amp; Sports Venue&quot;</span><span class="p">,</span> <span class="s2">&quot;Athlete&quot;</span><span class="p">,</span> <span class="s2">&quot;Coach&quot;</span><span class="p">,]</span>
+
+	<span class="n">fanCateg</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Automotive Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Biotechnology Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Cargo &amp; Freight Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Community Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Community Services&quot;</span><span class="p">,</span> <span class="s2">&quot;Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Health/Beauty&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Governmental Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Profit Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Political Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Political Party&quot;</span><span class="p">,</span> <span class="s2">&quot;Retail Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Telecommunication Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Tobacco Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Travel Company&quot;</span><span class="p">,</span> <span class="s2">&quot;App Page&quot;</span><span class="p">,</span> <span class="s2">&quot;Appliances&quot;</span><span class="p">,</span> <span class="s2">&quot;Baby Goods/Kids Goods&quot;</span><span class="p">,</span> <span class="s2">&quot;Bags/Luggage&quot;</span><span class="p">,</span> <span class="s2">&quot;Brand&quot;</span><span class="p">,</span> <span class="s2">&quot;Building Materials&quot;</span><span class="p">,</span> <span class="s2">&quot;Camera/Photo&quot;</span><span class="p">,</span> <span class="s2">&quot;Cars&quot;</span><span class="p">,</span> <span class="s2">&quot;Clothing (Brand)&quot;</span><span class="p">,</span> <span class="s2">&quot;Commercial Equipment&quot;</span><span class="p">,</span> <span class="s2">&quot;Furniture&quot;</span><span class="p">,</span> <span class="s2">&quot;Home Décor&quot;</span><span class="p">,</span> <span class="s2">&quot;Household Supplies&quot;</span><span class="p">,</span> <span class="s2">&quot;Jewelry/Watches&quot;</span><span class="p">,</span><span class="s2">&quot; Kitchen/Cooking&quot;</span><span class="p">,</span> <span class="s2">&quot;Office Supplies&quot;</span><span class="p">,</span> <span class="s2">&quot;Patio/Garden&quot;</span><span class="p">,</span> <span class="s2">&quot;Pet Supplies&quot;</span><span class="p">,</span> <span class="s2">&quot;Pharmaceuticals&quot;</span><span class="p">,</span> <span class="s2">&quot;Phone/Tablet&quot;</span><span class="p">,</span> <span class="s2">&quot;Product/Service&quot;</span><span class="p">,</span> <span class="s2">&quot;Software&quot;</span><span class="p">,</span> <span class="s2">&quot;Tools/Equipment&quot;</span><span class="p">,</span> <span class="s2">&quot;Vitamins/Supplements&quot;</span><span class="p">,</span> <span class="s2">&quot;Website&quot;</span><span class="p">,</span> <span class="s2">&quot;Wine/Spirits&quot;</span><span class="p">,</span> <span class="s2">&quot;Actor&quot;</span><span class="p">,</span> <span class="s2">&quot;Artist&quot;</span><span class="p">,</span> <span class="s2">&quot;Author&quot;</span><span class="p">,</span> <span class="s2">&quot;Band&quot;</span><span class="p">,</span> <span class="s2">&quot;Blogger&quot;</span><span class="p">,</span> <span class="s2">&quot;Chef&quot;</span><span class="p">,</span> <span class="s2">&quot;Comedian&quot;</span><span class="p">,</span> <span class="s2">&quot;Dancer&quot;</span><span class="p">,</span> <span class="s2">&quot;Entrepreneur&quot;</span><span class="p">,</span> <span class="s2">&quot;Fashion Model&quot;</span><span class="p">,</span> <span class="s2">&quot;Fictional Character&quot;</span><span class="p">,</span> <span class="s2">&quot;Film Director&quot;</span><span class="p">,</span> <span class="s2">&quot;Fitness Model&quot;</span><span class="p">,</span> <span class="s2">&quot;Government Official&quot;</span><span class="p">,</span> <span class="s2">&quot;Journalist&quot;</span><span class="p">,</span> <span class="s2">&quot;Motivational Speaker&quot;</span><span class="p">,</span> <span class="s2">&quot;Movie Character&quot;</span><span class="p">,</span> <span class="s2">&quot;Musician&quot;</span><span class="p">,</span> <span class="s2">&quot;News Personality&quot;</span><span class="p">,</span> <span class="s2">&quot;Pet&quot;</span><span class="p">,</span> <span class="s2">&quot;Photographer&quot;</span><span class="p">,</span> <span class="s2">&quot;Political Candidate&quot;</span><span class="p">,</span> <span class="s2">&quot;Politician&quot;</span><span class="p">,</span> <span class="s2">&quot;Producer&quot;</span><span class="p">,</span> <span class="s2">&quot;Public Figure&quot;</span><span class="p">,</span> <span class="s2">&quot;Scientist&quot;</span><span class="p">,</span> <span class="s2">&quot;Teacher&quot;</span><span class="p">,</span> <span class="s2">&quot;Video Creator&quot;</span><span class="p">,</span> <span class="s2">&quot;Writer&quot;</span><span class="p">,</span> <span class="s2">&quot;Album&quot;</span><span class="p">,</span> <span class="s2">&quot;Book&quot;</span><span class="p">,</span> <span class="s2">&quot;Book Series&quot;</span><span class="p">,</span> <span class="s2">&quot;Book Store&quot;</span><span class="p">,</span> <span class="s2">&quot;Concert Tour&quot;</span><span class="p">,</span> <span class="s2">&quot;Festival&quot;</span><span class="p">,</span> <span class="s2">&quot;Fictional Character&quot;</span><span class="p">,</span> <span class="s2">&quot;Library&quot;</span><span class="p">,</span> <span class="s2">&quot;Literary Arts&quot;</span><span class="p">,</span> <span class="s2">&quot;Magazine&quot;</span><span class="p">,</span> <span class="s2">&quot;Movie&quot;</span><span class="p">,</span> <span class="s2">&quot;Movie Character&quot;</span><span class="p">,</span> <span class="s2">&quot;Movie Theater&quot;</span><span class="p">,</span> <span class="s2">&quot;Movie/Television Studio&quot;</span><span class="p">,</span> <span class="s2">&quot;Music Award&quot;</span><span class="p">,</span> <span class="s2">&quot;Music Chart&quot;</span><span class="p">,</span> <span class="s2">&quot;Music Video&quot;</span><span class="p">,</span> <span class="s2">&quot;Performance &amp; Event Venue&quot;</span><span class="p">,</span> <span class="s2">&quot;Performance Art&quot;</span><span class="p">,</span> <span class="s2">&quot;Performing Arts&quot;</span><span class="p">,</span> <span class="s2">&quot;Podcast&quot;</span><span class="p">,</span> <span class="s2">&quot;Radio Station&quot;</span><span class="p">,</span> <span class="s2">&quot;Record Label&quot;</span><span class="p">,</span> <span class="s2">&quot;Show&quot;</span><span class="p">,</span> <span class="s2">&quot;Song&quot;</span><span class="p">,</span> <span class="s2">&quot;Theatrical Play&quot;</span><span class="p">,</span> <span class="s2">&quot;Theatrical Productions&quot;</span><span class="p">,</span> <span class="s2">&quot;TV Channel&quot;</span><span class="p">,</span> <span class="s2">&quot;TV Network&quot;</span><span class="p">,</span> <span class="s2">&quot;TV Show&quot;</span><span class="p">,</span> <span class="s2">&quot;TV/Movie Award&quot;</span><span class="p">]</span>
+
+	<span class="n">gamerCateg</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Community Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Community Services&quot;</span><span class="p">,</span> <span class="s2">&quot;Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Computer Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Internet Company&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Governmental Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Non-Profit Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Organization&quot;</span><span class="p">,</span> <span class="s2">&quot;Retail Company&quot;</span><span class="p">,</span> <span class="s2">&quot;App Page&quot;</span><span class="p">,</span> <span class="s2">&quot;Board Game&quot;</span><span class="p">,</span> <span class="s2">&quot;Brand&quot;</span><span class="p">,</span> <span class="s2">&quot;Computers (Brand)&quot;</span><span class="p">,</span> <span class="s2">&quot;Electronics&quot;</span><span class="p">,</span> <span class="s2">&quot;Games/Toys&quot;</span><span class="p">,</span> <span class="s2">&quot;Phone/Tablet&quot;</span><span class="p">,</span> <span class="s2">&quot;Product/Service&quot;</span><span class="p">,</span> <span class="s2">&quot;Software&quot;</span><span class="p">,</span> <span class="s2">&quot;Video Game&quot;</span><span class="p">,</span> <span class="s2">&quot;Amateur Sports Team&quot;</span><span class="p">,</span> <span class="s2">&quot;Sports League&quot;</span><span class="p">,</span> <span class="s2">&quot;Sports Team&quot;</span><span class="p">,</span> <span class="s2">&quot;Stadium&quot;</span><span class="p">,</span> <span class="s2">&quot;Arena &amp; Sports Venue&quot;</span><span class="p">,</span> <span class="s2">&quot;School Sports Team&quot;</span><span class="p">,</span> <span class="s2">&quot;Athlete&quot;</span><span class="p">,</span> <span class="s2">&quot;Coach&quot;</span><span class="p">,]</span>
+
+
+<div class="viewcode-block" id="LikedPagesEvents.extractLikedPages"><a class="viewcode-back" href="../likedpagesevents.html#likedpagesevents.LikedPagesEvents.extractLikedPages">[docs]</a>	<span class="k">def</span> <span class="nf">extractLikedPages</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">persona</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		extracts liked page</span>
+
+<span class="sd">		:param data: liked pages</span>
+<span class="sd">		:param persona: persona</span>
+<span class="sd">	    :return: array of liked pages in data frames</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">assertions</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">ctr</span> <span class="o">=</span> <span class="mi">1</span>
+
+		<span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+			<span class="n">pageName</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getPageName</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">liked_page</span><span class="p">)</span>
+			<span class="n">category</span> <span class="o">=</span> <span class="n">d</span><span class="o">.</span><span class="n">category</span>
+
+			<span class="k">if</span> <span class="n">persona</span> <span class="o">==</span> <span class="s2">&quot;The Fangirl/Fanboy&quot;</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">category</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">fanCateg</span><span class="p">:</span>
+					<span class="n">assertions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+						<span class="p">{</span>
+							<span class="s2">&quot;TYPE&quot;</span> <span class="p">:</span> <span class="s2">&quot;likes&quot;</span><span class="p">,</span>
+							<span class="s2">&quot;VALUES&quot;</span> <span class="p">:</span> <span class="p">{</span>
+								<span class="s2">&quot;PAGE&quot;</span> <span class="p">:</span> <span class="n">pageName</span><span class="p">,</span>
+								<span class="s2">&quot;CATEGORY&quot;</span> <span class="p">:</span> <span class="n">category</span><span class="p">,</span>
+								<span class="s2">&quot;PERSONA&quot;</span> <span class="p">:</span> <span class="n">persona</span>
+							<span class="p">}</span>
+						<span class="p">}</span>
+					<span class="p">)</span>
+
+			<span class="k">elif</span> <span class="n">persona</span> <span class="o">==</span> <span class="s2">&quot;The Foodie&quot;</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">category</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">foodieCateg</span><span class="p">:</span>
+					<span class="n">assertions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+						<span class="p">{</span>
+							<span class="s2">&quot;TYPE&quot;</span> <span class="p">:</span> <span class="s2">&quot;likes&quot;</span><span class="p">,</span>
+							<span class="s2">&quot;VALUES&quot;</span> <span class="p">:</span> <span class="p">{</span>
+								<span class="s2">&quot;PAGE&quot;</span> <span class="p">:</span> <span class="n">pageName</span><span class="p">,</span>
+								<span class="s2">&quot;CATEGORY&quot;</span> <span class="p">:</span> <span class="n">category</span><span class="p">,</span>
+								<span class="s2">&quot;PERSONA&quot;</span> <span class="p">:</span> <span class="n">persona</span>
+							<span class="p">}</span>
+						<span class="p">}</span>
+					<span class="p">)</span>
+
+			<span class="k">elif</span> <span class="n">persona</span> <span class="o">==</span> <span class="s2">&quot;The Gamer&quot;</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">category</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">gamerCateg</span><span class="p">:</span>
+					<span class="n">assertions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+						<span class="p">{</span>
+							<span class="s2">&quot;TYPE&quot;</span> <span class="p">:</span> <span class="s2">&quot;likes&quot;</span><span class="p">,</span>
+							<span class="s2">&quot;VALUES&quot;</span> <span class="p">:</span> <span class="p">{</span>
+								<span class="s2">&quot;PAGE&quot;</span> <span class="p">:</span> <span class="n">pageName</span><span class="p">,</span>
+								<span class="s2">&quot;CATEGORY&quot;</span> <span class="p">:</span> <span class="n">category</span><span class="p">,</span>
+								<span class="s2">&quot;PERSONA&quot;</span> <span class="p">:</span> <span class="n">persona</span>
+							<span class="p">}</span>
+						<span class="p">}</span>
+					<span class="p">)</span>
+
+			<span class="k">elif</span> <span class="n">persona</span> <span class="o">==</span> <span class="s2">&quot;The Sports Fanatic&quot;</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">category</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">sportsCateg</span><span class="p">:</span>
+					<span class="n">assertions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+						<span class="p">{</span>
+							<span class="s2">&quot;TYPE&quot;</span> <span class="p">:</span> <span class="s2">&quot;likes&quot;</span><span class="p">,</span>
+							<span class="s2">&quot;VALUES&quot;</span> <span class="p">:</span> <span class="p">{</span>
+								<span class="s2">&quot;PAGE&quot;</span> <span class="p">:</span> <span class="n">pageName</span><span class="p">,</span>
+								<span class="s2">&quot;CATEGORY&quot;</span> <span class="p">:</span> <span class="n">category</span><span class="p">,</span>
+								<span class="s2">&quot;PERSONA&quot;</span> <span class="p">:</span> <span class="n">persona</span>
+							<span class="p">}</span>
+						<span class="p">}</span>
+					<span class="p">)</span>
+
+			<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;EXTRACTING PAGE: &quot;</span><span class="p">,</span> <span class="n">ctr</span><span class="p">,</span> <span class="s2">&quot; of &quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
+			<span class="n">ctr</span> <span class="o">+=</span> <span class="mi">1</span>
+
+		<span class="k">return</span> <span class="n">assertions</span></div>
+
+<div class="viewcode-block" id="LikedPagesEvents.getPageName"><a class="viewcode-back" href="../likedpagesevents.html#likedpagesevents.LikedPagesEvents.getPageName">[docs]</a>	<span class="k">def</span> <span class="nf">getPageName</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">page</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		gets the page name from a liked page</span>
+
+<span class="sd">		:param page: page</span>
+<span class="sd">	    :return: page name</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">doc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nlp</span><span class="p">(</span><span class="n">page</span><span class="p">)</span>
+		<span class="n">page</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+		<span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">doc</span><span class="o">.</span><span class="n">sents</span><span class="p">:</span>
+			<span class="n">result</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;He likes (.*)&quot;</span><span class="p">,</span> <span class="n">sent</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+			<span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="n">page</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+			<span class="k">break</span>
+
+		<span class="k">return</span> <span class="n">page</span></div>
+
+<div class="viewcode-block" id="LikedPagesEvents.extractEvents"><a class="viewcode-back" href="../likedpagesevents.html#likedpagesevents.LikedPagesEvents.extractEvents">[docs]</a>	<span class="k">def</span> <span class="nf">extractEvents</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">persona</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		extracts events</span>
+
+<span class="sd">		:param data: events</span>
+<span class="sd">		:param persona: persona</span>
+<span class="sd">	    :return: array of events in data frames</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">assertions</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">ctr</span> <span class="o">=</span> <span class="mi">1</span>
+
+		<span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+			<span class="n">event</span><span class="p">,</span> <span class="n">rsvp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getEventDetails</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">original_event</span><span class="p">)</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="n">event</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">rsvp</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+				<span class="n">assertions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+					<span class="p">{</span>
+						<span class="s2">&quot;TYPE&quot;</span> <span class="p">:</span> <span class="s2">&quot;events&quot;</span><span class="p">,</span>
+						<span class="s2">&quot;VALUES&quot;</span> <span class="p">:</span> <span class="p">{</span>
+							<span class="s2">&quot;EVENT&quot;</span> <span class="p">:</span> <span class="n">event</span><span class="p">,</span>
+							<span class="s2">&quot;RSVP&quot;</span> <span class="p">:</span> <span class="n">rsvp</span><span class="p">,</span>
+							<span class="s2">&quot;PERSONA&quot;</span> <span class="p">:</span> <span class="n">persona</span>
+						<span class="p">}</span>
+					<span class="p">}</span>
+				<span class="p">)</span>
+
+			<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;EXTRACTING EVENT: &quot;</span><span class="p">,</span> <span class="n">ctr</span><span class="p">,</span> <span class="s2">&quot; of &quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
+			<span class="n">ctr</span> <span class="o">+=</span> <span class="mi">1</span>
+
+		<span class="k">return</span> <span class="n">assertions</span></div>
+
+<div class="viewcode-block" id="LikedPagesEvents.getEventDetails"><a class="viewcode-back" href="../likedpagesevents.html#likedpagesevents.LikedPagesEvents.getEventDetails">[docs]</a>	<span class="k">def</span> <span class="nf">getEventDetails</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">page</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		gets the event details such as event name and rsvp from the event</span>
+
+<span class="sd">		:param page: page</span>
+<span class="sd">	    :return: event, rsvp</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">doc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nlp</span><span class="p">(</span><span class="n">page</span><span class="p">)</span>
+		<span class="nb">str</span> <span class="o">=</span> <span class="n">page</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;. &#39;</span><span class="p">)</span>
+		<span class="n">event</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+		<span class="n">rsvp</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+		<span class="n">result</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;He is (.*) in (.*)&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+		<span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+			<span class="n">rsvp</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+			<span class="n">event</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+
+		<span class="k">return</span> <span class="n">event</span><span class="p">,</span> <span class="n">rsvp</span></div></div>
+
+	<span class="c1"># foodieCateg = [&quot;New American Restaurant&quot;, &quot;American Restaurant&quot;,  &quot;Burmese Restaurant&quot;,  &quot;Cambodian Restaurant&quot;,  &quot;Chinese Restaurant&quot;,  &quot;Filipino Restaurant&quot;,  &quot;Himalayan Restaurant&quot;,  &quot;Japanese Restaurant&quot;,  &quot;Korean Restaurant&quot;,  &quot;Malaysian Restaurant&quot;,  &quot;Mongolian Restaurant&quot;,  &quot;Nepalese Restaurant&quot;,  &quot;Singaporean Restaurant&quot;,  &quot;Taiwanese Restaurant&quot;,  &quot;Thai Restaurant&quot;, &quot;Vietnamese Restaurant&quot;, &quot;Bar &amp; Grill&quot;, &quot;Dive Bar&quot;, &quot;Gastropub&quot;, &quot;Gay Bar&quot;, &quot;Sports Bar&quot;, &quot;Tapas Bar &amp; Restaurant&quot;, &quot;Wine Bar&quot;, &quot;Chicken Wings&quot;, &quot;Cantonese Restaurant&quot;,  &quot;Brewery&quot;, &quot;Butcher&quot;, &quot;Candy Store&quot;, &quot;Convenience Store&quot;, &quot;Cupcake Shop&quot;, &quot;Deli&quot;, &quot;Ethnic Grocery Store&quot;, &quot;Farmers Market&quot;, &quot;Fruit &amp; Vegetable Store&quot;, &quot;Grocery Store&quot;, &quot;Health Food Store&quot;, &quot;Liquor Store&quot;, &quot;Market&quot;, &quot;Meat Shop&quot;, &quot;Specialty Grocery Store&quot;, &quot;Bakery&quot;, &quot;Beer Garden&quot;, &quot;Brewery&quot;, &quot;Cafe&quot;, &quot;Cafeteria&quot;, &quot;Coffee Shop&quot;, &quot;Cupcake Shop&quot;, &quot;Donuts &amp; Bagels&quot;, &quot;Farmers Market&quot;, &quot;Food Stand&quot;, &quot;Frozen Yogurt Shop&quot;, &quot;Ice Cream Parlor&quot;, &quot;Restaurant&quot;, &quot;Restaurant Wholesale&quot;, &quot;Salad Bar&quot;, &quot;Smoothie &amp; Juice Bar&quot;, &quot;Sports Bar&quot;, &quot;Tea Room&quot;, &quot;Hot Dog Stand&quot;,  &quot;Afghani Restaurant&quot;, &quot;African Restaurant&quot;, &quot;American Restaurant&quot;, &quot;Argentine Restaurant&quot;, &quot;Asian Fusion Restaurant&quot;, &quot;Asian Restaurant&quot;, &quot;Bar &amp; Grill&quot;, &quot;Barbecue Restaurant&quot;, &quot;Basque Restaurant&quot;, &quot;Belgian Restaurant&quot;, &quot;Brazilian Restaurant&quot;, &quot;Breakfast &amp; Brunch Restaurant&quot;, &quot;British Restaurant&quot;, &quot;Buffet Restaurant&quot;, &quot;Burger Restaurant&quot;, &quot;Cafe&quot;, &quot;Cajun &amp; Creole Restaurant&quot;, &quot;Canadian Restaurant&quot;, &quot;Caribbean Restaurant&quot;, &quot;Chicken Restaurant&quot;, &quot;Continental Restaurant&quot;, &quot;Crêperie&quot;, &quot;Cuban Restaurant&quot;, &quot;Deli&quot;, &quot;Dessert Restaurant&quot;, &quot;Dim Sum Restaurant&quot;, &quot;Diner&quot;, &quot;Drive In Restaurant&quot;, &quot;Ethiopian Restaurant&quot;, &quot;Family Style Restaurant&quot;, &quot;Fast Food Restaurant&quot;, &quot;Fine Dining Restaurant&quot;, &quot;Fish &amp; Chips Shop&quot;, &quot;Fondue Restaurant&quot;, &quot;French Restaurant&quot;, &quot;Gastropub&quot;, &quot;German Restaurant&quot;, &quot;Gluten-Free Restaurant&quot;, &quot;Greek Restaurant&quot;, &quot;Halal Restaurant&quot;, &quot;Hawaiian Restaurant&quot;, &quot;Health Food Restaurant&quot;, &quot;Hot Dog Joint&quot;, &quot;Hungarian Restaurant&quot;, &quot;Indian Restaurant&quot;, &quot;Indonesian Restaurant&quot;, &quot;International Restaurant&quot;, &quot;Irish Restaurant&quot;, &quot;Italian Restaurant&quot;, &quot;Kosher Restaurant&quot;, &quot;Late Night Restaurant&quot;, &quot;Latin American Restaurant&quot;, &quot;Lebanese Restaurant&quot;, &quot;Live &amp; Raw Food Restaurant&quot;, &quot;Mediterranean Restaurant&quot;, &quot;Mexican Restaurant&quot;,  &quot;Middle Eastern Restaurant&quot;, &quot;Modern European Restaurant&quot;, &quot;Moroccan Restaurant&quot;, &quot;Pakistani Restaurant&quot;, &quot;Persian Restaurant&quot;, &quot;Peruvian Restaurant&quot;, &quot;Pizza Place&quot;, &quot;Polish Restaurant&quot;, &quot;Polynesian Restaurant&quot;, &quot;Portuguese Restaurant&quot;, &quot;Russian Restaurant&quot;, &quot;Sandwich Shop&quot;, &quot;Scandinavian Restaurant&quot;, &quot;Seafood Restaurant&quot;, &quot;Soul Food Restaurant&quot;, &quot;Soup Restaurant&quot;, &quot;Southern Restaurant&quot;, &quot;Southwestern Restaurant&quot;, &quot;Spanish Restaurant&quot;, &quot;Steakhouse&quot;, &quot;Take Out Restaurant&quot;, &quot;Tapas Bar &amp; Restaurant&quot;, &quot;Tex-Mex Restaurant&quot;, &quot;Turkish Restaurant&quot;, &quot;Vegetarian &amp; Vegan Restaurant&quot;, &quot;Pho Restaurant&quot;, &quot;Restaurant Wholesale&quot;, &quot;Ramen Restaurant&quot;, &quot;Sushi Restaurant&quot;]</span>
+
+	<span class="c1"># sportsCateg = [&quot;Race Track&quot;, &quot;Sports Venue &amp; Stadium&quot;, &quot;Sports Promoter&quot;, &quot;Race Cars&quot;, &quot;Ski &amp; Snowboard School&quot;, &quot;Sports Instruction&quot;, &quot;Sportswear&quot;, &quot;Shoe Store&quot;,  &quot;Auditorium&quot;, &quot;Beach&quot;, &quot;Boating&quot;, &quot;Fishing&quot;, &quot;Island&quot;, &quot;Mountain&quot;, &quot;Surfing Spot&quot;, &quot;Water Park&quot;, &quot;Sporting Goods Store&quot;, &quot;Archery&quot;, &quot;Batting Cage&quot;, &quot;Boat Rental&quot;, &quot;Cheerleading&quot;, &quot;Driving Range&quot;, &quot;Fitness Center&quot;, &quot;Golf Course&quot;, &quot;Gun Range&quot;, &quot;Gym&quot;, &quot;Hot Air Balloons&quot;, &quot;Hunting and Fishing&quot;, &quot;Ice Skating&quot;, &quot;Martial Arts&quot;, &quot;Miniature Golf&quot;, &quot;Mountain Biking&quot;, &quot;Outdoor Recreation&quot;, &quot;Paintball&quot;, &quot;Personal Trainer&quot;, &quot;Physical Fitness&quot;, &quot;Pool &amp; Billiards&quot;, &quot;Racquetball Court&quot;, &quot;Rafting&quot;, &quot;Recreation Center&quot;, &quot;Recreation Center&quot;, &quot;Rock Climbing&quot;, &quot;Scuba Diving&quot;, &quot;Ski &amp; Snowboard School&quot;, &quot;Ski Resort&quot;, &quot;Sky Diving&quot;, &quot;Sports Center&quot;, &quot;Sports Club&quot;, &quot;Sports Instruction&quot;, &quot;Swimming Pool&quot;, &quot;Tennis&quot;, &quot;Yoga &amp; Pilates&quot;]</span>
+
+	<span class="c1"># fanCateg = [&quot;Amusement&quot;, &quot;Amusement Park Ride&quot;, &quot;Art Gallery&quot;, &quot;Bowling Alley&quot;, &quot;Casino&quot;, &quot;Circus&quot;, &quot;Comedy Club&quot;, &quot;Concert Venue&quot;, &quot;Movie Theatre&quot;, &quot;Museum&quot;, &quot;Newspaper&quot;, &quot;Orchestra&quot;, &quot;Performance Venue&quot;, &quot;Race Track&quot;, &quot;Rodeo&quot;, &quot;Social Club&quot;, &quot;Symphony&quot;, &quot;Theatre&quot;, &quot;Theme Park&quot;, &quot;Ticket Sales&quot;, &quot;Tourist Attraction&quot;, &quot;Zoo &amp; Aquarium&quot;, &quot;Advertising Agency&quot;, &quot;Architect&quot;, &quot;Art Restoration&quot;, &quot;Artistic Services&quot;, &quot;Broadcasting &amp; Media Production&quot;, &quot;Entertainment Service&quot;, &quot;Fashion Designer&quot;, &quot;Graphic Design&quot;, &quot;Image Consultant&quot;, &quot;Market Research Consultant&quot;, &quot;Marketing Consultant&quot;, &quot;Modeling Agency&quot;, &quot;Movie &amp; Television Studio&quot;, &quot;Music Production&quot;, &quot;Photographer&quot;, &quot;Photographic Services &amp; Equipment&quot;, &quot;Public Relations&quot;, &quot;Publisher&quot;, &quot;Screen Printing &amp; Embroidery&quot;, &quot;Trophies &amp; Engraving&quot;, &quot;Web Design&quot;, &quot;Web Development&quot;, &quot;Accessories Store&quot;, &quot;Bridal Shop&quot;, &quot;Children&#39;s Clothing Store&quot;, &quot;Costume Shop&quot;, &quot;Formal Wear&quot;, &quot;Men&#39;s Clothing Store&quot;, &quot;Swimwear&quot;, &quot;Women&#39;s Clothing Store&quot;, &quot;Automation Services&quot;, &quot;Biotechnology&quot;, &quot;Commercial &amp; Industrial Equipment&quot;, &quot;Elevator Services&quot;, &quot;Engineering Service&quot;, &quot;Fire Protection&quot;, &quot;Gas &amp; Chemical Service&quot;, &quot;Ice Machines&quot;, &quot;Manufacturing&quot;, &quot;Mattress Manufacturing&quot;, &quot;Mattress Wholesale&quot;, &quot;Metals&quot;, &quot;Petroleum Services&quot;, &quot;Plastics&quot;, &quot;Refrigeration&quot;, &quot;Robotics&quot;, &quot;Storage Service&quot;, &quot;Textiles&quot;, &quot;Vending Machine Service&quot;, &quot;Warehouse&quot;, &quot;Outlet Store&quot;, &quot;Pawn Shop&quot;, &quot;Rent to Own Store&quot;, &quot;Thrift or Consignment Store&quot;, &quot;Bands &amp; Musicians&quot;, &quot;Bartending Service&quot;, &quot;Caterer&quot;, &quot;DJ&quot;, &quot;Entertainer&quot;, &quot;Event Planner&quot;, &quot;Event Venue&quot;, &quot;Party Supplies&quot;, &quot;Wedding Planning&quot;, &quot;Furniture Repair&quot;, &quot;Collectibles Store&quot;, &quot;Cultural Gifts Store&quot;, &quot;Seasonal Store&quot;,  &quot;Laser Hair Removal&quot;, &quot;Appliances&quot;, &quot;Blinds &amp; Curtains&quot;, &quot;Cabinets &amp; Countertops&quot;, &quot;Carpenter&quot;, &quot;Carpet &amp; Flooring Store&quot;, &quot;Carpet Cleaner&quot;, &quot;Cleaning Service&quot;, &quot;Concrete Contractor&quot;, &quot;Construction Service &amp; Supply&quot;, &quot;Contractor&quot;, &quot;Damage Restoration Service&quot;, &quot;Deck &amp; Patio&quot;, &quot;Electrician&quot;, &quot;Excavation &amp; Wrecking&quot;, &quot;Fireplaces&quot;, &quot;Fireproofing&quot;, &quot;Garage Door Services&quot;, &quot;Garden Center&quot;, &quot;Gardener&quot;, &quot;Glass Service&quot;, &quot;Hardware &amp; Tools Service&quot;, &quot;Hardware Store&quot;, &quot;Heating, Ventilating &amp; Air Conditioning&quot;, &quot;Home Cleaning&quot;, &quot;Home Decor&quot;, &quot;Home Inspection&quot;, &quot;Home Security&quot;, &quot;Home Theater Store&quot;, &quot;Home Window Service&quot;, &quot;Housewares&quot;, &quot;Interior Designer&quot;, &quot;Kitchen Construction&quot;, &quot;Kitchen Supplies&quot;, &quot;Landscaping&quot;, &quot;Lighting Fixtures&quot;, &quot;Locksmith&quot;, &quot;Masonry&quot;, &quot;Mattresses &amp; Bedding&quot;, &quot;Mobile Homes&quot;, &quot;Mover&quot;, &quot;Painter&quot;, &quot;Paving &amp; Asphalt Service&quot;, &quot;Pest Control&quot;, &quot;Plumber&quot;, &quot;Portable Building Service&quot;, &quot;Portable Toilet Rentals&quot;, &quot;Property Management&quot;, &quot;Roofer&quot;, &quot;Sewer Service&quot;, &quot;Solar Energy Service&quot;, &quot;Storage&quot;, &quot;Surveyor&quot;, &quot;Swimming Pool Maintenance&quot;, &quot;Tools Service&quot;, &quot;Upholstery Service&quot;, &quot;Wallpaper&quot;, &quot;Well Water Drilling Service&quot;, &quot;Art Museum&quot;, &quot;History Museum&quot;, &quot;Modern Art Museum&quot;, &quot;Musical Instrument Store&quot;, &quot;Adult Entertainment&quot;,&quot;Bar&quot;,&quot;Dance Club&quot;,&quot;Hookah Lounge&quot;,&quot;Jazz Club&quot;,&quot;Karaoke&quot;,&quot;Lounge&quot;,&quot;Night Club&quot;,&quot;Pub&quot;, &quot;Arts &amp; Marketing&quot;,&quot;Automotive&quot;,&quot;Business Services&quot;,&quot;Cable &amp; Satellite Service&quot;,&quot;Commercial &amp; Industrial&quot;,&quot;Event Planning&quot;,&quot;Financial Services&quot;,&quot;Law Practice&quot;,&quot;Lifestyle Services&quot;,&quot;Medical &amp; Health&quot;,&quot;Outdoor Services&quot;,&quot;Pet Service&quot;,&quot;Real Estate&quot;,&quot;Repair Service&quot;,&quot;Research Service&quot;,&quot;Safety &amp; First Aid Service&quot;,&quot;Security&quot;,&quot;Spa, Beauty &amp; Personal Care&quot;,&quot;Supply &amp; Distribution Services&quot;, &quot;Antiques &amp; Vintage&quot;, &quot;Arts &amp; Crafts Supply Store&quot;, &quot;Bank&quot;, &quot;Big Box Retailer&quot;, &quot;Bike Shop&quot;, &quot;Book Store&quot;, &quot;Camera Store&quot;, &quot;Clothing Store&quot;, &quot;Comic Book Store&quot;, &quot;Computers &amp; Electronics&quot;, &quot;Convenience Store&quot;, &quot;Cosmetics &amp; Beauty Supply&quot;, &quot;Department Store&quot;, &quot;Discount Store&quot;, &quot;Drugstore&quot;, &quot;Dry Cleaner&quot;, &quot;DVD &amp; Video Store&quot;, &quot;Eye Wear&quot;, &quot;Fireworks Retailer&quot;, &quot;Florist&quot;, &quot;Food &amp; Grocery&quot;, &quot;Furniture Store&quot;, &quot;Gift Shop&quot;, &quot;Gun Store&quot;, &quot;Home Improvement&quot;, &quot;Jewelry Store&quot;, &quot;Laundromat&quot;, &quot;Luggage Service&quot;, &quot;Mobile Phone Shop&quot;, &quot;Music Store&quot;, &quot;Office Supplies&quot;, &quot;Other&quot;, &quot;Outdoor Equipment Store&quot;, &quot;Party Center&quot;, &quot;Pet Store&quot;, &quot;Shopping District&quot;, &quot;Shopping Mall&quot;, &quot;Signs &amp; Banner Service&quot;, &quot;Sporting Goods Store&quot;, &quot;Toy Store&quot;, &quot;Wholesale &amp; Supply Store&quot;, &quot;Winery &amp; Vineyard&quot;, &quot;Aromatherapy&quot;, &quot;Barber Shop&quot;, &quot;Beauty Salon&quot;, &quot;Cosmetics &amp; Beauty Supply&quot;, &quot;Day Spa&quot;, &quot;Esthethics&quot;, &quot;Hair Removal&quot;, &quot;Hair Replacement&quot;, &quot;Hair Salon&quot;, &quot;Hairpieces &amp; Extensions&quot;, &quot;Health Spa&quot;, &quot;Makeup Artist&quot;, &quot;Massage&quot;, &quot;Medical Spa&quot;, &quot;Nail Salon&quot;, &quot;Skin Care&quot;, &quot;Spa&quot;, &quot;Tanning Salon&quot;, &quot;Tattoo &amp; Piercing&quot;, &quot;Teeth Whitening&quot;, &quot;Wig Store&quot;, &quot;Museum&quot;, &quot;Cruise Excursions&quot;, &quot;Eco Tours&quot;, &quot;Rental Shop&quot;, &quot;Tour Company&quot;, &quot;Tour Guide&quot;, &quot;Tourist Information&quot;, &quot;Public Figure&quot;]</span>
+
+	<span class="c1"># gamerCateg = [&quot;Arcade&quot;, &quot;Go Karting&quot;, &quot;Laser Tag&quot;, &quot;Entertainment Service&quot;, &quot;Cyber Cafe&quot;, &quot;Internet Cafe&quot;, &quot;Video Games&quot;, &quot;Video Game&quot;, &quot;Electronics Store&quot;, &quot;Computer Store&quot;, &quot;Games/Toys&quot;]</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,270 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>database &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for database</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">MySQLdb</span>
+<span class="kn">from</span> <span class="nn">models.post</span> <span class="k">import</span> <span class="n">Post</span>
+<span class="kn">from</span> <span class="nn">models.profile</span> <span class="k">import</span> <span class="n">Profile</span>
+<span class="kn">from</span> <span class="nn">models.likedpage</span> <span class="k">import</span> <span class="n">LikedPage</span>
+<span class="kn">from</span> <span class="nn">models.event</span> <span class="k">import</span> <span class="n">Event</span>
+<span class="kn">from</span> <span class="nn">models.semanticrelation</span> <span class="k">import</span> <span class="n">SemanticRelation</span>
+<span class="kn">import</span> <span class="nn">dateutil.parser</span>
+
+<div class="viewcode-block" id="Database"><a class="viewcode-back" href="../database.html#database.Database">[docs]</a><span class="k">class</span> <span class="nc">Database</span><span class="p">:</span>
+<div class="viewcode-block" id="Database.connectDB"><a class="viewcode-back" href="../database.html#database.Database.connectDB">[docs]</a>	<span class="k">def</span> <span class="nf">connectDB</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Connects to the Database</span>
+<span class="sd">	    :return: cursor in the database</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">host</span> <span class="o">=</span> <span class="s2">&quot;localhost&quot;</span>
+		<span class="n">user</span> <span class="o">=</span> <span class="s2">&quot;root&quot;</span>
+		<span class="n">password</span> <span class="o">=</span> <span class="s2">&quot;p@ssword&quot;</span>
+		<span class="n">database</span> <span class="o">=</span> <span class="s2">&quot;testingdb&quot;</span>
+		<span class="n">db</span> <span class="o">=</span> <span class="n">MySQLdb</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="n">host</span><span class="p">,</span> <span class="n">user</span><span class="o">=</span><span class="n">user</span><span class="p">,</span> <span class="n">passwd</span><span class="o">=</span><span class="n">password</span><span class="p">,</span> <span class="n">db</span><span class="o">=</span><span class="n">database</span><span class="p">)</span>
+		<span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+		<span class="k">return</span> <span class="n">cursor</span></div>
+
+<div class="viewcode-block" id="Database.getProfile"><a class="viewcode-back" href="../database.html#database.Database.getProfile">[docs]</a>	<span class="k">def</span> <span class="nf">getProfile</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Gets the profile information of the user from the database</span>
+<span class="sd">	    :param name: Facebook name of the user</span>
+<span class="sd">	    :return: instance of a profile</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">profile</span> <span class="o">=</span> <span class="kc">None</span>
+		<span class="n">db</span> <span class="o">=</span> <span class="n">Database</span><span class="p">()</span>
+		<span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">connectDB</span><span class="p">()</span>
+		<span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM profile WHERE name LIKE &#39;&quot;</span><span class="o">+</span> <span class="n">name</span> <span class="o">+</span><span class="s2">&quot;&#39;;&quot;</span><span class="p">)</span>
+		<span class="n">rows</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+
+		<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+			<span class="n">profile</span> <span class="o">=</span> <span class="n">Profile</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span>
+			         <span class="n">row</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">8</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+
+		<span class="k">return</span> <span class="n">profile</span></div>
+
+<div class="viewcode-block" id="Database.getPostsByLabel"><a class="viewcode-back" href="../database.html#database.Database.getPostsByLabel">[docs]</a>	<span class="k">def</span> <span class="nf">getPostsByLabel</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">persona</span><span class="p">,</span> <span class="n">tableName</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Gets the posts by a specific user preference</span>
+<span class="sd">	    :param persona: user preference</span>
+<span class="sd">	    :param tableName: table name of the user</span>
+<span class="sd">	    :return: array of posts</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">posts</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">db</span> <span class="o">=</span> <span class="n">Database</span><span class="p">()</span>
+		<span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">connectDB</span><span class="p">()</span>
+		<span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM &quot;</span> <span class="o">+</span> <span class="n">tableName</span> <span class="o">+</span> <span class="s2">&quot; WHERE label = &#39;&quot;</span> <span class="o">+</span> <span class="n">persona</span> <span class="o">+</span> <span class="s2">&quot;&#39; LIMIT 30;&quot;</span><span class="p">)</span>
+		<span class="n">rows</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+
+		<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+			<span class="n">date</span><span class="p">,</span> <span class="n">time</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">getDateTime</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+			<span class="n">p</span> <span class="o">=</span> <span class="n">Post</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">date</span><span class="p">,</span> <span class="n">time</span><span class="p">)</span>
+			<span class="n">posts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+
+		<span class="k">return</span> <span class="n">posts</span></div>
+
+<div class="viewcode-block" id="Database.getLikesByLabel"><a class="viewcode-back" href="../database.html#database.Database.getLikesByLabel">[docs]</a>	<span class="k">def</span> <span class="nf">getLikesByLabel</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">persona</span><span class="p">,</span> <span class="n">tableName</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Gets the liked pages by a specific user preference</span>
+<span class="sd">	    :param persona: user preference</span>
+<span class="sd">	    :param tableName: table name of the user</span>
+<span class="sd">	    :return: array of liked pages</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">likes</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">db</span> <span class="o">=</span> <span class="n">Database</span><span class="p">()</span>
+		<span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">connectDB</span><span class="p">()</span>
+		<span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM &quot;</span> <span class="o">+</span> <span class="n">tableName</span> <span class="o">+</span> <span class="s2">&quot; WHERE label = &#39;&quot;</span> <span class="o">+</span> <span class="n">persona</span> <span class="o">+</span> <span class="s2">&quot;&#39;;&quot;</span><span class="p">)</span>
+		<span class="n">rows</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+
+		<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+			<span class="n">l</span> <span class="o">=</span> <span class="n">LikedPage</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+			<span class="n">likes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
+
+		<span class="k">return</span> <span class="n">likes</span></div>
+
+<div class="viewcode-block" id="Database.getEventsByLabel"><a class="viewcode-back" href="../database.html#database.Database.getEventsByLabel">[docs]</a>	<span class="k">def</span> <span class="nf">getEventsByLabel</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">persona</span><span class="p">,</span> <span class="n">tableName</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Gets the events by a specific user preference</span>
+<span class="sd">	    :param persona: user preference</span>
+<span class="sd">	    :param tableName: table name of the user</span>
+<span class="sd">	    :return: array of events</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">events</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="n">db</span> <span class="o">=</span> <span class="n">Database</span><span class="p">()</span>
+		<span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">connectDB</span><span class="p">()</span>
+		<span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM &quot;</span> <span class="o">+</span> <span class="n">tableName</span> <span class="o">+</span> <span class="s2">&quot; WHERE label = &#39;&quot;</span> <span class="o">+</span> <span class="n">persona</span> <span class="o">+</span> <span class="s2">&quot;&#39;;&quot;</span><span class="p">)</span>
+		<span class="n">rows</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+
+		<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+			<span class="n">e</span> <span class="o">=</span> <span class="n">Event</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">row</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+			<span class="n">events</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+		<span class="k">return</span> <span class="n">events</span></div>
+
+<div class="viewcode-block" id="Database.getDateTime"><a class="viewcode-back" href="../database.html#database.Database.getDateTime">[docs]</a>	<span class="k">def</span> <span class="nf">getDateTime</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timestamp</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Converts the timestamp to date and time</span>
+<span class="sd">	    :param timestamp: date and time the post was created</span>
+<span class="sd">	    :return: date, time</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">timestamp</span> <span class="o">=</span> <span class="n">timestamp</span><span class="p">[:</span><span class="o">-</span><span class="mi">5</span><span class="p">]</span>
+		<span class="n">dup2</span> <span class="o">=</span> <span class="n">dateutil</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">timestamp</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">dup2</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%B </span><span class="si">%d</span><span class="s1">, %Y&#39;</span><span class="p">),</span> <span class="n">dup2</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%H:%M&#39;</span><span class="p">)</span></div></div>
+
+	<span class="c1"># def feedSemRel(self, relationid, term_1, term_2):</span>
+	<span class="c1"># 	host = &quot;localhost&quot;</span>
+	<span class="c1"># 	user = &quot;root&quot;</span>
+	<span class="c1"># 	password = &quot;p@ssword&quot;</span>
+	<span class="c1"># 	database = &quot;ieappdb&quot;</span>
+	<span class="c1"># 	db = MySQLdb.connect(host=host, user=user, passwd=password, db=database)</span>
+	<span class="c1"># 	cursor = db.cursor()</span>
+	<span class="c1"># 	cursor.execute((&quot;&quot;&quot;	INSERT INTO semantic_ontology (relation_id,term_1,term_2) </span>
+	<span class="c1"># 	                	VALUES(%s,%s,%s) </span>
+	<span class="c1"># 	                	WHERE NOT EXISTS (</span>
+	<span class="c1"># 	                		SELECT * FROM semantic_ontology </span>
+	<span class="c1"># 	                		WHERE relation_id = $s AND term_1 LIKE $s AND term_2 LIKE $s</span>
+	<span class="c1"># 	                	) LIMIT 1;&quot;&quot;&quot;), (int(relationid), term_1, term_2,int(relationid), term_1, term_2))</span>
+	<span class="c1"># 	db.commit()</span>
+
+	<span class="c1"># def findRelation(self, relation):</span>
+	<span class="c1"># 	relid = -1</span>
+	<span class="c1"># 	db = Database()</span>
+	<span class="c1"># 	cursor = db.connectDB()</span>
+	<span class="c1"># 	cursor.execute(&quot;SELECT * FROM relations WHERE relation LIKE &#39;&quot; + relation + &quot;&#39;;&quot;)</span>
+	<span class="c1"># 	rows = cursor.fetchall()</span>
+
+	<span class="c1"># 	for row in rows:</span>
+	<span class="c1"># 		relid = row[0]</span>
+
+	<span class="c1"># 	return relid</span>
+
+	<span class="c1"># def searchSemRel(self, term):</span>
+	<span class="c1"># 	semrel = []</span>
+	<span class="c1"># 	db = Database()</span>
+	<span class="c1"># 	cursor = db.connectDB()</span>
+	<span class="c1"># 	cursor.execute(&quot;SELECT * FROM semantic_ontology WHERE term_1 LIKE &#39;&quot; + term + &quot;&#39; OR term_2 LIKE &#39;&quot; + term + &quot;&#39;;&quot;)</span>
+	<span class="c1"># 	rows = cursor.fetchall()</span>
+
+	<span class="c1"># 	for row in rows:</span>
+	<span class="c1"># 		s = SemanticRelation(row[0], row[1], row[2], row[3] )</span>
+	<span class="c1"># 		semrel.append(s)</span>
+
+	<span class="c1"># 	return semrel</span>
+
+	<span class="c1"># def searchTerm(self, term):</span>
+	<span class="c1"># 	semrel = []</span>
+	<span class="c1"># 	db = Database()</span>
+	<span class="c1"># 	cursor = db.connectDB()</span>
+	<span class="c1"># 	cursor.execute(&quot;SELECT * FROM semantic_ontology WHERE term_1 LIKE &#39;&quot; + term + &quot;&#39;;&quot;)</span>
+	<span class="c1"># 	rows = cursor.fetchall()</span>
+
+	<span class="c1"># 	for row in rows:</span>
+	<span class="c1"># 		s = SemanticRelation(row[0], row[1], row[2], row[3] )</span>
+	<span class="c1"># 		semrel.append(s)</span>
+
+	<span class="c1"># 	return semrel</span>
+
+	
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,340 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>alchemyapi module &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="asstypes module" href="asstypes.html" />
+    <link rel="prev" title="spellcheck module" href="spellcheck.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-alchemyapi">
+<span id="alchemyapi-module"></span><h1>alchemyapi module<a class="headerlink" href="#module-alchemyapi" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="alchemyapi.AlchemyAPI">
+<em class="property">class </em><code class="descclassname">alchemyapi.</code><code class="descname">AlchemyAPI</code><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="attribute">
+<dt id="alchemyapi.AlchemyAPI.data">
+<code class="descname">data</code><em class="property"> = None</em><a class="headerlink" href="#alchemyapi.AlchemyAPI.data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getCategories">
+<code class="descname">getCategories</code><span class="sig-paren">(</span><em>query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getCategories"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getCategories" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Get the value from the categories feature of Watson API with &gt;= 75% relevance according to category type</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param query:</th><td class="field-body">category type</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of categories</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getCategoriesNoRelevance">
+<code class="descname">getCategoriesNoRelevance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getCategoriesNoRelevance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getCategoriesNoRelevance" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the categories feature of Watson API with no relevance</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of categories</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getCategoriesNoRelevance2">
+<code class="descname">getCategoriesNoRelevance2</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getCategoriesNoRelevance2"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getCategoriesNoRelevance2" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the 3rd level hierarchy from the categories feature of Watson API</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of 3rd level hierarchies</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getConcepts">
+<code class="descname">getConcepts</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getConcepts"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getConcepts" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the concepts feature of Watson API with no relevance</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of concepts</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getConceptsRelevance">
+<code class="descname">getConceptsRelevance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getConceptsRelevance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getConceptsRelevance" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the concepts feature of Watson API with &gt; 85% relevance</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of concepts</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getEntities">
+<code class="descname">getEntities</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getEntities"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getEntities" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the entity feature of Watson API</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of entities</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getKeywords">
+<code class="descname">getKeywords</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getKeywords"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getKeywords" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the keywords feature of Watson API with &gt; 50% relevance</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of keywords</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getKeywordsNoRelevance">
+<code class="descname">getKeywordsNoRelevance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getKeywordsNoRelevance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getKeywordsNoRelevance" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the keywords feature of Watson API with no relevance</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of keywords</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getRelations">
+<code class="descname">getRelations</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getRelations"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getRelations" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the relations feature of Watson API</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of relations</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getSemanticRoles">
+<code class="descname">getSemanticRoles</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getSemanticRoles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getSemanticRoles" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the semantic role feature of Watson API</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">JSON of semantic roles</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.getSentiment">
+<code class="descname">getSentiment</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.getSentiment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.getSentiment" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Get the value from the sentiment feature of Watson API</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">sentiment</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="alchemyapi.AlchemyAPI.natural_language_understanding">
+<code class="descname">natural_language_understanding</code><em class="property"> = None</em><a class="headerlink" href="#alchemyapi.AlchemyAPI.natural_language_understanding" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alchemyapi.AlchemyAPI.nlu">
+<code class="descname">nlu</code><span class="sig-paren">(</span><em>query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/alchemyapi.html#AlchemyAPI.nlu"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#alchemyapi.AlchemyAPI.nlu" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>API Call to IBM Watson API to get the information about the query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param query:</th><td class="field-body"></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True (if without error/s) or False (if with error/s)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">IEApp</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="database.html">database module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="driver.html">driver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="filemanager.html">filemanager module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clean.html">clean module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="emojiremove.html">emojiremove module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entity.html">entity module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spellcheck.html">spellcheck module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">alchemyapi module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="asstypes.html">asstypes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conceptnet.html">conceptnet module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contextunderstanding.html">contextunderstanding module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dbpedia.html">dbpedia module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fanextract.html">fanextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="foodextract.html">foodextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gameextract.html">gameextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="googlesearch.html">googlesearch module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="likedpagesevents.html">likedpagesevents module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sportextract.html">sportextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="translator.html">translator module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">IEApp</a><ul>
+      <li>Previous: <a href="spellcheck.html" title="previous chapter">spellcheck module</a></li>
+      <li>Next: <a href="asstypes.html" title="next chapter">asstypes module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/alchemyapi.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

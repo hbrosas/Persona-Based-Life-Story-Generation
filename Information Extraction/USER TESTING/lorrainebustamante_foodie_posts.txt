@@ -1,0 +1,43 @@
+{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Lorraine Bustamante",
+    "Food": "lunch",
+    "Type": [
+      "Lunch"
+    ],
+    "Sentiment": "father's day lunch. ?",
+    "Sentiment_Class": "neutral",
+    "date": "June 17, 2018",
+    "time": "14:52"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Lorraine Bustamante",
+    "Food": "sunday family lunch",
+    "Type": [
+      "Lunch"
+    ],
+    "Sentiment": "sunday family lunch? ?",
+    "Sentiment_Class": "positive",
+    "date": "February 19, 2017",
+    "time": "07:39"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Lorraine Bustamante",
+    "Food": "shawarma",
+    "Type": [
+      "salads"
+    ],
+    "Sentiment": "shawarma is life.",
+    "Sentiment_Class": "positive",
+    "date": "January 09, 2017",
+    "time": "09:06"
+  },
+  "persona": "The Foodie"
+},

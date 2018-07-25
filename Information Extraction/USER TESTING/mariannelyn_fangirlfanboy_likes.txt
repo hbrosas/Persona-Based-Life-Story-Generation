@@ -1,0 +1,365 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "adidas.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "H&M. Fashion and quality at the best price in a sustainable way..",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Larawan ni Geof - Jihofri.",
+    "CATEGORY": "Photographer",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Skulptz. .",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Artzs.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "I Can See Your Voice PH. \"",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Emperador Brandy.",
+    "CATEGORY": "Wine/Spirits",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Depression Kills.",
+    "CATEGORY": "Library",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Lazada Super Moms.",
+    "CATEGORY": "Retail Company",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Lazada.",
+    "CATEGORY": "Retail Company",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "MAC Cosmetics.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Pedigree Philippines.",
+    "CATEGORY": "Pet Supplies",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Malabon Food Trip.",
+    "CATEGORY": "Blogger",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Macky Kassandra's online shop.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "CHOCOLATE FACTORY.",
+    "CATEGORY": "Performing Arts",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Sports5.",
+    "CATEGORY": "TV Network",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "TV5.",
+    "CATEGORY": "TV Network",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Pinoy Big Brother Abs-Cbn.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Beat  Makers Dance Crew. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Papa Bol.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "HYGO Pretty.",
+    "CATEGORY": "Magazine",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Purpose Tour Manila.",
+    "CATEGORY": "Concert Tour",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "GMA Drama.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Chachi Gonzales. .",
+    "CATEGORY": "Dancer",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Parenting.",
+    "CATEGORY": "Website",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "COPPER.",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "DJ Carlo Atendido.",
+    "CATEGORY": "Performing Arts",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "DJ Chacha (Ang Nag-iisang",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Marimba Remix.",
+    "CATEGORY": "Performing Arts",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "OXYGEN\u0099. Fresh daily!",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Typewriters voice.",
+    "CATEGORY": "Motivational Speaker",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Eat Bulaga.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Pennyworthtravels.",
+    "CATEGORY": "Blogger",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "ARMORY APPAREL.",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Sinio Official.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Maxim Dandan.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Regal Entertainment Inc..",
+    "CATEGORY": "Performing Arts",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Senyora.",
+    "CATEGORY": "Author",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Beauty On a Budget (B.O.B).",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Donnalyn Bartolome.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "FANCY FEET",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "boohoo.com.",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fi\u00e8vre.",
+    "CATEGORY": "Retail Company",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Krystal Fanatics. .",
+    "CATEGORY": "Magazine",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "True Love Waits.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Teejay Marquez.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "GMA Network.",
+    "CATEGORY": "TV Network",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Gandang Di Mo Inakala :'>.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ivan Dorschner.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ha Baket?",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Bopler Tap Tour.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Cupid.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

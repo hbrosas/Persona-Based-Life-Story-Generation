@@ -1,0 +1,368 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>alchemyapi &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for alchemyapi</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">watson_developer_cloud</span> <span class="k">import</span> <span class="n">NaturalLanguageUnderstandingV1</span>
+<span class="kn">from</span> <span class="nn">watson_developer_cloud.natural_language_understanding_v1</span> \
+<span class="kn">import</span> <span class="nn">Features</span><span class="o">,</span> <span class="nn">EntitiesOptions</span><span class="o">,</span> <span class="nn">KeywordsOptions</span><span class="o">,</span> <span class="nn">ConceptsOptions</span><span class="o">,</span> <span class="nn">RelationsOptions</span><span class="o">,</span> <span class="nn">SemanticRolesOptions</span><span class="o">,</span> <span class="nn">SentimentOptions</span><span class="o">,</span> <span class="nn">CategoriesOptions</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<div class="viewcode-block" id="AlchemyAPI"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI">[docs]</a><span class="k">class</span> <span class="nc">AlchemyAPI</span><span class="p">:</span>
+
+	<span class="n">natural_language_understanding</span> <span class="o">=</span> <span class="kc">None</span>
+	<span class="n">data</span> <span class="o">=</span> <span class="kc">None</span>
+	<span class="c1"># API KEY = l0VKiFG4MwLKZTy7D4ysmX8c6WDOp861uuaSVApxaRTa</span>
+
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">natural_language_understanding</span> <span class="o">=</span> <span class="n">NaturalLanguageUnderstandingV1</span><span class="p">(</span>
+			<span class="n">username</span><span class="o">=</span> <span class="s2">&quot;943cc17a-b880-405b-a9d3-c7ecd96573f6&quot;</span><span class="p">,</span>
+  			<span class="n">password</span><span class="o">=</span> <span class="s2">&quot;GMvS5YkkNiAq&quot;</span><span class="p">,</span>
+			<span class="n">version</span><span class="o">=</span><span class="s1">&#39;2018-03-19&#39;</span>
+		<span class="p">)</span>
+
+<div class="viewcode-block" id="AlchemyAPI.nlu"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.nlu">[docs]</a>	<span class="k">def</span> <span class="nf">nlu</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		API Call to IBM Watson API to get the information about the query</span>
+
+<span class="sd">		:param query:</span>
+<span class="sd">	    :return: True (if without error/s) or False (if with error/s)</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">natural_language_understanding</span><span class="o">.</span><span class="n">analyze</span><span class="p">(</span>
+				<span class="n">text</span><span class="o">=</span><span class="n">query</span><span class="p">,</span>
+				<span class="n">features</span><span class="o">=</span><span class="n">Features</span><span class="p">(</span>
+					<span class="n">entities</span><span class="o">=</span><span class="n">EntitiesOptions</span><span class="p">(</span>
+						<span class="n">emotion</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+						<span class="n">sentiment</span><span class="o">=</span><span class="kc">False</span>
+					<span class="p">),</span>
+					<span class="n">keywords</span><span class="o">=</span><span class="n">KeywordsOptions</span><span class="p">(</span>
+						<span class="n">emotion</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+						<span class="n">sentiment</span><span class="o">=</span><span class="kc">False</span>
+					<span class="p">),</span>
+					<span class="n">concepts</span><span class="o">=</span><span class="n">ConceptsOptions</span><span class="p">(),</span>
+					<span class="n">relations</span><span class="o">=</span><span class="n">RelationsOptions</span><span class="p">(),</span>
+					<span class="n">semantic_roles</span><span class="o">=</span><span class="n">SemanticRolesOptions</span><span class="p">(),</span>
+					<span class="n">sentiment</span><span class="o">=</span><span class="n">SentimentOptions</span><span class="p">(),</span>
+					<span class="n">categories</span><span class="o">=</span><span class="n">CategoriesOptions</span><span class="p">()</span>
+				<span class="p">)</span>
+			<span class="p">)</span>
+
+			<span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
+			<span class="c1"># print(json.dumps(response, indent=2))</span>
+			<span class="k">return</span> <span class="kc">True</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="kc">False</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getEntities"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getEntities">[docs]</a>	<span class="k">def</span> <span class="nf">getEntities</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the entity feature of Watson API</span>
+
+<span class="sd">	    :return: JSON of entities</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;entities&#39;</span><span class="p">]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getKeywords"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getKeywords">[docs]</a>	<span class="k">def</span> <span class="nf">getKeywords</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the keywords feature of Watson API with &gt; 50% relevance</span>
+
+<span class="sd">	    :return: JSON of keywords</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="n">relevant</span> <span class="o">=</span> <span class="p">[]</span>
+				<span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;keywords&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+					<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;keywords&#39;</span><span class="p">]:</span>
+						<span class="k">if</span> <span class="n">k</span><span class="p">[</span><span class="s1">&#39;relevance&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.50</span><span class="p">:</span>
+							<span class="n">relevant</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">])</span>
+				<span class="k">return</span> <span class="n">relevant</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getKeywordsNoRelevance"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getKeywordsNoRelevance">[docs]</a>	<span class="k">def</span> <span class="nf">getKeywordsNoRelevance</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the keywords feature of Watson API with no relevance</span>
+
+<span class="sd">	    :return: JSON of keywords</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="n">relevant</span> <span class="o">=</span> <span class="p">[]</span>
+				<span class="k">if</span> <span class="s2">&quot;keywords&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+					<span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;keywords&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+						<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;keywords&#39;</span><span class="p">]:</span>
+							<span class="n">relevant</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">])</span>
+					<span class="k">return</span> <span class="n">relevant</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="k">return</span> <span class="p">[]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getConcepts"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getConcepts">[docs]</a>	<span class="k">def</span> <span class="nf">getConcepts</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the concepts feature of Watson API with no relevance</span>
+
+<span class="sd">	    :return: JSON of concepts</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="n">concepts</span> <span class="o">=</span> <span class="p">[]</span>
+				<span class="k">if</span> <span class="s2">&quot;concepts&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+					<span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;concepts&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+						<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;concepts&#39;</span><span class="p">]:</span>
+							<span class="n">concepts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">])</span>
+						<span class="k">return</span> <span class="n">concepts</span>
+					<span class="c1"># print(self.data[&#39;concepts&#39;])</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="k">return</span> <span class="p">[]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getConceptsRelevance"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getConceptsRelevance">[docs]</a>	<span class="k">def</span> <span class="nf">getConceptsRelevance</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the concepts feature of Watson API with &gt; 85% relevance</span>
+
+<span class="sd">	    :return: JSON of concepts</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="n">concepts</span> <span class="o">=</span> <span class="p">[]</span>
+				<span class="k">if</span> <span class="s2">&quot;concepts&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+					<span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;concepts&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+						<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;concepts&#39;</span><span class="p">]:</span>
+							<span class="k">if</span> <span class="n">c</span><span class="p">[</span><span class="s1">&#39;relevance&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mf">0.85</span><span class="p">:</span>
+								<span class="n">concepts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">])</span>
+						<span class="k">return</span> <span class="n">concepts</span>
+					<span class="c1"># print(self.data[&#39;concepts&#39;])</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="k">return</span> <span class="p">[]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getRelations"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getRelations">[docs]</a>	<span class="k">def</span> <span class="nf">getRelations</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the relations feature of Watson API</span>
+
+<span class="sd">	    :return: JSON of relations</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;relations&#39;</span><span class="p">]</span> 
+				<span class="c1"># print(self.data[&#39;relations&#39;])</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getSemanticRoles"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getSemanticRoles">[docs]</a>	<span class="k">def</span> <span class="nf">getSemanticRoles</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the semantic role feature of Watson API</span>
+
+<span class="sd">	    :return: JSON of semantic roles</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;semantic_roles&#39;</span><span class="p">]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getSentiment"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getSentiment">[docs]</a>	<span class="k">def</span> <span class="nf">getSentiment</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the sentiment feature of Watson API</span>
+
+<span class="sd">	    :return: sentiment</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;sentiment&#39;</span><span class="p">][</span><span class="s1">&#39;document&#39;</span><span class="p">][</span><span class="s1">&#39;score&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">0.0</span><span class="p">:</span>
+					<span class="k">return</span> <span class="s2">&quot;neutral&quot;</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;sentiment&#39;</span><span class="p">][</span><span class="s1">&#39;document&#39;</span><span class="p">][</span><span class="s1">&#39;label&#39;</span><span class="p">]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="s2">&quot;neutral&quot;</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="s2">&quot;neutral&quot;</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getCategories"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getCategories">[docs]</a>	<span class="k">def</span> <span class="nf">getCategories</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">query</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the categories feature of Watson API with &gt;= 75% relevance according to category type</span>
+
+<span class="sd">		:param query: category type</span>
+<span class="sd">	    :return: JSON of categories</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">categories</span> <span class="o">=</span> <span class="p">[]</span>
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="k">if</span> <span class="s2">&quot;categories&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+					<span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;categories&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+						<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;categories&#39;</span><span class="p">]:</span>
+							<span class="n">heirarchy</span> <span class="o">=</span> <span class="p">[]</span>
+							<span class="k">if</span> <span class="n">c</span><span class="p">[</span><span class="s1">&#39;score&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mf">0.75</span><span class="p">:</span>
+								<span class="n">heirarchy</span> <span class="o">=</span> <span class="n">c</span><span class="p">[</span><span class="s1">&#39;label&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+								<span class="c1"># print(&quot;heirarchy: &quot;, heirarchy)</span>
+								<span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="n">heirarchy</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+									<span class="k">if</span> <span class="n">query</span> <span class="ow">in</span> <span class="n">heirarchy</span><span class="p">:</span>
+										<span class="n">categories</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">heirarchy</span><span class="p">[(</span><span class="nb">len</span><span class="p">(</span><span class="n">heirarchy</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)])</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="n">categories</span> <span class="o">=</span> <span class="p">[]</span>
+
+		<span class="k">return</span> <span class="n">categories</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getCategoriesNoRelevance"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getCategoriesNoRelevance">[docs]</a>	<span class="k">def</span> <span class="nf">getCategoriesNoRelevance</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the value from the categories feature of Watson API with no relevance</span>
+
+<span class="sd">	    :return: JSON of categories</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="k">if</span> <span class="s2">&quot;categories&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+					<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;categories&#39;</span><span class="p">]</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="k">return</span> <span class="p">[]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div>
+
+<div class="viewcode-block" id="AlchemyAPI.getCategoriesNoRelevance2"><a class="viewcode-back" href="../alchemyapi.html#alchemyapi.AlchemyAPI.getCategoriesNoRelevance2">[docs]</a>	<span class="k">def</span> <span class="nf">getCategoriesNoRelevance2</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Get the 3rd level hierarchy from the categories feature of Watson API</span>
+
+<span class="sd">	    :return: array of 3rd level hierarchies</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="k">try</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+				<span class="n">categories</span> <span class="o">=</span> <span class="p">[]</span>
+				<span class="k">if</span> <span class="s2">&quot;categories&quot;</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+					<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;categories&#39;</span><span class="p">]:</span>
+						<span class="n">categories</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="s1">&#39;label&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">))</span>
+					<span class="k">return</span> <span class="n">categories</span>
+				<span class="k">else</span><span class="p">:</span>
+					<span class="k">return</span> <span class="p">[]</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">return</span> <span class="p">[]</span>
+		<span class="k">except</span><span class="p">:</span>
+			<span class="k">return</span> <span class="p">[]</span></div></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

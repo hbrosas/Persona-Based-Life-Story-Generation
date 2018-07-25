@@ -1,0 +1,246 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Hana-tox.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Musical Theatre Moments.",
+    "CATEGORY": "Theatrical Productions",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Lana Jay.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Liza Koshy.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "PJ's Art Box.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Art of Patricia Ramos.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "HGTV.",
+    "CATEGORY": "TV Network",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Circus-usagi.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Rosso Mimi.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Parada.",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "How to DAD.",
+    "CATEGORY": "Coach",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jasu Wonder World.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Emily Canham.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Nerd Corner.",
+    "CATEGORY": "Website",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Manila International Book Fair. .",
+    "CATEGORY": "Website",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Hiro Hamada. ?",
+    "CATEGORY": "Fictional Character",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ligaya.",
+    "CATEGORY": "Book Series",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Yellow Diamond Universe.",
+    "CATEGORY": "Fictional Character",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Alvin and the Chipmunks.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Squishy Star.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Tonight Show Starring Jimmy Fallon.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "StylishEve.",
+    "CATEGORY": "Magazine",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "DLSU Library - Turn 1 into a Million.",
+    "CATEGORY": "Library",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Walt Disney Studios.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Saturday Night Live.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Sims.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Tetris Battle.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fred.",
+    "CATEGORY": "Comedian",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Avatar: The Last Airbender.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Glee.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Logan Lerman. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Russell.",
+    "CATEGORY": "Movie Character",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Squirt. \"",
+    "CATEGORY": "Movie Character",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jeff Dunham.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Manny Pacquiao.",
+    "CATEGORY": "Website",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

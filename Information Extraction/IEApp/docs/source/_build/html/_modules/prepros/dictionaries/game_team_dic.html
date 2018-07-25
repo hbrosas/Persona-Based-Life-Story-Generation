@@ -1,0 +1,385 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>prepros.dictionaries.game_team_dic &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for prepros.dictionaries.game_team_dic</h1><div class="highlight"><pre>
+<span></span>
+<span class="k">class</span> <span class="nc">GameTeamsDictionary</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+	<span class="n">dictionary</span> <span class="o">=</span> <span class="p">{}</span>
+
+	<span class="k">def</span> <span class="nf">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span> <span class="o">=</span> <span class="p">{</span>
+			 <span class="s2">&quot;Team Solo Mid&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Team Solo Mid&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;TSM&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span> <span class="s2">&quot;Fortnite&quot;</span><span class="p">,</span> <span class="s2">&quot;Player Unkown&#39;s Battlegrounds&quot;</span><span class="p">,</span> <span class="s2">&quot;H1Z1&quot;</span><span class="p">,</span> <span class="s2">&quot;Super Smash Bros&quot;</span><span class="p">,</span> <span class="s2">&quot;Overwatch&quot;</span><span class="p">,</span> <span class="s2">&quot;VainGlory&quot;</span><span class="p">,],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Cloud 9&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Cloud 9&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="s2">&quot;C9&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;Categories&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span> <span class="s2">&quot;Fortnite&quot;</span><span class="p">,</span> <span class="s2">&quot;Player Unkown&#39;s Battlegrounds&quot;</span><span class="p">,</span> <span class="s2">&quot;H1Z1&quot;</span><span class="p">,</span> <span class="s2">&quot;Super Smash Bros&quot;</span><span class="p">,</span> <span class="s2">&quot;Overwatch&quot;</span><span class="p">,</span> <span class="s2">&quot;Clash Royale&quot;</span><span class="p">,</span> <span class="s2">&quot;Rocket League&quot;</span><span class="p">,</span> <span class="s2">&quot;Rainbow Six Siege&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>			 
+			 <span class="s2">&quot;Golden Guardians&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Golden Guardians&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Golden Guardians&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;FlyQuest&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;FlyQuest&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;FlyQuest&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Echo Fox&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;EchoFox&quot;</span><span class="p">,</span>
+ 			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;EchoFox&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Clutch Gaming&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Clutch Gaming&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;CG&quot;</span><span class="p">,],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Team Liquid&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Team Liquid&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;TL&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span> <span class="s2">&quot;Streamers&quot;</span><span class="p">,</span> <span class="s2">&quot;Rocket League&quot;</span><span class="p">,</span> <span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span> <span class="s2">&quot;Smash&quot;</span><span class="p">,</span> <span class="s2">&quot;Smite&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Optic Gaming&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Optic Gaming&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Optic&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span> <span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">,</span> <span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Counter Logic Gaming&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Counter Logic Gaming&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;CLG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Astralis&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Astralis&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Astralis&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Natus Vincere&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Natus Vincere&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;NAVI&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span>  <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Faze&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Faze&quot;</span> <span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Faze&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span><span class="s2">&quot;Call of Duty&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span>  <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Fnatic&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Fnatic&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;FNC&quot;</span><span class="p">,</span> <span class="s2">&quot;Fnatic&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">,</span> <span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span>  <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;North&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;North&quot;</span> <span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span>  <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;mousesports&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;mousesports&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;mouz&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span>  <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;NRG Esports&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;NRG Esports&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;NRG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;G2 Esports&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;G2 Esports&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;G2&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span> <span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span> <span class="s2">&quot;Hearthstone&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Ninjas in Pyjamas&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Ninjas in Pyjamas&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;NIP&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span> <span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">,</span> <span class="s2">&quot;Overwatch&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="s2">&quot;Virtus Pro&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Virtus Pro&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;VP&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span> <span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Evil Geniuses&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Evil Geniuses&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;EG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Newbee&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Newbee&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Newbee&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;China&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Mineski&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Mineski&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;MSK&quot;</span><span class="p">,</span> <span class="s2">&quot;mineski&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Philippines&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Team Kinguin&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Team Kinguin&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Kinguin&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;EnvyUs&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;EnvyUs&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;NV&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span> <span class="s2">&quot;Overwatch&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">,</span> <span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;The Net Com&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;The Net Com&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;TNC&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span> <span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Philippines&quot;</span><span class="p">,</span> <span class="s2">&quot;Malaysian&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Team Secret&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Team Secret&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Secret&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>			 
+			 <span class="s2">&quot;Digital Chaos&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Digital Chaos&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;DC&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;OG DOTA 2&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;OG DOTA 2&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;OG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;paiN Gaming&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;paiN Gaming&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;paiN&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Brazil&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;VG.J Thunder&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;VG.J Thunder&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;VGJ.T&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;China&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Complexity Gaming&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Complexity Gaming&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;coL&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;North America&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Team Spirit&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Team Spirit&quot;</span> <span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;TS&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Europe&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;TNC Tiger&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;TNC Tiger&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;TNC.T&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Malaysia&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;SK Telecom&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;SK Telecom&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;SKT&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span>  <span class="p">[</span><span class="s2">&quot;Korea&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;KT Rolster&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;KT Rolster&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;KT&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Korea&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Afreeca Freecs&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Afreeca Freecs&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;AFS&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Korea&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Kingzone DragonX&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Kingzone DragonX&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;KZ&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Korea&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Griffin&quot;</span> <span class="p">:</span> <span class="p">{</span> 
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Griffin&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Griffin&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Korea&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Royal Never Give Up&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Royal Never Give Up&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;RNG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;China&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Oh My God&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;Oh My God&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;OMG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;China&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Vici Gaming&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Vici Gaming&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;VG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span><span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span> <span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;China&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;World Elite&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span>  <span class="s2">&quot;World Elite&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;WE&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Categories&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;League of Legends&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Country&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;China&quot;</span><span class="p">],</span>
+			 <span class="p">},</span>				 			 
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+
+	<span class="k">def</span> <span class="nf">replace</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="c1"># print(&quot;Key: &quot;, key)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">replace_all</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">replace_all</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">dic</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">dic</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">text</span>
+
+	<span class="k">def</span> <span class="nf">lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">lookupAbbr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="k">for</span> <span class="n">abbr</span> <span class="ow">in</span> <span class="n">v</span><span class="p">[</span><span class="s1">&#39;ABBR&#39;</span><span class="p">]:</span>
+				<span class="k">if</span> <span class="n">abbr</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">key</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+					<span class="k">return</span> <span class="n">v</span>
+
+	<span class="k">def</span> <span class="nf">findIn</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">post</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">k</span><span class="p">:</span>
+				<span class="k">return</span> <span class="n">v</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">for</span> <span class="n">ab</span> <span class="ow">in</span> <span class="n">v</span><span class="p">[</span><span class="s1">&#39;ABBR&#39;</span><span class="p">]:</span>
+					<span class="k">if</span> <span class="n">ab</span> <span class="ow">in</span> <span class="n">post</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+						<span class="k">return</span> <span class="n">v</span>
+					<span class="k">else</span><span class="p">:</span>
+						<span class="k">return</span> <span class="kc">None</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

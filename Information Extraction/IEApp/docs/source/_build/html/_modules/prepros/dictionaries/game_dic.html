@@ -1,0 +1,458 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>prepros.dictionaries.game_dic &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for prepros.dictionaries.game_dic</h1><div class="highlight"><pre>
+<span></span>
+<span class="k">class</span> <span class="nc">GameDictionary</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+	<span class="n">dictionary</span> <span class="o">=</span> <span class="p">{}</span>
+
+	<span class="k">def</span> <span class="nf">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span> <span class="o">=</span> <span class="p">{</span>
+			 <span class="s2">&quot;League of Legends&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;League of Legends&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;LoL&quot;</span><span class="p">,</span> <span class="s2">&quot;League&quot;</span><span class="p">,</span> <span class="s2">&quot;L0L&quot;</span><span class="p">,</span> <span class="s2">&quot;lol&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Multiplayer Online Battle Arena&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Defense of the Ancients&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Defense of the Ancients&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;DOTA&quot;</span><span class="p">,</span> <span class="s2">&quot;Dota&quot;</span><span class="p">,</span> <span class="s2">&quot;Dota 2&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Multiplayer Online Battle Arena&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Counter Strike: Global Offensive&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Counter Strike: Global Offensive&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;CS:GO&quot;</span><span class="p">,</span> <span class="s2">&quot;csgo&quot;</span><span class="p">,</span> <span class="s2">&quot;CSGO&quot;</span><span class="p">,</span> <span class="s2">&quot;CS&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;First Person Shooter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Competitive&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Fortnite Battle Royale&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span> <span class="p">:</span> <span class="s2">&quot;Fornite Batle Royale&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Fortnite&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Battle Royale&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Realm Royale&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Realm Royale&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;RR&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Battle Royale&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Player Unknown&#39;s Battlegrounds&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Player Unknown&#39;s Battlegrounds&quot;</span><span class="p">,</span>		 	
+				<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;PUBG&quot;</span><span class="p">,</span><span class="s2">&quot;POBG&quot;</span><span class="p">,</span> <span class="s2">&quot;PUGG&quot;</span><span class="p">,</span> <span class="s2">&quot;P0BG&quot;</span><span class="p">,</span> <span class="s2">&quot;PABG&quot;</span><span class="p">,</span> <span class="s2">&quot;PABGI&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Battle Royale&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ladder&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Overwatch&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Overwatch&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;OW&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;First Person Shooter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Hearthstone&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Hearthstone&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;HS&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Collectible Card Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Monster Hunter&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Monster Hunter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Monster Hunter&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action Role-playing Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">,</span> <span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Monster Hunter: World&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Monster Hunter: World&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;MOnster Hunter: World&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action Role-playing Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">,</span> <span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Far Cry 5&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Far Cry 5&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Far Cry 5&quot;</span><span class="p">,</span> <span class="s2">&quot;Farcry 5&quot;</span><span class="p">,</span> <span class="s2">&quot;Far Cry&quot;</span><span class="p">,</span> <span class="s2">&quot;FC5&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Action-adventure Game&quot;</span><span class="p">,</span> <span class="s2">&quot;First Person Shooter&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Fallout 76&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Fallout 76&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Fallout 76&quot;</span><span class="p">,</span> <span class="s2">&quot;F76&quot;</span><span class="p">,</span> <span class="s2">&quot;Fallout&quot;</span><span class="p">,</span> <span class="s2">&quot;Fallout-76&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action role-playing Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Vampyr&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Vampyr&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Vampyr&quot;</span><span class="p">,</span> <span class="s2">&quot;Vamp&quot;</span><span class="p">,</span> <span class="s2">&quot;Vampire&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action Role-playing Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Jurrasic World Evolution&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Jurrasic World Evolution&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Jurrasic&quot;</span><span class="p">,</span> <span class="s2">&quot;Jurrasic World&quot;</span><span class="p">,</span> <span class="s2">&quot;JWE&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Economic simulation&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Dragon Ball FighterZ&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Dragon Ball FighterZ&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="s2">&quot;DBZ&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Fighting Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">,</span> <span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Rainbow Six Siege&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Rainbow Six Siege&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;R6&quot;</span><span class="p">,</span> <span class="s2">&quot;Rainbow Six Siege&quot;</span><span class="p">,</span> <span class="s2">&quot;R6 Siege&quot;</span><span class="p">,</span> <span class="s2">&quot;R6S&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Tactical Shooter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Warframe&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Warframe&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Warframe&quot;</span><span class="p">,</span> <span class="s2">&quot;WF&quot;</span> <span class="s2">&quot;WFrame&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Third Person Shooter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;The Sims&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;The Sims&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;SIMS&quot;</span><span class="p">,</span> <span class="s2">&quot;SIM&quot;</span><span class="p">,</span> <span class="s2">&quot;THE SIMS&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Simulation Video Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Rocket League&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Rocket League&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Rocket League&quot;</span><span class="p">,</span> <span class="s2">&quot;RL&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Sports Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Rules of Survival&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Rules of Survival&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ROS&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Battle Royale&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ladder&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;BattleField 1&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;BattleField 1&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;BF&quot;</span><span class="p">,</span> <span class="s2">&quot;Bfield&quot;</span><span class="p">,</span> <span class="s2">&quot;BattleField&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;First-person shooter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Call of Duty&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Call of Duty&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;COD&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;First-person shooter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;Black Desert Online&quot;</span><span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Black Desert Online&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Black Desert&quot;</span><span class="p">,</span> <span class="s2">&quot;BDO&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Massively multiplayer online role-playing game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>	
+			 <span class="s2">&quot;Farmville&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Farmville&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Farmville&quot;</span><span class="p">,</span> <span class="s2">&quot;FarmVille&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Role-playing Video Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Pet Society&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Pet Society&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Pet Society&quot;</span><span class="p">,</span> <span class="s2">&quot;PS&quot;</span><span class="p">,</span> <span class="s2">&quot;PSociety&quot;</span><span class="p">,</span> <span class="s2">&quot;Pet&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Digital Pet&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Arena of Valor&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Arena of Valor&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;AOV&quot;</span><span class="p">,</span> <span class="s2">&quot;A of Valor&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Multiplayer online battle arena&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Mobile Legends: Bang Bang&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Mobile Legends: Bang Bang&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Mobile Legends&quot;</span><span class="p">,</span> <span class="s2">&quot;ML&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Multiplayer online battle arena&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>	
+			 <span class="s2">&quot;Candy Crush&quot;</span> <span class="p">:</span> <span class="p">{</span>
+				<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Candy Crush&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Candy Crush&quot;</span><span class="p">,</span> <span class="s2">&quot;CC&quot;</span><span class="p">,</span> <span class="s2">&quot;CCrush&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Puzzle Video-game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Clash of Clans&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Clash of Clans&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;CoC&quot;</span><span class="p">,</span> <span class="s2">&quot;Clash of Clans&quot;</span><span class="p">,</span> <span class="s2">&quot;C of CLans&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Strategy video game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;Fruit Ninja&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Fruit Ninja&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Fruit Ninja&quot;</span><span class="p">,</span> <span class="s2">&quot;FN&quot;</span><span class="p">,</span> <span class="s2">&quot;FNinja&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Arcade Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;Final Fantasy XV&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Final Fantasy XV&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;FFXV&quot;</span><span class="p">,</span> <span class="s2">&quot;Final Fantasy&quot;</span><span class="p">,</span> <span class="s2">&quot;FF&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action role-playing game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;Harry Potter Hogwarts Mystery&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Harry Potter Hogwarts Mystery&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Harry Potter Hogwarts Mystery&quot;</span><span class="p">,</span> <span class="s2">&quot;HPHM&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Role-playing video game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;Plants vs Zombies&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Plants vs Zombies&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;PvZ&quot;</span><span class="p">,</span> <span class="s2">&quot;Plants vs Zombies&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Tower Defense&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;The Witcher Battle Arena&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;The Witcher Battle Arena&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;The Witcher&quot;</span><span class="p">,</span> <span class="s2">&quot;TWBA&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Multiplayer online battle arena&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;Vain Glory&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Vain Glory&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Vain Glory&quot;</span><span class="p">,</span> <span class="s2">&quot;VG&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Multiplayer online battle arena&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ranked&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;NBA 2K18&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;NBA 2K18&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;NBA 2K18&quot;</span><span class="p">,</span> <span class="s2">&quot;NBA 2K&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Simulation Video Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;NBA 2K17&quot;</span> <span class="p">:</span> <span class="p">{</span>
+				<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;NBA 2K18&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;NBA 2K17&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Simulation Video Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Fallout 4&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Fallout 4&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Fallout&quot;</span><span class="p">,</span> <span class="s2">&quot;Fallout&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action Role-playing Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Super Mario 4&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Super Mario 4&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Super Mario 4&quot;</span><span class="p">,</span> <span class="s2">&quot;Mario 4&quot;</span><span class="p">,</span> <span class="s2">&quot;Super Mario&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Platform Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>	
+			 <span class="p">},</span>
+			 <span class="s2">&quot;God of War&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;God of War&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;GoW&quot;</span><span class="p">,</span> <span class="s2">&quot;God of War&quot;</span><span class="p">,</span> <span class="s2">&quot;GodofWar&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action-adventure Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			  <span class="s2">&quot;Megaman&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			  	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Megaman&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Megaman&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Tekken&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Tekken&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Tekken&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Fighting Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Naruto Shippuden: Ninja Storm&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Naruto Shippuden: Ninja Storm&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Naruto Shippuden: Ninja Storm&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Fighting Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Naruto&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Naruto&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Naruto&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Fighting Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Diablo&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Diablo&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Diablo&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action role-playing game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Mafia Wars&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Mafia Wars&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Mafia Wars&quot;</span><span class="p">,</span> <span class="s2">&quot;Mafia&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Role-playing Game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Tetris Battle&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Tetris Battle&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Tetris Battle&quot;</span><span class="p">,</span><span class="s2">&quot;Tetris&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Puzzle Video-game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Multiplayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Candy Crush Saga&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Candy Crush Saga&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Candy Crush&quot;</span><span class="p">,</span> <span class="s2">&quot;CC&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Puzzle Video-game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Zynga Poker&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Zynga Poker&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Poker&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Poker card game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;MultiPlayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Criminal Case&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Criminal Case&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Criminal Case&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Puzzle Video-game&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;8-Ball Pool&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;8-Ball Pool&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Pool&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Sports-Arcade&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;MultiPlayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Angry Birds&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Angry Birds&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Angry Birds&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Puzzle&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Single Player&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Ninja Saga&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Ninja Saga&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Ninja Saga&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Action-adventure&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;MultiPlayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+			 <span class="s2">&quot;Special Force&quot;</span> <span class="p">:</span> <span class="p">{</span>
+			 	<span class="s2">&quot;NAME&quot;</span><span class="p">:</span> <span class="s2">&quot;Special Force&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;ABBR&quot;</span> <span class="p">:</span> <span class="p">[</span><span class="s2">&quot;sf&quot;</span><span class="p">,</span> <span class="s2">&quot;SF&quot;</span><span class="p">,</span> <span class="s2">&quot;Special Force&quot;</span><span class="p">],</span>
+			 	<span class="s2">&quot;Type&quot;</span> <span class="p">:</span> <span class="s2">&quot;Multiplayer Online First Person Shooter&quot;</span><span class="p">,</span>
+			 	<span class="s2">&quot;MODES&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;MultiPlayer&quot;</span><span class="p">]</span>
+			 <span class="p">},</span>
+		<span class="p">}</span>
+
+	<span class="k">def</span> <span class="nf">replace</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="c1"># print(&quot;Key: &quot;, key)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">replace_all</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">replace_all</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">dic</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">dic</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">text</span>
+
+	<span class="k">def</span> <span class="nf">lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="k">if</span> <span class="n">k</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="n">key</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+				<span class="k">return</span> <span class="n">v</span>
+
+	<span class="k">def</span> <span class="nf">lookupAbbr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="k">for</span> <span class="n">abbr</span> <span class="ow">in</span> <span class="n">v</span><span class="p">[</span><span class="s1">&#39;ABBR&#39;</span><span class="p">]:</span>
+				<span class="k">if</span> <span class="n">abbr</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="n">key</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+					<span class="k">return</span> <span class="n">v</span>
+
+	<span class="k">def</span> <span class="nf">findIn</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">post</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">k</span><span class="p">:</span>
+				<span class="k">return</span> <span class="n">v</span>
+			<span class="k">else</span><span class="p">:</span>
+				<span class="k">for</span> <span class="n">ab</span> <span class="ow">in</span> <span class="n">v</span><span class="p">[</span><span class="s1">&#39;ABBR&#39;</span><span class="p">]:</span>
+					<span class="k">if</span> <span class="n">ab</span> <span class="ow">in</span> <span class="n">post</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+						<span class="k">return</span> <span class="n">v</span>
+					<span class="k">else</span><span class="p">:</span>
+						<span class="k">return</span> <span class="kc">None</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

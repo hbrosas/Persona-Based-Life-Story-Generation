@@ -1,0 +1,8 @@
+{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Vans' 50th Anniversary House Of Vans",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

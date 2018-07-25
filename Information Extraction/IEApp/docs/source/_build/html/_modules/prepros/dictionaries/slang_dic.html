@@ -1,0 +1,340 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>prepros.dictionaries.slang_dic &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for prepros.dictionaries.slang_dic</h1><div class="highlight"><pre>
+<span></span>
+<span class="k">class</span> <span class="nc">SlangDictionary</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+	<span class="n">dictionary</span> <span class="o">=</span> <span class="p">{}</span>
+
+	<span class="k">def</span> <span class="nf">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span> <span class="o">=</span> <span class="p">{</span>
+			 <span class="s2">&quot; wanna &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; want to &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; lodi &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; idol &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; petmalu &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; cool &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; mumshie &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; mom &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; werpa &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; power &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; praning &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; crazy &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; taratitat &quot;</span> 	<span class="p">:</span>	 <span class="s2">&quot; talkative &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; charot &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; joke &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bulilyaso &quot;</span> 	<span class="p">:</span>	 <span class="s2">&quot; failed plan &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tsekot &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; car &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; chibog &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; meal time &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bogchi &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; meal time &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; chika &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; gossip &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; chikahan &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; conversation &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; albor &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; borrow &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; arbor &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; borrow &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; jowa &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; lover &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dekwat &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; snatch &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dedo &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; dead &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dehins &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; no &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dein &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; no &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; deins &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; no &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wafu &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; beautiful &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wafa &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; beautiful &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; kulelat &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; loser &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; kulasisi &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; mistress &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; mumu &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; ghost &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; swabe &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; smooth &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; havey &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; approve &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; havey &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; approve &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; waley &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; failure &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; rapsa &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; delicious &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; syonga &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; stupid &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; shonga &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; stupid &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; shunga &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; stupid &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; matsala &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; thank you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; erpat &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; father &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ermat &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; mother &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; echos &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; kidding &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; chos &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; kidding &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; anda &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; money &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; keri &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; you can do it &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; mars &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; friend &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 143 &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; I love you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wuv &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; love &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; luv &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; love &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; lyf &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; life &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 24/7 &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; all the time &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2day &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; today &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2G2B4G &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; too good to be forgotten &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2G2BT &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; too good to be true &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2moro &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; tomorrow &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2morrow &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; tomorrow &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2nite &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; tonight &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2nyt &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; tonight &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; qt &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; cute &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; qtqt &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; cute cute &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; qtqtqt &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; cute cute cute &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 4eva &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; forever &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 4ever &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; forever &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ;;poof;; &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; I am gone &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; abt &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; about &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; afk &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; away from keyboard &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; afaic &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; as far as I am concerned &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; afaik &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; as far as I know &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; afair &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; as far as I remember &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; aight &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; alright &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ayt &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; alright &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; 2day &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; today &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; awol &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; absent without leave &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; b4 &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; before &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot;b-day&quot;</span>	 		<span class="p">:</span>	 <span class="s2">&quot;birthday&quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bday &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; birthday &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bb &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; baby &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; brb &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; be right back &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bbq &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; barbeque &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bc &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; because &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bcos &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; because &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bcoz &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; because &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; buhbye &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; bye &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bz &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; busy &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; c ya &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; see you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; cu &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; see you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dafuq &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; what the fuck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; def &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; definitely &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dem &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; them &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dewd &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; dude &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dey &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; they &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dm &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; direct message &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dun &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; do not &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ez &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; easy &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; effin &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; fucking &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; fav &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; favorite &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; fave &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; favorite &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; fb &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; Facebook &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; fml &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; fuck my life &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; fo &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; friendship over &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; fyi &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; for your information &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; g2g &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; got to go &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gtg &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; got to go &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gawd &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; god &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gf &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; girlfriend &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bf &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; boyfriend &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gg &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; good game &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wp &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; well played &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ggwp &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; good game well-played &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gj &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; good job &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gl &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; good luck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gudlak &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; good luck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gudluck &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; good luck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gr8 &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; great &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; grr &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; growling &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; gud &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; good &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; hbu &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; how about you? &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; howru &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; how are you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; huh &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; what &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; i &lt;3 u &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; I love you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; &lt;3 u &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; love you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; h8 &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; hate &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; id10t &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; idiot &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; idc &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; I do not care &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; idgaf &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; I do not give a fuck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; idk &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; i do not know &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ily &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; I love you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ilysm &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; I love you so much &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; iyaq &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; cry &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; iyq &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; cry &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; jk &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; just kidding &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; jsyk &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; just so you know &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; k &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; okay &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; k.o &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; knock out &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ldr &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; long distance relationship &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; lgbt &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; Lesbian, Gay, Bisexual, Transgender &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; lmao &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; laughing my ass off &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; lolz &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; lots of laughs &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; mia &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; missing in action &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; msg &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; message &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; nyc &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; nice &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; n1 &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; nice one &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; omg &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; oh my god &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; omfg &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; oh my fucking god &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; otp &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; on the phone &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; otw &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; on the way &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; pc &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; personal computer &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; pda &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; public display of affection &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; peeps &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; people &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; peepz &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; people &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; peepsz &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; people &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; pls &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; please &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; plss &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; please &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; plzz &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; please &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; plz &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; please &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; plsz &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; please &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; plzs &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; please &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; pm &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; personal message &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; dp &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; display photo &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; pvp &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; player versus player &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wru &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; where are you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; r &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; are &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; u &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; rm &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; remake &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; rn &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; right now &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; rofl &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; rolling on floor laughing &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; roflmao &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; rolling on floor laughing my ass off &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; rpg &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; role-playing games &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sec &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; second &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sb &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; starbucks &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; shh &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; quiet &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sht &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; shit &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sum1 &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; someone &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sum &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; some &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; srsly &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; seriously &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sry &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; sorry &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; stfu &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; shut the fuck up &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; smth &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; something &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; somth &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; something &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sumthing &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; something &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sup &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; what is up &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; sux &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; sucks &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tbh &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; to be honest &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tbt &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; throwback Thursday &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tc &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; take care &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tgif &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; thank God it is Friday &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tom &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; tomorrow &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tmrw &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; tomorrow &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tt &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; trash talk &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ttyl &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; talk to you later &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; txt &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; text &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tnx &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; thanks &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; ty &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; thank you &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; tyg &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; thank you, God &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; u2 &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; you too &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; urs &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; yours &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; w/o &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; without &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; w8 &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; wait &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wdym &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; what do you mean &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wtvr &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; whatever &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wtf &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; what the fuck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wth &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; what the heck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wuz &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; what is &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wuzup &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; what is up &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wazzup &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; what is up &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; wyd &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; what are you doing &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; xoxo &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; hugs and kisses &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yolo &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; you only live once &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yr &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; year &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yey &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; yehey &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yay &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; yehey &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yeyy &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; yehey &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yayy &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; yehey &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yey &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; yehey &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; yak &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; yuck &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; bla &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; blah &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; zz &quot;</span> 			<span class="p">:</span>	 <span class="s2">&quot; bored &quot;</span> <span class="p">,</span>
+			 <span class="s2">&quot; i lab &quot;</span> 		<span class="p">:</span>	 <span class="s2">&quot; i love &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot;@&quot;</span>				<span class="p">:</span>	<span class="s2">&quot;at&quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; adik &quot;</span>			<span class="p">:</span>	<span class="s2">&quot; addict &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; isaaw &quot;</span>		<span class="p">:</span>	<span class="s2">&quot; isaw &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; bby &quot;</span>			<span class="p">:</span>	<span class="s2">&quot; baby &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; nyo &quot;</span>			<span class="p">:</span>	<span class="s2">&quot; niyo &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; nkyo &quot;</span>			<span class="p">:</span>	<span class="s2">&quot; na kayo &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; npo &quot;</span>			<span class="p">:</span>	<span class="s2">&quot; na po &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; khit &quot;</span>			<span class="p">:</span>	<span class="s2">&quot; kahit &quot;</span><span class="p">,</span>
+			 <span class="s2">&quot; uyy &quot;</span>			<span class="p">:</span>	<span class="s2">&quot; uy &quot;</span><span class="p">,</span>
+			 <span class="c1"># &quot;&amp;&quot;				:	&quot;and&quot;,</span>
+		<span class="p">}</span>
+
+	<span class="k">def</span> <span class="nf">replace</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="c1"># print(&quot;Key: &quot;, key)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">replace_all</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">replace_all</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span> <span class="n">dic</span><span class="p">):</span>
+		<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">dic</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+			<span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">text</span>
+
+	<span class="k">def</span> <span class="nf">lookup</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">dictionary</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

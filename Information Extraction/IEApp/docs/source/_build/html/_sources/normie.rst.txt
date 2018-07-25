@@ -1,0 +1,7 @@
+normie module
+=============
+
+.. automodule:: normie
+    :members:
+    :undoc-members:
+    :show-inheritance:

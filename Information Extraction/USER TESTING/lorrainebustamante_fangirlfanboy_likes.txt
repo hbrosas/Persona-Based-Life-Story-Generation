@@ -1,0 +1,1464 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kylie Verzosa.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Makeup By Maricar Gregorio.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ryan Pernofski.",
+    "CATEGORY": "Photographer",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "American Assassin.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Booky.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "SAM SMITH.",
+    "CATEGORY": "Musician",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Insidious.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Gerard Butler.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Cupcake Clothing Philippines.",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Chachi Gonzales. .",
+    "CATEGORY": "Dancer",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "MadamKilay.",
+    "CATEGORY": "Comedian",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Iskra Lawrence.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "GMA Drama.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Logan.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Marian Rivera.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Issam Bayan.",
+    "CATEGORY": "Performing Arts",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "MnL Avenue.",
+    "CATEGORY": "Jewelry/Watches",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Yassi Pressman.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Erk-Erk. www.erk-erk.com ",
+    "CATEGORY": "Blogger",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Liza Soberano.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "HERE GOT SALE Philippines.  ",
+    "CATEGORY": "Bags/Luggage",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mia Jane Salisbury. ?",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ellen Meriam Adarna.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Rich Homie Quan.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Frontrow International by Kurt Antonio. .",
+    "CATEGORY": "Health/Beauty",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "CHOCO TV - Global.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Neil Gregori Garen.",
+    "CATEGORY": "Blogger",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Alex Lee.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mikee Agustin.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "DJ SODA.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Selena Gomez.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ana Cheri.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Pia Wurtzbach.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kylie Cosmetics.",
+    "CATEGORY": "Brand",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "MTVLA. . \u00a1",
+    "CATEGORY": "TV Channel",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Daniel Amos.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Petra Mahalimuyak / Ashley Rivera.",
+    "CATEGORY": "Comedian",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Funk You.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Team Kramer.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kim Domingo.  ",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kendall Jenner.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kylie Jenner.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Atty.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ryza Cenon.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Superman.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ellen DeGeneres.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Karen Punzalan.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Shrek.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Andi Guck-Eigenmann.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Alvin and the Chipmunks.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Tyrese Gibson.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Scent Items.",
+    "CATEGORY": "Health/Beauty",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kamille Filoteo.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Liza Soberano.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Anne Hathaway.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jeremy Irvine.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fit for Fashion TV.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Marvel.",
+    "CATEGORY": "Movie/Television Studio",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Sheena Halili. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Alex Pettyfer.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "National Geographic Asia.",
+    "CATEGORY": "TV Channel",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Maleficent. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Clinique.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ellen DeGeneres. .",
+    "CATEGORY": "Comedian",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Noynoy Aquino.",
+    "CATEGORY": "Politician",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Definitely Maybe.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Aiko Climaco.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Anne Curtis.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Anne Curtis Smith (Anne Marie Ojales Curtis Smith). .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Orphan.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Breaking Dawn.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Battleship.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Wrath of the Titans.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Get Rich or Die Tryin'.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Hunger Games. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Sam Pinto. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Tom & Jerry.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Devil Inside. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Vow.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "This Means War. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Solenn Heusaff.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Toy Story.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Olivia Chachi Gonzales.",
+    "CATEGORY": "Dancer",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ridi che \u00e8 gratis.. Benvenuti in Ridi che \u00e8 gratis..",
+    "CATEGORY": "Comedian",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Princeton Perez. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Gustong gustong gusto kitang talaga :\">.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "See more.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Walking Dead.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Get Rich or Die Tryin'. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Anne Curtis. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Yung feeling na..",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Orphan. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Xian Lim.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Real Steel.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Planet of the Apes.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Titanic.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Masyado ka pa-BIDA!",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Friends with Benefits.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Transformers2. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Letters to Juliet.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "He's Beautiful. ?",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "SHOWTIME (SEASON  2).",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Taylor Momsen.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fast & Furious. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Paul Walker.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Vin Diesel. VinDiesel.com.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Todong-Todo, Bigay na Bigay. .",
+    "CATEGORY": "Radio Station",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Thor (film). .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mr Kebab. .",
+    "CATEGORY": "Company",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "KDOT. .",
+    "CATEGORY": "Radio Station",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Andi Manzano.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Thor. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Alex Pettyfer.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Vanessa Hudgens.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "AJ Perez.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Maria La Del Barrio (official Fan Page) Abs Cbn. .",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Moymoy Palaboy.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "I JUANder.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Katty Perry. .",
+    "CATEGORY": "Producer",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "2012.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kim Chiu. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Tom and Jerry.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Christine Gambito - HappySlip.",
+    "CATEGORY": "Comedian",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jackass \u0096 le film.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Bubble Gang. .",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The L Word.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "GMA's Finest Faces.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Charles & Keith.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "ABS-CBN.",
+    "CATEGORY": "TV Network",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "SENIOR YEAR.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Walk the Line. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jack TV. .",
+    "CATEGORY": "TV Network",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Grudge 2. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "College Road Trip. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "ASAP. .",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Anne Hathaway (actress). .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Entourage.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Cheaters. .",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Cristine Reyes.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Weeds.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "HBO.",
+    "CATEGORY": "TV Network",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "My Amnesia Girl. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Only Enchong Dee.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "13 Going on 30. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Bob Ong. .",
+    "CATEGORY": "Author",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Iron Man.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "ASAP XV (OFFICIAL FAN PAGE).",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "OLIVER RYAN CUSTODIO. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Avatar.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Denise Laurel.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "BAYO.",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ferlin Samantha Flores. ????? ?",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Disney Tangled,Rapunzel.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "My Amnesia Girl (StarCinema).",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "My Amnesia Girl.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Shalani Supporters.",
+    "CATEGORY": "Politician",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Julia Montes Fans.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "BUGOY CARINO.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Pringles.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Texas Chain Saw Massacre. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Tuesdays with Morrie. .",
+    "CATEGORY": "Book",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "anne curtis smith. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jasmine Curtis-Smith.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Marian Gracia Rivera.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Timon and Pumbaa.",
+    "CATEGORY": "Movie Character",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jennylyn Mercado.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fox Searchlight Pictures.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Maxene Magalona.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fan Page Of Sam Flores (WW.GIRLS). .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ashley Tisdale. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Miriam Quiambao.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Hip-Hop & Fashion.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "America\u0092s Next Top Model.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "SpongeBob SquarePants.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "",
+    "CATEGORY": "Album",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Sheena Halili.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Marian Rivera. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jackass.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "DOMO KUN.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "How I Met Your Mother.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Gossip Girl.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Megan Fox. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Quick Trim.",
+    "CATEGORY": "Health/Beauty",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "500 Days of Summer.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kim Chiu.  ",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fornarina.",
+    "CATEGORY": "Company",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Zombieland.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mariel Rodriguez Padilla.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Erich Gonzales.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "MIDNIGHT DJ.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "John LLoyd Cruz.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Angel Locsin.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ariel.",
+    "CATEGORY": "Movie Character",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Good Vibes.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "The Karate Kid.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Miss Universe.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mariel rodriguez. \"",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Arkin Magalona. .",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Elmo Magalona.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "SELOSA NGA AKO EE,BAKIT GINAGAWA MO PA DIN YUNG MGA AYOKO?.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "NE-YO.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Chuvachuchu. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "MYX Philippines.",
+    "CATEGORY": "TV Channel",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Unofficial: Toni Gonzaga.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Solenn Heussaff.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Vice Ganda.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Billionaire feat.",
+    "CATEGORY": "Song",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Baby's Day Out. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

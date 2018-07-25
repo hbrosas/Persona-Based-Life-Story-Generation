@@ -1,0 +1,960 @@
+PRE-PROCESSING: Posts successfully cleaned
+CONTEXT: Getting ready for context understanding
+CONTEXT: Currently on context understanding
+
+POST:  Please pair them up again in a drama please !!.
+CHUNK:  a drama
+GSEARCH:  ['drama', 'fiction', 'definition', 'story', 'wikipedia', 'adrama', 'television', 'genre', 'enjoy', 'legal', 'life', 'cantonese', 'favorite', 'hongkong', 'involving']
+CONTEXT:  1  of  72
+
+POST:  Meet Rebekah Bruesehoff - the 10-year-old transgender girl ?? the media warned you about '..
+CHUNK:  Meet Rebekah Bruesehoff
+GSEARCH:  ['rebekah', 'bruesehoff', 'transgender', 'meet', '10yearold', 'girl', 'media', 'jul', '10', '2017', 'warned', 'getty', 'old', 'awareness', 'photos']
+CHUNK:  the 10-year-old transgender girl
+GSEARCH:  ['transgender', '10yearold', 'girl', '2017', 'rebekah', '10', 'bruesehoff', 'media', 'rally', 'kid', 'jul', 'sign', 'nj', 'support', 'drag']
+CHUNK:  the media
+GSEARCH:  ['media', 'news', 'mass', 'communication', 'wikipedia', 'social', 'collection', 'plural', 'latest', 'information', 'studios', 'technologies', 'understand', 'english', 'breaking']
+CONTEXT:  2  of  72
+
+POST:  Act tough even if you shat your pants.
+CHUNK:  your pants
+GSEARCH:  ['pants', 'titles', 'book', 'seat', 'gets', 'dictionary', 'definition', 'person', 'books', 'used', 'whats', 'meme', 'end', 'pretty', 'sentence']
+CONTEXT:  3  of  72
+
+POST:  Niko -MatthewWeeaboo.
+CHUNK:  Niko
+GSEARCH:  ['niko', 'player', 'settings', 'kovač', 'csgo', 'counterstrike', '16', 'nikola', 'faze', 'mouse', '2018', 'sensitivity', 'crosshair', 'currently', 'fazeniko']
+CONTEXT:  4  of  72
+
+POST:  ?? I am not the Black Panther, I am the Chocolate Bear ????.
+CHUNK:  the Black Panther
+GSEARCH:  ['black', 'panther', '2018', 'marvel', 'tchalla', 'comics', 'king', 'wakanda', 'american', 'african', 'warrior', 'superhero', 'wikipedia', 'character', 'film']
+CHUNK:  the Chocolate Bear
+GSEARCH:  ['chocolate', 'bear', 'waynesville', 'local', 'butter', 'heather', 'trapper', 'selection', 'candy', 'shop', 'peanut', 'purchased', 'scrubs', 'salted', 'reviews']
+CONTEXT:  5  of  72
+
+POST:  Boku no Hero Academia 3rd Season Episode 13.
+CHUNK:  Boku no Hero Academia 3rd Season Episode
+GSEARCH:  ['hero', 'academia', 'season', 'boku', '3rd', 'anime', 'episode', 'watch', '15', 'english', 'episodes', '2018', 'villains', 'training', 'sub']
+CONTEXT:  6  of  72
+
+POST:  "An octopus hitched a ride on my leg .."?.
+CHUNK:  An octopus
+GSEARCH:  ['octopus', '2017', 'type', 'jan', 'octopuses', 'order', 'depends', 'meeting', 'animals', 'animal', 'post', 'peter', 'perspective', 'personal', 'other']
+CHUNK:  a ride
+GSEARCH:  ['ride', 'dialaride', 'service', 'paratransit', 'services', 'ada', 'shared', 'reservation', 'disabilities', 'theride', 'residents', 'route', 'provided', 'metro', 'fixed']
+CHUNK:  my leg
+GSEARCH:  ['leg', 'pain', 'spongebob', 'swelling', 'swollen', 'fred', 'effect', 'encyclopedia', 'squarepants', 'spongebobia', 'fandom', 'episode', 'character', 'gag', 'running']
+CONTEXT:  7  of  72
+
+POST:  You guys asked for it! Here's Part 2 of famous lines in Tagalog with Google Translate !.
+CHUNK:  You guys
+GSEARCH:  ['guys', 'people', 'dictionary', 'use', 'word', 'used', 'folks', 'speaking', 'generally', 'say', 'group', 'groups', 'guy', 'definition', 'gender']
+CHUNK:  Part
+GSEARCH:  ['piece', 'portion', 'division', 'definition', 'english', 'dictionary', 'segment', 'separate', 'fragment', 'song', 'free', 'synonyms', 'part', 'parts', 'thesauruscom']
+CHUNK:  famous lines
+GSEARCH:  ['movie', 'quotes', 'lines', 'famous', '100', 'best', '10', 'movies', 'hollywood', 'film', 'pinoy', 'years100', 'ranked', 'quote', 'famouslines']
+CHUNK:  Tagalog
+GSEARCH:  ['tagalog', 'language', 'philippines', 'filipino', 'learn', 'english', 'manila', 'translations', 'native', 'translation', 'southern', 'speakers', 'standard', 'human', 'countrys']
+CHUNK:  Google Translate
+GSEARCH:  ['translate', 'google', 'languages', 'translation', 'text', 'free', 'service', 'offline', 'apps', 'typing', '59', '103', 'mobile', 'networks', 'nature']
+CONTEXT:  8  of  72
+
+POST:
+CONTEXT:  9  of  72
+
+POST:  THE FANCHANTS THOUGH !! ? I GOT GOOSEBUMPS !! I SWEAR !! ?? PROUD BLINK HERE !! BLACKPINK ROMANIZED FANCHANT. KIM JISOO! KIM JENNIE! PARK CHAEYOUNG! LALISA! BLACKPINK-EU BEULINK-EU! COMEBACK-EUL CHUKE! ??.
+CHUNK:  GOOSEBUMPS
+GSEARCH:  ['goosebumps', 'books', 'rl', '2015', 'stine', 'horror', 'author', 'jack', 'series', 'stines', 'movie', 'childrens', 'games', 'forums', 'wikipedia']
+CHUNK:  PROUD BLINK
+GSEARCH:  ['blink', 'proud', 'stan', 'kpop', 'blackpink', 'amino', 'girl', 'proudblink', 'instagram', 'photos', 'ctto', 'jenniespopcorn', 'jun', 'blackpinkjensoorosa', 'latest']
+CHUNK:  BLACKPINK ROMANIZED FANCHANT
+GSEARCH:  ['blackpink', 'fanchant', 'ddudu', 'lyrics', 'ygdreamers', 'romanization', 'jun', 'yeah', 'romanized', 'pink', 'kim', 'cheering', '15', '2018', 'black']
+CHUNK:  KIM JISOO
+GSEARCH:  ['jisoo', 'kim', 'soo', 'ji', 'south', 'korean', 'philippines', '김지수', 'facts', '2017', 'known', 'actor', 'fantastic', 'hangul', 'born']
+CHUNK:  KIM JENNIE
+GSEARCH:  ['jennie', 'kim', 'south', 'korea', 'facts', '1996', 'singer', 'anyang', 'pink', 'life', 'kpop', 'korean', 'january', 'ist', 'family']
+CHUNK:  PARK CHAEYOUNG
+GSEARCH:  ['park', 'rosé', 'chaeyoung', 'roseanne', '박채영', 'birth', 'black', 'auckland', 'facts', 'pink', 'february', 'english', 'profile', 'rose', '11']
+CHUNK:  LALISA
+GSEARCH:  ['lalisa', 'manoban', 'lisa', 'twitter', 'facts', 'photos', 'born', 'hashtag', 'thai', 'thailand', 'instagram', 'bangkok', 'als', 'มโนบาล', 'korea']
+CHUNK:  BLACKPINK-EU BEULINK-EU
+GSEARCH:  ['kim', 'blackpink', 'jisoo', 'chaeyoung', 'jennie', 'park', 'beulinkeu', 'lalisa', 'blackpinkeu', 'fanchant', 'blink', 'thoo', '2018', 'comebackeu', 'facebook']
+CHUNK:  COMEBACK-EUL CHUKE
+GSEARCH:  ['chuke', 'hum', 'dil', 'eul', 'comeback', 'sanam', 'come', 'jo', 'nimbooda', 'lyrics', 'precious', 'kim', 'ke', 'song', 'doc']
+CONTEXT:  10  of  72
+
+POST:  I touch the fishy.
+CHUNK:  the fishy
+GSEARCH:  ['fishy', 'forum', 'project', 'new', 'channel', 'town', 'posts', 'grimsby', 'art', 'news', 'fish', 'game', 'eat', 'facebook', 'fc']
+CONTEXT:  11  of  72
+
+POST:  It's definitely these songs if you say K-Pop! ? .
+CHUNK:  these songs
+GSEARCH:  ['songs', 'roberta', 'flack', 'book', 'mick', 'thomas', 'softly', 'lyrics', 'best', 'song', 'play', 'rock', 'stories', 'stream', 'chords']
+CHUNK:  K-Pop
+GSEARCH:  ['kpop', 'billboard', 'korea', 'music', 'pop', 'latest', 'news', 'hot', 'including', 'meaning', 'metro', 'popular', 'elements', 'sbs', 'south']
+CONTEXT:  12  of  72
+
+POST:  It's definitely these songs if you say K-Pop! ? .
+CHUNK:  these songs
+GSEARCH:  ['songs', 'roberta', 'flack', 'book', 'mick', 'thomas', 'softly', 'lyrics', 'best', 'song', 'play', 'rock', 'stories', 'stream', 'chords']
+CHUNK:  K-Pop
+GSEARCH:  ['kpop', 'billboard', 'korea', 'music', 'pop', 'latest', 'news', 'hot', 'including', 'meaning', 'metro', 'popular', 'elements', 'sbs', 'south']
+CONTEXT:  13  of  72
+
+POST:  mini especial de we bare bears 5 de 5 -FIN: 'v ?? el husbando polar? !! experto en trabajos del hogar ??.
+CHUNK:  el husbando
+GSEARCH:  ['husbando', 'es', 'los', 'el', 'la', 'del', 'que', 'anime', 'en', 'waifu', '2017', 'amino', 'te', 'reseñas', '10']
+CHUNK:  trabajos del hogar
+GSEARCH:  ['hogar', 'en', 'trabajos', 'empleada', 'desde', 'la', 'del', 'trabajo', 'ofertas', 'casa', 'empleos', 'que', 'para', 'tu', 'empleo']
+CONTEXT:  14  of  72
+
+POST:
+CONTEXT:  15  of  72
+
+POST:  Go go.
+CONTEXT:  16  of  72
+
+POST:  Out of the four white guys dominating Hollywood right now, that is ..
+CHUNK:  the four white guys
+GSEARCH:  ['white', 'guys', 'rick', '25', 'played', 'egyptian', '2014', 'pitino', 'nov', 'coach', 'team', 'like', 'kominas', 'youre', 'cardinals']
+CHUNK:  Hollywood
+GSEARCH:  ['hollywood', 'hotel', 'theatre', 'angeles', 'movies', 'entertainment', 'los', 'luxury', 'neighborhood', 'destination', 'roosevelt', 'hollywoodcom', 'source', 'california', 'reporter']
+CONTEXT:  17  of  72
+
+POST:  1 comic, 2 punchlines. Version. ~ Igmu Winyan.
+CHUNK:  1 comic, 2 punchlines
+GSEARCH:  ['deadpool', 'quotes', 'best', '2018', 'comic', 'comics', 'trailer', 'movie', 'oneliners', 'imdb', 'marvel', 'standing', 'series', 'punchlines', 'offers']
+CHUNK:  Version
+GSEARCH:  ['version', 'versions', 'definition', 'account', 'particular', 'apps', '10', 'read', 'subversion', 'different', 'docs', 'point', 'especially', 'contrasted', 'identify']
+CHUNK:  Igmu Winyan
+GSEARCH:  ['igmu', 'winyan', 'facebook', 'meme', 'tagged', 'logg', 'jessica', 'avengergram', 'share', 'night', 'laundry', 'love', 'places', 'photos', 'looking']
+CONTEXT:  18  of  72
+
+POST:  ABSCBN DTV Version- MNL4. Sakura No Hanabiratachii tagalog Version performance by our first gen members with the kenkyusei.
+CHUNK:  ABSCBN DTV Version-
+GSEARCH:  ['abscbn', 'tv', 'plus', 'version', 'hdmi', 'iwant', 'philippines', 'box', 'port', 'new', 'free', 'tvplus', 'cord', 'sim', '1499']
+CHUNK:  Sakura No Hanabiratachii tagalog Version performance
+GSEARCH:  ['version', 'mnl48', 'filipino', 'sabay', 'akb48', 'hanabiratachi', 'sakura', 'girls', '2018', 'hun', 'songs', 'performance', 'performs', 'kayo', 'performed']
+CHUNK:  our first gen members
+GSEARCH:  ['generation', 'members', 'gen', 'family', 'mnl48', 'firstgeneration', 'alumni', 'chairman', 'board', '2018', 'news', 'college', 'community', 'sheki', 'center']
+CHUNK:  the kenkyusei
+GSEARCH:  ['research', 'kenkyusei', 'student', 'students', 'graduate', 'international', 'university', 'applicants', 'application', 'applying', 'programs', 'foreign', 'february', 'selection', 'science']
+CONTEXT:  19  of  72
+
+POST:  Iconic Naruto scenes recreated with wonderful choreography. No filler. Thanks O-DOG DANCE for the video.
+CHUNK:  Iconic Naruto scenes
+GSEARCH:  ['naruto', 'moments', 'best', '10', 'episodes', 'list', 'episode', 'shippuden', 'reddit', 'famous', 'far', 'favorite', 'know', 'scenes', 'new']
+CHUNK:  wonderful choreography
+GSEARCH:  ['choreography', '19', 'klopp', 'thanks', 'stand', 'south', 'september', 'mar', 'league', 'impressive', '2011', 'game', 'era', 'champions', 'bvbde']
+CHUNK:  No filler
+GSEARCH:  ['filler', 'killer', 'anime', 'albums', 'episodes', 'music', 'shippuden', 'states', 'guide', 'sum', 'ultimate', 'naruto', 'album', '90', 'liz']
+CHUNK:  Thanks O-DOG DANCE
+GSEARCH:  None
+CHUNK:  the video
+GSEARCH:  ['video', 'youtube', 'game', 'videos', 'cutter', 'tool', 'list', 'cut', 'online', 'website', 'cartel', 'analysts', 'wikipedia', 'mostliked', 'partscene']
+CONTEXT:  20  of  72
+
+POST:  New doors are installed in La Salle's South Gate! Watch and see how Lasallians celebrated this new feature. ?? .
+CHUNK:  New doors
+GSEARCH:  ['doors', 'new', 'home', 'door', 'day', 'simpson', 'opening', 'depot', 'nantucket', 'look', 'windows', 'types', 'styles', 'ventures', 'guide']
+CHUNK:  La Salle's South Gate
+GSEARCH:  ['salle', 'la', 'university', 'gate', 'south', 'dlsu', 'campus', 'taft', 'center', 'known', 'directions', 'southern', 'lasallian', 'faculty', 'philippines']
+CHUNK:  Lasallians
+GSEARCH:  ['lasallian', 'young', 'la', 'lasallians', 'brothers', 'salle', 'students', 'family', 'student', 'recruitment', 'new', 'christian', 'publication', 'salleorg', 'world']
+CHUNK:  this new feature
+GSEARCH:  ['new', 'feature', 'instagram', '2018', 'features', 'testing', 'limit', 'posts', 'ios', 'jun', 'platform', 'pes', 'coming', 'galaxy', 'remove']
+CONTEXT:  21  of  72
+
+POST:  Me whenever I meet a dog By rottweilersunny | IG.
+CHUNK:  Me
+GSEARCH:  ['fatigue', 'myalgic', 'chronic', 'symptoms', 'syndrome', 'encephalomyelitis', 'cfs', 'association', 'mecfs', 'longterm', 'neurological', 'systems', 'condition', 'range', 'medical']
+CHUNK:  a dog
+GSEARCH:  ['dog', 'dogs', 'purpose', 'animal', '2017', 'head', 'wikipedia', 'save', 'unwanted', 'right', 'film', 'american', 'maya', 'member', '140']
+CHUNK:  rottweilersunny | IG
+GSEARCH:  ['ig', 'instagram', 'person', 'trading', 'world', 'notícias', 'honor', 'group', 'nobel', 'friends', 'general', 'force', 'family', 'derivatives', 'leader']
+CONTEXT:  22  of  72
+
+POST:  What makes you different is what makes you Spider-Man. Watch the new Spider-Man. Into The trailer now ..
+CHUNK:  What
+GSEARCH:  ['what', 'english', 'whatsapp', 'wikipedia', 'bahasa', 'whatif', 'used', 'nice', '175989', 'protogermanic', 'receive', 'rapper', 'quickly', 'questions', 'provocative']
+CHUNK:  what
+GSEARCH:  ['what', 'english', 'whatsapp', 'wikipedia', 'bahasa', 'whatif', 'used', 'nice', '175989', 'protogermanic', 'receive', 'rapper', 'quickly', 'questions', 'provocative']
+CHUNK:  the new Spider-Man
+GSEARCH:  ['spiderman', 'new', 'home', 'far', 'homecoming', 'parker', '2017', '2018', 'jul', 'trailer', 'peter', 'superhero', 'ordinary', 'plot', 'party']
+CHUNK:  The trailer
+GSEARCH:  ['trailer', 'grace', 'youtube', 'movie', '2018', 'jul', 'guardians', 'film', 'fired', 'steve', 'galaxy', 'scandal', 'gracerandolph', 'hate', 'gunn']
+CONTEXT:  23  of  72
+
+POST:  A super exclusive look at Tom Holland's intense audition tape for Spider-Man?.
+CHUNK:  A super exclusive look
+GSEARCH:  ['exclusive', 'look', 'super', 'inside', 'new', 'clothing', 'event', 'pop', 'sneaker', 'bathroom', 'mar', 'unidrain', 'art', 'archive', 'april']
+CHUNK:  Tom Holland's intense audition tape
+GSEARCH:  ['spiderman', 'tom', 'holland', 'audition', 'hollands', 'homecoming', '2017', 'intense', 'peter', 'parker', 'tape', 'tapes', 'process', 'nailed', 'bernthal']
+CHUNK:  Spider-Man
+GSEARCH:  ['spiderman', 'marvel', 'peter', 'marvels', 'characters', 'explore', 'videos', 'superhero', 'spider', 'playstation', 'official', 'hq', 'games', 'game', '2002']
+CONTEXT:  24  of  72
+
+POST:  Ignition (tagalog) - Sam Concepcion [2004].
+CHUNK:  Ignition
+GSEARCH:  ['ignition', 'poker', 'remix', 'lyrics', 'act', 'kelly', 'definition', 'money', 'preview', 'process', 'lil', 'dont', 'igniting', 'real', 'head']
+CHUNK:  (tagalog
+GSEARCH:  ['tagalog', 'language', 'filipino', 'philippines', 'learn', 'translations', 'english', 'ask', 'translation', 'human', 'standard', 'national', 'countrys', 'wikipedia', 'helps']
+CHUNK:  - Sam Concepcion
+GSEARCH:  ['concepcion', 'sam', 'samconcepcion', 'song', 'kiana', 'lyrics', 'videos', 'photos', 'instagram', 'big', 'albums', 'valenciano', 'ni', 'niyang', 'private']
+CONTEXT:  25  of  72
+
+POST:  POP LIFE FANXPERIENCE SOUND ARENA Saturday, June 9, 201. K-POP SENSATION HYOLYN LIVE! formerly of Sistar Hyolyn, is a South Korean singer-songwriter best known as a former member and leader of the South Korean girl group Sistar and their sub-unit Sistar19. Sistar was invited to perform in Japan's "Hallyu Music Festival" as the only Korean girl group present. Sistar performed on the show Teen Superstar in Thailand. The group released their third single, "How Dare You," and the group attended the Golden Disk Awards and won the "Newcomer Award." Sistar won their first music show award for "How Dare You" on Music Bank. Sistar returned with their first studio album, "So Cool" that was the inaugural number one song on the Billboard Korea K-Pop Hot 100 chart. Sistar won their first "Mutizen Award" on Inkigayo. Now a solo performer, HYOLYN will be in Manila for ToyCon 201. + Pop Life FanX in SMX Convention Center Manila, MOA Complex, Pasay City. HYOLYN - Paradise https://ww.youtube.com/watch?v=Z6dKyy1bOic HYOLYN - DALLY https://ww.youtube.com/watch?v=AoZFLCy-P-. HYOLYN - Blue Moon https://ww.youtube.com/watch?v=GeJAee3m3Ik HYOLYN - One Way Love https://ww.youtube.com/watch?v=0CbE3SqbOdY Formerly of SISTAR - Touch My Body https: // ww.youtube.com/watch?v=9txzvu6eQuw SISTAR - Shake It https://ww.youtube.com/watch?v=x9-TIy7WPQI SISTAR - I Like That https://ww.youtube.com/watch?v = LJVUjmNMF8c SISTAR - The Best Of https://ww.youtube.com/watch?v=zbjU-zPgSgg For TOYCON event info and details, visit our website at ww.toyconph.com Buy your tickets to watch the show - http: //bit.ly/toyconsmtickets.
+CHUNK:  POP LIFE
+GSEARCH:  ['life', 'pop', 'prince', 'lyrics', 'album', 'poplife', 'revolution', 'supermarkets', 'released', 'david', 'song', 'facebook', 'design', 'guetta', 'wikipedia']
+CHUNK:  SOUND ARENA
+GSEARCH:  ['sound', 'arena', 'studios', 'cialis', 'rehearsal', 'music', 'backline', '1992', 'live', 'closed', 'series', 'outdoor', 'street', 'area', 'rentals']
+CHUNK:  June
+GSEARCH:  ['june', '2018', 'month', 'calendar', 'year', 'states', 'months', 'january', 'gregorian', 'goddess', 'doh', 'definition', 'sixth', 'days', 'leptospirosis']
+CHUNK:  K-POP SENSATION HYOLYN
+GSEARCH:  ['hyolyn', 'manila', 'kpop', '2018', 'toycon', 'korean', 'jun', 'sensation', 'singer', 'june', 'coming', 'sistar', 'south', 'breaking', 'member']
+CHUNK:  Sistar Hyolyn
+GSEARCH:  ['hyolyn', 'sistar', '2018', 'hyorin', 'korean', 'manila', 'members', 'coming', 'toycon', 'singer', 'disband', 'instagram', 'new', 'netizens', 'reacted']
+CHUNK:  a South Korean singer-songwriter
+GSEARCH:  ['south', 'korean', 'korea', 'singersongwriters', 'singersongwriter', 'singer', 'dean', 'list', 'stage', 'composers', '137', 'wikipedia', 'pages', 'producer', 'categorysouth']
+CHUNK:  a former member
+GSEARCH:  ['member', 'members', 'dominic', 'definition', 'organization', 'congress', 'category', 'dictionary', 'dictcc', 'sisters', 'st', 'states', 'reverso', 'english', 'amityville']
+CHUNK:  leader
+GSEARCH:  ['leader', 'leadership', 'definition', 'leaders', 'vision', 'people', 'english', 'person', 'ago', 'conscious', 'lead', 'antonyms', 'group', 'style', 'synonyms']
+CHUNK:  the South Korean girl group
+GSEARCH:  ['girl', 'groups', 'south', 'kpop', 'korean', 'korea', 'group', 'list', 'bands', '10', '2018', 'popular', 'idol', 'singers', 'right']
+CHUNK:  Sistar
+GSEARCH:  ['sistar', 'kpop', 'group', 'members', 'girl', 'disband', 'summer', 'starship', 'queens', 'profile', '2017', '2010', 'dasom', 'profiles', 'quits']
+CHUNK:  their sub-unit Sistar19
+GSEARCH:  ['sistar19', 'group', 'subunit', 'sistar', 'girl', 'entertainment', 'member', 'sistars', 'starship', 'bora', 'kpop', 'members', '2011', 'south', 'reunite']
+CHUNK:  Sistar
+GSEARCH:  ['sistar', 'kpop', 'group', 'members', 'girl', 'disband', 'summer', 'starship', 'queens', 'profile', '2017', '2010', 'dasom', 'profiles', 'quits']
+CHUNK:  Japan's "Hallyu Music Festival
+GSEARCH:  ['hallyu', 'korean', 'music', 'festival', 'japan', 'wave', 'japanese', '2017', 'invite', 'cultural', 'culture', 'jun', 'perform', 'twice', 'kcon']
+CHUNK:  the only Korean girl group
+GSEARCH:  ['girl', 'groups', 'kpop', 'group', 'korean', 'best', '2018', 'south', '10', 'twice', 'list', '2017', 'released', 'category', 'koreas']
+CHUNK:  Sistar
+GSEARCH:  ['sistar', 'kpop', 'group', 'members', 'girl', 'disband', 'summer', 'starship', 'queens', 'profile', '2017', '2010', 'dasom', 'profiles', 'quits']
+CHUNK:  the show
+GSEARCH:  ['lenka', 'film', '2017', 'wikipedia', 'just', 'imdb', 'drama', 'song', 'south', 'im', 'broadcast', 'lyrics', 'little', 'tv', 'korean']
+CHUNK:  Teen Superstar
+GSEARCH:  ['superstar', 'teen', 'teenage', 'official', 'change', 'gomez', 'unauthorized', 'documentary', 'music', 'thailand', 'selena', 'tenth', 'hd', '2011', '2013']
+CHUNK:  Thailand
+GSEARCH:  ['thailand', 'travel', 'southeast', 'visit', 'official', 'guides', 'guide', 'guardian', 'officially', 'places', 'rough', 'thai', 'country', 'tourism', 'kingdom']
+CHUNK:  The group
+GSEARCH:  ['group', 'mary', 'novel', '1966', 'mccarthy', 'mccarthys', 'years', 'work', 'wikipedia', 'vassar', 'history', 'film', 'book', 'books', 'santander']
+CHUNK:  the group
+GSEARCH:  ['group', 'mary', 'novel', '1966', 'mccarthy', 'mccarthys', 'years', 'work', 'wikipedia', 'vassar', 'history', 'film', 'book', 'books', 'santander']
+CHUNK:  the Golden Disk Awards
+GSEARCH:  ['awards', 'disc', 'golden', '2018', '32nd', 'list', 'winners', '10', 'manila', 'held', 'jan', 'complete', 'ceremony', 'music', 'day']
+CHUNK:  the "Newcomer Award
+GSEARCH:  ['newcomer', 'award', 'awards', 'best', 'star', 'prize', 'designers', 'year', 'competition', 'honour', 'communities', 'company', 'created', 'criterion', 'design']
+CHUNK:  Sistar
+GSEARCH:  ['sistar', 'kpop', 'group', 'members', 'girl', 'disband', 'summer', 'starship', 'queens', 'profile', '2017', '2010', 'dasom', 'profiles', 'quits']
+CHUNK:  their first music show award
+GSEARCH:  ['music', 'awards', 'received', 'korean', 'award', 'nominations', 'south', 'list', '2018', 'win', 'bts', 'billboard', 'exo', 'group', 'wikipedia']
+CHUNK:  How Dare You
+GSEARCH:  ['dare', 'dictionary', 'said', 'meaning', 'phrase', 'definition', 'english', 'angry', 'shocked', 'album', 'learn', 'used', 'spoken', 'rude', 'released']
+CHUNK:  Music Bank
+GSEARCH:  ['music', 'bank', 'kbs', 'program', 'tv', 'world', 'south', 'korea', 'shows', 'series', 'stream', 'guess', 'tomas', 'korean', 'think']
+CHUNK:  Sistar
+GSEARCH:  ['sistar', 'kpop', 'group', 'members', 'girl', 'disband', 'summer', 'starship', 'queens', 'profile', '2017', '2010', 'dasom', 'profiles', 'quits']
+CHUNK:  their first studio album
+GSEARCH:  ['albums', 'studio', 'album', 'released', 'beatles', 'discography', 'band', 'wikipedia', 'zeppelin', 'billboard', 'consists', 'led', 'live', 'number', 'order']
+CHUNK:  the inaugural number one song
+GSEARCH:  ['inaugural', 'billboard', 'hot', 'inauguration', 'singles', 'chart', 'trumps', 'songs', 'song', '100', 'numberone', 'airplay', 'list', 'official', 'number']
+CHUNK:  the Billboard Korea K-Pop Hot 100 chart
+GSEARCH:  ['billboard', 'kpop', '100', 'korea', 'charts', 'hot', 'chart', 'list', 'band', 'data', 'music', 'wikipedia', 'korean', '2018', 'information']
+CHUNK:  Sistar
+GSEARCH:  ['sistar', 'kpop', 'group', 'members', 'girl', 'disband', 'summer', 'starship', 'queens', 'profile', '2017', '2010', 'dasom', 'profiles', 'quits']
+CHUNK:  their first "Mutizen Award
+GSEARCH:  ['mutizen', 'award', 'inkigayo', 'sbs', '2012', 'won', 'program', 'jul', 'music', 'winners', 'sites', 'sbss', 'song', 'b1a4', 'debut']
+CHUNK:  Inkigayo
+GSEARCH:  ['inkigayo', 'sbs', 'features', 'sunday', 'tv', 'korea', 'latest', 'popular', 'airs', 'music', 'live', 'south', 'stream', 'aq', 'kst']
+CHUNK:  HYOLYN
+GSEARCH:  ['hyolyn', '2018', 'manila', 'korean', 'coming', 'videos', 'toycon', 'sistar', 'reacted', 'photos', 'members', 'instagram', 'xhyolynx', '23', 'bridʒ']
+CHUNK:  Manila
+GSEARCH:  ['manila', 'philippines', 'city', 'nations', 'capital', 'best', 'restaurants', 'newspaper', 'discover', 'leading', 'bulletin', 'hotels', 'tourism', 'political', 'points']
+CHUNK:  ToyCon
+GSEARCH:  ['toycon', '2018', 'philippine', 'convention', 'toys', 'collectibles', 'hobbies', 'philippines', 'culture', 'ph', 'june', 'pop', 'announced', 'poplife', 'prices']
+CHUNK:  SMX Convention Center Manila
+GSEARCH:  ['smx', 'convention', 'center', 'manila', 'philippines', 'pasay', 'sm', 'city', 'complex', 'asia', 'mall', 'home', 'venue', 'mega', 'level']
+CHUNK:  MOA Complex
+GSEARCH:  ['mall', 'asia', 'complex', 'sm', 'moa', 'jobs', 'city', 'pasay', 'bay', 'restaurants', 'new', 'arena', 'manila', 'entertainment', 'philippines']
+CHUNK:  HYOLYN - Paradise https://ww.youtube.com/watch?v=Z6dKyy1bOic HYOLYN - DALLY https://ww.youtube.com/watch?v=AoZFLCy-P-
+GSEARCH:  ['hyolyn', 'toycon', '2018', 'manila', 'dally', 'jun', 'kpop', 'httpswwwyoutubecomwatchvz6dkyy1boic', 'httpswwwyoutubecomwatchvaozflcyp8', 'paradise', 'sistar', 'sensation', 'june', 'star', 'group']
+CHUNK:  HYOLYN - Blue Moon https://ww.youtube.com/watch?v=GeJAee3m3Ik
+GSEARCH:  ['hyolyn', 'blue', 'moon', 'toycon', '창모', 'httpswwwyoutubecomwatchvgejaee3m3ik', 'mv', 'manila', '2018', 'changmo', 'changmo효린', 'wanna', '興味があればyoutubeでgroovyroomと検索してみてください', 'youtube', 'original']
+CHUNK:  HYOLYN - One Way Love https://ww.youtube.com/watch?v=0CbE3SqbOdY
+GSEARCH:  None
+CHUNK:  SISTAR - Touch My Body https
+GSEARCH:  ['touch', 'body', '20', 'mv', '우린', '빠르게', '바디', '마이', 'urin', 'sistar씨스타', 'sistar', 'ppareuge', 'lyrics', '2014', 'line']
+CHUNK:  SISTAR
+GSEARCH:  ['sistar', 'kpop', 'group', 'members', 'girl', 'disband', 'summer', 'starship', 'queens', 'profile', '2017', '2010', 'dasom', 'profiles', 'quits']
+CHUNK:  That https://ww.youtube.com/watch?v = LJVUjmNMF8c SISTAR
+GSEARCH:  ['like', 'sistar', '씨스타sistar', 'mv', 'httpswwwyoutubecomwatchvljvujmnmf8c', 'youtube', 'toycon', 'reactions', 'ph', 'mega', 'mashup', '48', 'httpsitunesapplecomalbummeiwoaimolaaeinsane', 'deviantart', 'fanxperience']
+CHUNK:  https://ww.youtube.com/watch?v=zbjU-zPgSgg
+GSEARCH:  ['toycon', 'hyolyn', 'event', 'kpop', 'httpswwwyoutubecomwatchvzbjuzpgsgg', 'ph', '2018', 'manila', 'sistar', 'jun', 'info', 'best', 'june', 'pushpush', 'pop']
+CHUNK:  TOYCON
+GSEARCH:  ['toycon', '2018', 'philippine', 'convention', 'toys', 'collectibles', 'hobbies', 'philippines', 'culture', 'ph', 'june', 'pop', 'announced', 'poplife', 'prices']
+CHUNK:  event info
+GSEARCH:  ['event', 'info', 'information', 'east', 'need', 'park', 'blizzcon', 'points', 'spectator', 'day', 'derived', 'gsx', 'global', 'security', 'regions']
+CHUNK:  details
+GSEARCH:  ['details', 'definition', 'fact', 'information', 'english', 'small', 'synonyms', 'tag', 'dictionary', '2018', 'noun', 'logs', 'encounter', 'merriamwebster', 'death']
+CHUNK:  our website
+GSEARCH:  ['website', 'philippines', 'builder', 'create', 'free', 'online', 'marketing', 'web', 'business', 'development', 'digital', 'make', 'home', 'seo', 'best']
+CHUNK:  your tickets
+GSEARCH:  ['tickets', 'mobile', 'online', 'sell', 'help', 'account', 'event', 'way', 'office', 'access', 'easiest', 'select', 'eventbrite', 'having', 'receive']
+CHUNK:  the show - http
+GSEARCH:  ['shows', 'series', 'tv', 'history', 'episodes', 'watch', 'tonight', 'spot', 'subscribe', 'president', 'starring', 'discover', 'youtube', 'drama', 'red']
+CONTEXT:  26  of  72
+
+POST:  Pinoy Power
+CHUNK:  Pinoy Power
+GSEARCH:  ['power', 'pinoy', 'radio', 'news', 'blog', 'live', 'filipinos', 'world', 'honolulu', 'free', 'pinoys', 'pinoypower3', 'hi', 'facebook', 'abscbn']
+CONTEXT:  27  of  72
+
+POST:  A showcase of some of opera's finest female vocal talent this.
+CHUNK:  A showcase
+GSEARCH:  ['showcase', 'definition', 'dictionary', 'meaning', 'synonyms', 'case', 'situation', 'english', 'display', 'noun', 'thesauruscom', 'dropbox', 'event', 'setting', 'glass']
+CHUNK:  opera's finest female vocal talent
+GSEARCH:  ['opera', 'singers', 'female', 'greatest', 'world', 'list', 'join', 'finest', 'showcase', 'facebook', 'operas', 'talent', 'talented', 'callas', 'vocal']
+CONTEXT:  28  of  72
+
+POST:  The North's reaction to K-pop. (Culture Shock).
+CHUNK:  The North's reaction
+GSEARCH:  ['reaction', 'north', 'northern', 'civil', 'war', 'raid', 'cabin', 'john', 'slavery', 'south', 'toms', 'decision', 'uncle', 'northerners', 'abolitionism']
+CHUNK:  K-pop
+GSEARCH:  ['kpop', 'billboard', 'korea', 'music', 'pop', 'latest', 'news', 'hot', 'including', 'meaning', 'metro', 'popular', 'elements', 'sbs', 'south']
+CHUNK:  (Culture Shock
+GSEARCH:  ['culture', 'shock', 'environment', 'experience', 'people', 'cultural', 'anxiety', 'stages', 'feelings', 'social', 'person', 'living', 'definition', 'sense', 'different']
+CONTEXT:  29  of  72
+
+POST:  How i will find my Wife ..
+CHUNK:  my Wife
+GSEARCH:  ['wife', 'kids', '2001', 'time', 'lyrics', 'girl', 'american', 'place', 'special', 'rock', 'feel', 'male', 'make', 'abc', 'wikipedia']
+CONTEXT:  30  of  72
+
+POST:  Just taking a public bath By thatgoldenscout | IG.
+CHUNK:  a public bath
+GSEARCH:  ['public', 'bath', 'japan', 'baths', 'onsen', 'hot', 'japanese', 'bathing', 'sentō', 'type', 'feb', 'travelers', 'culture', 'tripadvisor', '銭湯']
+CHUNK:  thatgoldenscout
+GSEARCH:  ['thatgoldenscout', 'golden', 'retriever', 'scout', 'instagram', 'photos', 'just', 'profile', 'images', 'taking', 'buikenzie97', 'posts', 'goldenretrievers', 'public', 'retrieverthatgoldenscout']
+CHUNK:  | IG
+GSEARCH:  ['ig', 'instagram', 'person', 'world', 'family', 'provider', 'twitter', 'friends', '07', 'places', 'quiz', 'public', 'profiles', 'pretty', 'people']
+CONTEXT:  31  of  72
+
+POST:
+CONTEXT:  32  of  72
+
+POST:  What is Love Music Video Cover / Parody By Ponytail Girl? Re. HD.
+CHUNK:  What
+GSEARCH:  ['what', 'english', 'whatsapp', 'wikipedia', 'bahasa', 'whatif', 'used', 'nice', '175989', 'protogermanic', 'receive', 'rapper', 'quickly', 'questions', 'provocative']
+CHUNK:  Love Music Video Cover / Parody
+GSEARCH:  ['music', 'parody', 'love', 'hd', 'video', 'girl', 'coverparody', 'ponytail', 'band', 'makes', 'musical', 'potion', 'playing', 'sabbath', 'usually']
+CHUNK:  Ponytail Girl
+GSEARCH:  ['2017', '53', 'trimmed', 'stylecraze', 'style', 'sought', 'pretty', 'ponytails', 'ponytail', 'personality', 'keeping', 'hairstyles', 'hairdo', 'gives', 'girls']
+CHUNK:  HD
+GSEARCH:  ['hd', 'home', 'summer', 'depot', 'hot', 'nights', 'trade', 'stock', 'sky', 'september', 'channels', 'movie', 'investing', 'videocon', 'watch']
+CONTEXT:  33  of  72
+
+POST:  For new onces. TWICE FACT. Jihyo, Nayeon, and Jeongyeon have been training together for a long time, which explains why they're so close. They were supposed to debut in a group ?? 6mix ?? basically they ?? re already a girl group before Sixteen & Twice. It was canceled when Lena and Cecilia left JYP which led to SIXTEEN.
+CHUNK:  new onces
+GSEARCH:  ['time', 'new', 'onces', 'series', '100', '2011', '2018', 'tv', 'year', 'season', 'styles', 'definition', 'twice', 'pitch', '011']
+CHUNK:  TWICE FACT
+GSEARCH:  ['twice', 'facts', 'kpop', 'know', '2016', 'members', 'mina', '2017', 'girl', 'nayeon', 'tzuyu', 'fun', 'just', 'funny', 'profile']
+CHUNK:  Jihyo
+GSEARCH:  ['jihyo', 'park', 'song', 'ji', 'hyo', 'twice', 'south', 'drama', '2018', 'gyeonggido', 'jihyos', 'guri', 'february', 'fans', 'fanpage']
+CHUNK:  Nayeon
+GSEARCH:  ['nayeon', 'twice', '나연', 'group', 'kpop', 'jyp', '22', 'instagram', 'focus', 'reason', 'cameras', 'september', 'south', 'girl', 'theres']
+CHUNK:  Jeongyeon
+GSEARCH:  ['jeongyeon', 'twices', 'seung', 'yoo', 'yeon', 'jihyo', 'gifs', 'jeongyeons', 'twice', 'sana', 'gong', 'nayeon', '2018', 'suwon', 'tenor']
+CHUNK:  a long time
+GSEARCH:  ['time', 'long', 'longtime', 'synonyms', 'dictionary', 'definition', 'coming', 'thesaurus', 'merriamwebster', 'macmillan', 'meaning', 'english', 'existing', 'continuing', 'online']
+CHUNK:  a group
+GSEARCH:  ['group', 'cargo', 'definition', 'groups', 'agroup', 'contact', 'help', 'create', 'use', 'insurance', 'terminal', 'organization', 'organize', 'organizations', 'number']
+CHUNK:  basically they
+GSEARCH:  ['basically', 'definition', 'english', 'dictionary', 'basic', 'manner', 'meaning', 'sentence', 'fundamental', 'cambridge', 'bon', 'important', 'use', 'welcome', 'language']
+CHUNK:  a girl group
+GSEARCH:  ['girl', 'group', 'groups', 'songs', 'music', 'time', 'best', 'destinys', 'biggest', 'female', 'child', '2017', 'tlc', 'list', 'jumpin']
+CHUNK:  Sixteen
+GSEARCH:  ['sixteen', 'number', 'cardinal', 'numerals', 'definition', 'survival', 'choirbook', 'music', 'eton', 'plus', 'pitted', 'quickly', 'quotations', 'season', 'ransacking']
+CHUNK:  Twice
+GSEARCH:  ['twice', 'members', 'profile', 'twicetagram', 'jypetwice', 'music', 'nayeon', 'photos', 'official', 'entertainment', 'jihyo', 'jeongyeon', 'instagram', 'group', 'mina']
+CHUNK:  Lena
+GSEARCH:  ['lena', '2010', 'song', 'meyerlandrut', 'lenameyerlandrut', 'photos', 'ennu', 'ninte', 'moideen', 'contest', 'germany', 'given', 'instagram', 'actress', 'man']
+CHUNK:  Cecilia
+GSEARCH:  ['cecilia', 'saint', 'roman', 'simon', 'lyrics', 'music', 'garfunkel', 'youre', 'great', 'derived', 'family', 'song', 'patron', 'caecilius', 'caecus']
+CHUNK:  JYP
+GSEARCH:  ['jyp', 'entertainment', 'facebook', 'official', 'company', 'park', 'new', '안녕하세요', 'korean', 'audition', 'twitter', 'fans', 'sm', 'south', 'jinyoung']
+CHUNK:  SIXTEEN
+GSEARCH:  ['sixteen', 'number', 'cardinal', 'numerals', 'definition', 'survival', 'choirbook', 'music', 'eton', 'plus', 'pitted', 'quickly', 'quotations', 'season', 'ransacking']
+CONTEXT:  34  of  72
+
+POST:  This kitty looks and moves like a ghibli-animated cat By yurikomorota | TW.
+CHUNK:  This kitty
+GSEARCH:  ['kitty', 'cat', '2018', 'photo', 'videos', 'photos', 'unable', 'instagram', 'like', 'tristan', 'thiskitty', 'physically', 'followers', 'bad', 'play']
+CHUNK:  moves
+GSEARCH:  ['moves', 'lyrics', 'definition', 'minimum', 'game', 'shop', 'sex', 'change', 'clothing', 'sean', 'place', 'position', 'big', 'free', 'got']
+CHUNK:  a ghibli-animated cat
+GSEARCH:  ['cat', 'ghibli', 'studio', 'animation', 'returns', 'animated', 'commercials', '2015', 'cute', 'like', 'production', 'gfycat', 'insanely', 'ghiblianimated', 'gifs']
+CHUNK:  yurikomorota
+GSEARCH:  ['yuriko', 'morota', 'facebook', 'yurikomorota', 'people', '諸田', 'pianist', '由里子', 'limelight', 'join', 'know', 'named', 'videos', 'gives', 'twitter']
+CHUNK:  | TW
+GSEARCH:  ['tw', 'twitter', 'disorders', 'code', 'arts', 'domain', 'wikipedia', 'steel', 'birthday', 'country', 'entertainment', 'google', 'taiwan', 'story', 'sports']
+CONTEXT:  35  of  72
+
+POST:  Nursery Rhyme ~ Lee Minh Who ~.
+CHUNK:  Nursery Rhyme
+GSEARCH:  ['nursery', 'rhymes', 'list', 'wikipedia', 'rhyme', 'origins', 'passage', 'pie', 'place', 'poem', 'recorded', 'rite', 'scotland', 'siblings', 'song']
+CHUNK:  Lee Minh
+GSEARCH:  ['lee', 'minh', 'ho', 'city', 'minho', 'chi', 'min', 'facebook', 'south', 'list', 'actor', 'korea', 'born', 'singer', 'people']
+CHUNK:  Who
+GSEARCH:  ['health', 'world', 'organization', 'united', 'official', 'townshend', 'site', 'roger', 'public', 'pete', 'nations', 'mission', 'international', 'industriallyproduced', 'youtube']
+CONTEXT:  36  of  72
+
+POST:  ?? - Ig. https://ww.instagram.com/sskaitcomics Tw. https://twitter.com/sskaitcomics.
+CHUNK:  - Ig
+GSEARCH:  ['instagram', 'ig', 'person', 'igtv', 'check', 'provider', 'friends', 'twitter', 'family', '2018', 'world', 'welcome', 'photos', 'quiz', 'public']
+CHUNK:  https://twitter.com/sskaitcomics
+GSEARCH:  ['sskait', 'feels', 'life', 'sa', 'sskaitcomics', 'stories', 'lahat', 'random', 'istorya', 'somethings', 'ng', 'happiness', 'nating', 'twitter', 'buhay']
+CONTEXT:  37  of  72
+
+POST:  "TWICE is so girly".
+CONTEXT:  38  of  72
+
+POST:  Did you spot these hidden characters of ?? TT ?? Japanese MV? Nayeon - has a skateboard with a devil sticker Jungyeon - has a Pinocchio figurine hanging on the mirror of her car Momo - plays with a "fairy" card Sana's superhero mask pops up in the form of a sticker Jihyo - eats an "Ice Queen" cookie Mina's movie ticket has a pirate symbol on it Dayhun - is playing with a bunny plushie Chaeyoung - is reading a mermaid comic book Tzuyu - has a red drink (referencing her vampire character).
+CHUNK:  these hidden characters
+GSEARCH:  ['hidden', 'characters', 'character', 'text', 'indesign', 'gudenkauf', 'key', 'link', 'concept', 'symbols', 'identity', 'indesignsecrets', 'suspense', 'nonprinting', 'heather']
+CHUNK:  TT
+GSEARCH:  ['tt', 'audi', '2018', 'ago', 'song', 'electronics', 'version', 'man', 'just', 'sail', 'seabridge', 'flag', 'speed', 'gear', 'passage']
+CHUNK:  Japanese MV
+GSEARCH:  ['mv', 'japanese', 'music', 'videos', 'video', 'official', 'japan', 'idol', 'ver', 'run', 'rocket', 'new', 'idols', '防弾少年団', 'bts']
+CHUNK:  Nayeon
+GSEARCH:  ['nayeon', 'twice', '나연', 'group', 'kpop', 'jyp', '22', 'instagram', 'focus', 'reason', 'cameras', 'september', 'south', 'girl', 'theres']
+CHUNK:  a skateboard
+GSEARCH:  ['skateboard', 'warehouse', 'making', 'grip', 'skateboards', 'apply', 'make', 'tape', 'board', 'build', 'deck', 'requires', 'skateboarding', 'shit', 'school']
+CHUNK:  a devil sticker
+GSEARCH:  ['devil', 'sticker', 'stickers', 'buy', 'amazoncom', 'decal', 'redbubble', 'happi', 'shop', 'decals', '1000', 'party', 'hot', 'gearbestcom', 'kickstarter']
+CHUNK:  a Pinocchio figurine
+GSEARCH:  ['pinocchio', 'figurine', 'disney', 'figaro', 'fairy', 'figure', 'bullyland', 'blue', 'amazoncom', 'jiminy', 'free', 'figurines', 'include', 'fig', 'edition']
+CHUNK:  the mirror
+GSEARCH:  ['mirror', 'daily', '1974', 'tarkovsky', 'film', 'andrei', 'wikipedia', '1975', 'books', 'newspaper', 'home', 'facebook', 'british', 'publications', 'tabloid']
+CHUNK:  Sana's superhero mask
+GSEARCH:  ['sana', 'amanat', 'marvel', 'superhero', 'mask', 'new', 'female', 'comic', 'ms', 'superheroes', '2014', 'sleep', 'myths', 'khan', 'misfits']
+CHUNK:  the form
+GSEARCH:  ['form', 'ds160', 'theory', 'forms', '3d', 'wikipedia', 'visa', 'used', 'sustainable', 'shape', 'reality', 'ideas', 'yoga', 'beautiful', 'architectural']
+CHUNK:  an "Ice Queen" cookie Mina's movie ticket
+GSEARCH:  ['queen', 'ice', 'film', 'mina', 'games', 'tickets', 'celebration', '21', 'pinterest', 'cookie', '2017', 'costumes', 'ticket', 'easter', 'eating']
+CHUNK:  a pirate symbol
+GSEARCH:  ['pirate', 'symbols', 'flag', 'jolly', 'used', 'roger', 'pirates', 'flags', 'skull', 'black', 'crossbones', 'piracy', 'symbol', 'commonly', 'barti']
+CHUNK:  Dayhun
+GSEARCH:  ['dayhun', 'twice', 'dahyun', 'facebook', 'pinterest', 'kim', 'people', 'earrings', 'twitter', 'sims', 'join', 'kpop', 'injured', 'girls', 'fans']
+CHUNK:  a bunny plushie Chaeyoung
+GSEARCH:  ['bunny', 'plushie', 'plush', 'chaeyoung', 'little', 'twice', 'scribbles', 'carrot', 'cartoon', 'spot', 'sana', 'sarah', 'momo', 'kickstarter', 'dolls']
+CHUNK:  a mermaid comic book
+GSEARCH:  ['mermaid', 'comic', 'little', 'comics', 'mermaids', 'books', 'book', 'wiki', 'damsels', 'disney', 'ditrich', 'preview', 'best', 'marvel', 'rapa']
+CHUNK:  Tzuyu
+GSEARCH:  ['tzuyu', 'tzuyus', 'chou', 'born', 'twitter', 'kpop', 'tainan', 'tweets', 'girl', 'taiwanese', 'taiwan', 'member', 'twices', 'surgery', 'south']
+CHUNK:  a red drink
+GSEARCH:  ['red', 'drink', 'alcohol', 'drinks', 'alcoholic', 'turn', 'mixed', 'face', 'recipes', 'soda', 'cream', 'rooh', 'cocktails', 'death', 'dont']
+CHUNK:  her vampire character
+GSEARCH:  ['vampire', 'character', 'diaries', 'akasha', 'characters', 'wikipedia', 'turned', 'list', 'series', 'skin', 'favorite', 'husband', 'favourite', 'klaus', 'beautiful']
+CONTEXT:  39  of  72
+
+POST:  The cast for the TV anime ?? Back Street Girls ?? has been published. Broadcast begins July 3rd. Daisuke Ono Yuka Nukui Satoshi Hino Kaori Maeda Kazuyuki Okitsu Hikaru Akao Keiji Fujiwara via. http: // backstreetgirls -anime.toeiad.co.jp/.
+CHUNK:  The cast
+GSEARCH:  ['cast', 'steel', 'danielle', 'roll', 'television', 'creative', 'leather', 'launches', 'theatre', 'kait', 'column', 'talented', 'events', 'jackets', 'follows']
+CHUNK:  the TV anime
+GSEARCH:  ['anime', 'tv', 'network', 'series', 'tokyo', 'kei', 'drama', 'hikari', 'animation', 'refer', 'wikipedia', 'like', 'digital', 'ondemand', 'reason']
+CHUNK:  Back Street Girls
+GSEARCH:  ['girls', 'street', 'boss', 'manga', 'hajimemashita', 'washira', 'yakuza', 'idol', 'gokudolls', 'failed', 'group', 'important', 'messing', 'time', 'choices']
+CHUNK:  Broadcast
+GSEARCH:  ['broadcast', 'television', 'radio', 'definition', 'broadcasting', 'transmit', 'data', 'news', 'present', 'jobs', 'simple', 'station', 'synonyms', 'participle', 'thesauruscom']
+CHUNK:  Daisuke Ono Yuka Nukui Satoshi Hino Kaori Maeda Kazuyuki Okitsu Hikaru Akao Keiji Fujiwara
+GSEARCH:  ['anime', 'nukui', 'akao', 'satoshi', 'hino', 'maeda', 'daisuke', 'ono', 'yamamoto', 'yuka', 'hikaru', 'sugihara', 'street', 'tachibana', 'girls']
+CONTEXT:  40  of  72
+
+POST:  Feat. haggard neon.
+CHUNK:  Feat. haggard neon
+GSEARCH:  ['merle', 'feat', 'neon', 'haggard', 'hotel', 'suns', 'cold', 'willie', 'swinging', 'doors', 'nelson', 'knowing', '2018', 'means', 'lyrics']
+CONTEXT:  41  of  72
+
+POST:  When your baby is a drunk version of Gordon Ramsay. By Woodsie.
+CHUNK:  your baby
+GSEARCH:  ['baby', 'old', 'months', 'pregnancy', 'healthy', 'senses', 'parents', 'bounty', 'reading', 'development', 'babycenter', 'home', 'newborn', 'magazine', 'length']
+CHUNK:  a drunk version
+GSEARCH:  ['drunk', 'version', 'lyrics', 'wedding', '2017', 'march', 'madvillain', 'history', 'real', 'mui', 'scott', 'song', 'demo', 'love', 'jonathan']
+CHUNK:  Gordon Ramsay
+GSEARCH:  ['gordon', 'ramsay', 'chef', 'star', 'restaurants', 'michelin', 'restaurant', 'restaurateur', 'ramsays', 'london', 'home', 'gordonramsay', 'facebook', 'youtube', 'born']
+CHUNK:  Woodsie
+GSEARCH:  ['woodsie', 'woodsietv', 'vine', 'videos', 'im', 'youtube', 'talking', 'posts', 'facts', 'facebook', 'probably', 'instagram', 'hi', 'da', 'framy']
+CONTEXT:  42  of  72
+
+POST:  TWICE getting the shock of their lives. ??
+CHUNK:  the shock
+GSEARCH:  ['shock', '1923', 'film', 'lon', 'chaney', 'youtube', 'modern', 'mascara', 'literature', 'history', 'global', 'early', 'drama', 'definition', '13']
+CHUNK:  their lives
+GSEARCH:  ['lives', 'time', 'people', 'life', '2017', 'artists', 'look', 'event', 'far', 'given', 'joan', 'king', 'lifes', 'matter', 'loves']
+CONTEXT:  43  of  72
+
+POST:
+CONTEXT:  44  of  72
+
+POST:  THOR Mode ON !!.
+CHUNK:  THOR Mode
+GSEARCH:  ['thor', 'mod', 'mode', 'modes', 'digital', 'box', 'abilities', 'micro', 'low', 'tc', 'think', 'thors', 'marvel', '16', 'use']
+CONTEXT:  45  of  72
+
+POST:  He is a real Superhero! By Jenna_mcintosh9 | TW.
+CHUNK:  a real Superhero
+GSEARCH:  ['superhero', 'real', 'life', 'reallife', 'superheroes', 'ways', 'person', 'existed', 'theres', '10', 'world', 'way', 'right', 'speculate', 'space']
+CHUNK:  Jenna_mcintosh9
+GSEARCH:  ['jennamcintosh9', 'mcintosh', 'jenna', 'know', 'mean', 'orb', '57', 'peter', 'backwards', 'bro', 'spelled', 'people', 'joined', 'jennamcintoshsarahahcom', 'image']
+CHUNK:  | TW
+GSEARCH:  ['tw', 'twitter', 'disorders', 'code', 'arts', 'domain', 'wikipedia', 'steel', 'birthday', 'country', 'entertainment', 'google', 'taiwan', 'story', 'sports']
+CONTEXT:  46  of  72
+
+POST:  This girl wanted to watch TWICELAND again after attending their concert last year so her sister brought her there? And TWICE even took a photo with her TWICE really bring happiness to people ?? Credits || .
+CHUNK:  This girl
+GSEARCH:  ['girl', 'cookin', 'burners', 'kungs', 'lyrics', 'song', 'vs', 'música', 'hand', 'feat', 'book', 'thing', 'phenomenal', 'rains', 'producer']
+CHUNK:  TWICELAND
+GSEARCH:  ['twice', 'twiceland', 'tour', 'chaeyoung', 'nayeon', 'momo', 'opening', 'park', 'debut', 'jihyo', 'sana', 'knock', 'lane', 'fantasy', 'twicecoaster']
+CHUNK:  their concert
+GSEARCH:  ['concert', 'concerts', 'tickets', 'music', 'tour', 'definition', 'performance', 'dates', 'buy', 'live', '112', 'public', 'intimate', 'gigs', 'sofar']
+CHUNK:  her sister
+GSEARCH:  ['sister', 'paris', 'comedy', '1925', 'sisters', 'meghan', 'vanessa', 'ago', 'like', 'new', 'romance', 'portrait', 'elizabeth', 'story', 'thomas']
+CHUNK:  her
+GSEARCH:  ['joaquin', 'phoenix', '2013', 'scarlett', 'film', 'irish', 'reviews', 'jonze', 'future', 'follows', 'spike', 'set', 'event', 'living', 'drama']
+CHUNK:  a photo
+GSEARCH:  ['photo', 'image', 'chinas', 'photography', 'qiandongnan', 'editor', 'photograph', '2018', 'images', 'prefecture', 'fake', 'sports', 'youre', 'trip', 'teams']
+CHUNK:  her
+GSEARCH:  ['joaquin', 'phoenix', '2013', 'scarlett', 'film', 'irish', 'reviews', 'jonze', 'future', 'follows', 'spike', 'set', 'event', 'living', 'drama']
+CHUNK:  happiness
+GSEARCH:  ['happiness', 'definition', 'wellbeing', 'state', 'quotes', 'positive', 'joy', '13456', 'sense', 'satisfaction', 'psychology', 'people', 'good', 'feel', 'emotional']
+CHUNK:  people
+GSEARCH:  ['people', 'magazine', 'news', 'celebrity', 'videos', 'photos', 'wikipedia', 'weekly', 'peoplecom', 'instagram', 'latest', 'site', 'real', '1089', 'nation']
+CHUNK:  Credits ||
+GSEARCH:  ['credits', 'credit', 'training', 'latest', 'water', 'scenes', 'creditscom', 'transfer', 'college', 'film', 'television', 'eth', 'given', 'giving', 'evaluated']
+CONTEXT:  47  of  72
+
+POST:  Never forget the most classic PB. clash of all time ..
+CHUNK:  the most classic PB
+GSEARCH:  ['pb', 'classic', 'runner', 'milne', 'linen', 'linea', 'la', 'editions', 'table', 'winniethepooh', 'marzocco', 'flax', 'crunchy', 'fibers', 'love']
+CHUNK:  clash
+GSEARCH:  ['clash', 'definition', 'thesauruscom', 'rock', 'antonyms', 'make', 'synonyms', 'english', 'clan', 'original', 'players', 'player', 'play', 'people', '1976']
+CHUNK:  all time
+GSEARCH:  ['alltime', 'time', 'definition', 'los', 'antonyms', 'use', 'thesauruscom', 'angeles', 'sentence', 'merriamwebster', 'synonyms', 'online', 'peek', 'parallel', '10s']
+CONTEXT:  48  of  72
+
+POST:  You can now leave the house armed with everything you own thanks to THIS impractical new trend seen on the catwalk at Fashion Week in Sydney? ? ? Would you rock one of these gigantic bags ?.
+CHUNK:  the house
+GSEARCH:  ['house', '2017', 'barbados', 'poehler', 'ferrell', 'amy', 'film', 'game', 'hotels', 'outerwear', 'comedy', 'bikes', 'stars', 'scary', 'free']
+CHUNK:  everything
+GSEARCH:  ['search', 'files', 'folders', 'windows', 'download', 'instantly', 'definition', 'free', 'exists', 'english', 'synonyms', 'thesauruscom', 'installer', 'file', 'kb']
+CHUNK:  thanks
+GSEARCH:  ['thanks', 'gratitude', 'definition', 'synonyms', 'expression', 'express', 'english', 'dictionary', 'thoughts', 'thank', 'free', 'thesauruscom', 'related', 'good', 'define']
+CHUNK:  THIS impractical new trend
+GSEARCH:  ['trends', 'impractical', 'trend', 'new', 'design', 'fashion', 'look', 'home', 'jun', 'year', '2018', '2017', '50', 'surprising', 'great']
+CHUNK:  the catwalk
+GSEARCH:  ['catwalk', 'wikipedia', 'road', 'warp', 'rte', 'film', 'episode', 'german', '174', 'need', 'nacelles', 'narrow', 'online', 'nm', 'powered']
+CHUNK:  Fashion Week
+GSEARCH:  ['fashion', 'week', 'new', 'york', 'designer', 'coverage', 'trends', 'shows', 'runway', 'photos', 'paris', '2018', 'milan', 'collections', 'uptotheminute']
+CHUNK:  Sydney
+GSEARCH:  ['sydney', 'australia', 'city', 'official', 'harbour', 'new', 'tourism', 'years', 'visit', 'like', 'restaurants', 'guide', 'eve', 'things', 'travel']
+CHUNK:  these gigantic bags
+GSEARCH:  ['bags', 'bag', 'storage', 'gigantic', 'set', 'pack', 'warcraft', 'amazoncom', 'army', 'world', '2018', 'large', 'gigantique', 'pool', 'shopping']
+CONTEXT:  49  of  72
+
+POST:  (y) Marvel Universe Rocks My World.
+CHUNK:  My World
+GSEARCH:  ['myworld', 'world', 'linkedin', 'careers', 'international', 'today', 'join', 'know', 'working', 'leverage', 'myanmar', 'myanmars', 'vote', 'free', 'professional']
+CONTEXT:  50  of  72
+
+POST:  Artist Problems.
+CHUNK:  Artist Problems
+GSEARCH:  ['problems', 'artist', 'art', 'blog', 'tumblr', 'artists', 'posts', 'artlifeprobs', 'goes', 'visual', 'moments', 'selfconscious', 'sister', 'solve', 'recognize']
+CONTEXT:  51  of  72
+
+POST:  So "winking" is the new thing in K-Pop, but TWICE has been winking and slaying since they debuted ..
+CHUNK:  the new thing
+GSEARCH:  ['new', 'thing', 'valley', 'silicon', 'lewis', 'story', 'michael', 'book', 'liar', 'bestselling', 'newthing', 'know', 'poker', 'author', 'read']
+CHUNK:  K-Pop
+GSEARCH:  ['kpop', 'billboard', 'korea', 'music', 'pop', 'latest', 'news', 'hot', 'including', 'meaning', 'metro', 'popular', 'elements', 'sbs', 'south']
+CONTEXT:  52  of  72
+
+POST:  M? Y ?? A BÉO BÉO LÚC NÀO C? NG? ÁNG YÊU?.
+CHUNK:  M
+GSEARCH:  ['film', '1931', 'alphabet', 'wikipedia', 'sign', 'lang', 'algeria', 'network', 'saying', 'samoa', 'safety', 'read', 'peter', 'people', 'mycobacterium']
+CHUNK:  Y
+GSEARCH:  ['youtube', 'alphabet', 'combinator', 'english', 'startups', 'stage', 'new', 'number', 'original', 'penultimate', 'president', 'represents', 'safe', 'says', 'secure']
+CHUNK:  A BÉO BÉO LÚC NÀO C
+GSEARCH:  ['béo', 'có', 'giảm', 'ăn', 'nào', 'không', 'bạn', 'quả', 'cân', 'tháng', 'hiệu', 'thực', 'lúc', 'sẽ', '2017']
+CHUNK:  NG
+GSEARCH:  ['ng', 'wikipedia', 'richard', 'ko', 'internet', 'maricar', 'unturned', 'organizations', 'process', 'potential', 'popular', 'poon', 'past', 'origin', 'numbers']
+CHUNK:  ÁNG YÊU
+GSEARCH:  ['yêu', 'áng', 'anh', 'và', 'facebook', 'cô', 'chàng', 'lạnh', 'lùng', 'kinh', 'nàng', 'nó', 'ức', 'ục', 'bị']
+CONTEXT:  53  of  72
+
+POST:  The feeling of comb against the fluffy fluff is almost ..orgasmic. By _unn1mm3 | IG.
+CHUNK:  The feeling
+GSEARCH:  ['feeling', 'youre', 'lyrics', 'justin', 'pulling', 'like', 'latest', 'band', 'bieber', 'bbc', 'anatomy', 'just', 'thefeeling', 'news', 'west']
+CHUNK:  comb
+GSEARCH:  ['comb', 'hair', 'used', 'definition', 'english', 'plastic', 'metal', 'meaning', 'wood', 'toothed', 'strip', 'device', 'hold', 'narrow', 'styles']
+CHUNK:  the fluffy fluff
+GSEARCH:  ['fluff', 'fluffy', 'fluffyfluff', 'archive', 'project', 'mug', 'works', 'urban', 'transformative', 'amazoncouk', 'organization', 'dictionary', 'everyday', 'posting', '2006']
+CHUNK:  _unn1mm3
+GSEARCH:  ['unn1mm3', 'うにたん', 'pinterest', 'instagram', 'videos', 'photos', 'ｕｎｉ', 'followers', 'twitter', '１歳 の女の子です', '無言フォロー失礼します', 'みなさん仲良くして下さい', 'ちば', 'うにに', '467']
+CHUNK:  | IG
+GSEARCH:  ['ig', 'instagram', 'person', 'twitter', 'department', 'family', 'friends', 'provider', 'world', 'mail', 'markets', 'profiles', 'professor', 'pretty', 'largest']
+CONTEXT:  54  of  72
+
+POST:  He still thinks that? ?
+CONTEXT:  55  of  72
+
+POST:  Men reveal their real bubbly selves when they shower. Just like Dominic Roque, he uses it as a chance to do an all-out preparation for an audition. FDA no. NN-? 100209466 ..
+CHUNK:  Men
+GSEARCH:  ['mens', 'clothing', 'shop', 'shoes', 'accessories', 'adidas', 'puma', 'tall', 'men', 'big', 'sale', 'online', 'new', 'sportswear', 'fashion']
+CHUNK:  their real bubbly selves
+GSEARCH:  ['self', 'dream', 'bubbles', 'games', 'selves', 'bubbly', 'definition', 'parent', 'persons', 'personality', 'particular', '11ones', 'paint', 'player', 'oxford']
+CHUNK:  Dominic Roque
+GSEARCH:  ['roque', 'dominic', 'actor', 'aryana', 'role', 'family', 'filipino', 'facts', 'ethnicity', 'dominicroque', 'domdomroque', 'na', 'photos', 'model', 'height']
+CHUNK:  a chance
+GSEARCH:  ['chance', 'synonyms', 'antonyms', 'definition', 'thesauruscom', 'taking', 'free', 'thesaurus', 'definitions', 'online', 'abba', 'lyrics', 'alternatives', 'meaning', 'ghost']
+CHUNK:  an all-out preparation
+GSEARCH:  ['war', 'allout', 'korea', 'preparing', 'north', '2017', 'kim', 'south', 'preparation', 'prepared', 'middle', 'nuclear', 'party', 'jongun', 'prepare']
+CHUNK:  an audition
+GSEARCH:  ['audition', 'actor', 'prepare', 'tips', '10', 'preparation', '2013', 'starting', 'talent', 'auditioning', 'directors', 'pictures', 'performing', 'performer', 'work']
+CHUNK:  FDA
+GSEARCH:  ['fda', 'drug', 'administration', 'food', 'products', 'home', 'drugsfda', 'news', 'page', 'states', 'approved', 'meeting', 'united', 'nutrition', 'official']
+CONTEXT:  56  of  72
+
+POST:  BURNING | Kris Aquino in full beast mode on Instagram! Read each exchange and see how the former presidential sister burns the instagram Highway as she rants against Korina Sanchez, a tv host and perennial pageant judge for both local and national contests. Kris and Korina once hosted a morning show together and were even on the same political ?? side ?? in the recent elections. But there was no stopping Kris from hitting ?? post ?? for a now-viral lash-out against former co-host Korina Sanchez over a television magazine show feature on the former's ex-husband, James Yap. In case you ?? ve been hiding under a rock the entire weekend, here ?? s a quick background. Kris, who signed a movie deal with Star Cinema on April 20, recently broke her silence against James Yap. The reason was deeply personal and fundamental. James had apparently made rather rude and hurtful statements about Bimby, his son with Kris. Bimby turned 11 years old on April 19. So what triggered the rant against Korina, whom Kris deliberately did not name in the viral post? Rated K, the ABS-CBN show Korina hosts, did a feature on James and his young family for its April 22, Sunday episode. The episode did not sit well with Kris, who said it was a slap to her face. And if the points Kris raised in her post are any indication, her issues with Korina run deep. So, which team are you on. Team Kris or Team Korina? .
+CHUNK:  | Kris Aquino
+GSEARCH:  ['aquino', 'kris', 'instagram', 'youtube', 'krisaquino214', 'krisaquino', 'josh', 'ganda', 'filipino', 'facebook', 'official', 'photos', 'videos', 'things', 'vice']
+CHUNK:  full beast mode
+GSEARCH:  ['mode', 'beast', 'lynch', 'marshawn', 'football', '2017', 'school', 'jul', 'just', 'like', 'oct', 'predator', 'rest', 'skulls', 'hunted']
+CHUNK:  Instagram
+GSEARCH:  ['instagram', 'friends', 'family', 'simple', 'share', 'way', 'capture', 'theyre', 'moments', 'new', 'help', 'follow', 'sharing', 'stories', 'discover']
+CHUNK:  each exchange
+GSEARCH:  ['exchange', 'bitcoin', 'exchanges', 'trading', 'stock', 'prices', 'usd', 'list', 'btc', 'price', 'streaming', 'coins', 'coinbase', 'investopedia', 'set']
+CHUNK:  the former presidential sister
+GSEARCH:  ['sister', 'presidential', 'president', 'rappler', 'presidents', 'sisters', 'honduran', 'juan', 'duterte', 'says', 'dec', 'crash', 'helicopter', 'hernandez', 'jocellyn']
+CHUNK:  the instagram Highway
+GSEARCH:  ['instagram', 'photos', 'highway', 'videos', 'posts', 'followers', 'following', 'design', 'casting', 'highwaycasting', 'highwayofficial', 'highwaysafetyde', 'högväghighway', 'indigo', 'indigohighway']
+CHUNK:  Korina Sanchez
+GSEARCH:  ['korina', 'sanchez', '2018', 'sanchezroxas', 'rumors', 'billboard', 'finally', 'nose', 'roxas', 'news', 'face', 'did', 'new', 'seen', 'breaks']
+CHUNK:  a tv host
+GSEARCH:  ['tv', 'presenter', 'host', 'television', 'person', 'announcer', 'radio', 'news', 'wikipedia', 'programs', 'presents', 'hosts', 'job', 'cosmopolitan', 'popular']
+CHUNK:  perennial pageant judge
+GSEARCH:  ['pageant', 'miss', 'judge', 'perennial', 'beauty', 'america', 'new', 'pageants', 'tips', 'interview', 'post', 'emcee', 'there', 'jun', '2015']
+CHUNK:  both local and national contests
+GSEARCH:  ['national', 'contest', 'local', 'contests', 'competition', 'invention', 'social', 'pilipino', 'series', 'competitions', 'batangas', 'high', 'event', 'authorities', 'media']
+CHUNK:  Kris
+GSEARCH:  ['kris', 'jenner', 'photos', 'videos', 'aquino', 'instagram', 'palette', 'years', 'followers', 'josh', 'face', 'krisjenner', 'following', 'kylie', 'present']
+CHUNK:  Korina
+GSEARCH:  ['korina', 'sanchez', '2018', 'sanchezroxas', 'kris', 'aquino', 'language', 'people', 'job', 'jan', 'did', 'silence', 'look', 'face', 'breaks']
+CHUNK:  a morning show
+GSEARCH:  ['morning', 'news', 'latest', 'home', 'global', 'facebook', 'youtube', 'videos', 'love', 'official', 'likes', 'retiree', 'hosted', 'headlines', 'twitter']
+CHUNK:  the recent elections
+GSEARCH:  ['elections', '2018', 'results', 'election', 'recent', 'news', 'latest', 'general', 'karnataka', 'list', '2017', 'special', 'primary', 'live', 'videos']
+CHUNK:  no stopping Kris
+GSEARCH:  ['kris', 'aquino', 'stopping', 'theres', '2018', 'media', 'feb', 'supreme', 'cover', '18', 'philippine', 'philstar', 'queen', 'star', 'despite']
+CHUNK:  a now-viral lash-out
+GSEARCH:  ['viral', 'lashes', '2018', 'video', 'makeup', 'hack', 'false', 'eyelash', 'mar', 'artists', 'woman', 'trump', 'trend', 'eyelashes', 'palomas']
+CHUNK:  former co-host Korina Sanchez
+GSEARCH:  ['korina', 'sanchez', 'kris', 'aquino', '2018', 'apr', 'james', 'yap', 'host', '23', 'cohost', 'media', 'feature', 'morning', 'actress']
+CHUNK:  a television magazine show feature
+GSEARCH:  ['shows', 'magazine', 'tv', 'television', 'best', 'news', 'features', 'feature', 'slant', 'magazines', 'format', 'entertainment', 'dec', 'specific', 'types']
+CHUNK:  case
+GSEARCH:  ['case', 'definition', 'loaders', 'english', 'law', 'situation', 'event', 'equipment', 'cas', 'group', 'support', 'occasion', 'synonyms', 'antonyms', 'thesauruscom']
+CHUNK:  a rock
+GSEARCH:  ['rock', 'rocks', 'minerals', 'igneous', 'aggregate', 'experience', 'types', 'solid', 'sedimentary', 'mineral', 'metamorphic', 'information', 'geology', 'years', 'considered']
+CHUNK:  a quick background
+GSEARCH:  ['background', 'quick', 'check', 'gala', 'checks', 'just', 'pre', 'screening', 'tenant', 'place', '2017', 'house', 'cyprus', 'criminal', 'save']
+CHUNK:  Kris
+GSEARCH:  ['kris', 'aquino', 'jenner', 'photos', 'palette', 'years', 'noynoy', 'revealed', 'dagger', 'days', 'face', 'hater', 'rift', 'love', 'instagram']
+CHUNK:  who
+GSEARCH:  ['health', 'world', 'organization', 'united', 'official', 'townshend', 'site', 'roger', 'public', 'pete', 'nations', 'mission', 'international', 'industriallyproduced', 'youtube']
+CHUNK:  a movie deal
+GSEARCH:  ['movie', 'deal', 'meal', '2008', 'deals', 'production', '2018', 'reynolds', 'good', 'burt', 'cardi', 'moviedeal', 'studios', 'imdb', 'mega']
+CHUNK:  Star Cinema
+GSEARCH:  ['cinema', 'star', 'abscbn', 'film', 'productions', 'videos', 'starcinema', 'photos', 'films', 'latest', 'home', 'company', 'production', 'productionss', 'instagram']
+CHUNK:  April
+GSEARCH:  ['april', 'group', 'month', 'year', 'fourth', 'calendar', 'pulp', 'paper', 'sustainable', 'julian', 'english', 'gregorian', 'girl', 'wikipedia', 'forest']
+CHUNK:  her silence
+GSEARCH:  ['silence', 'breaks', '2018', '2017', 'jul', 'woman', 'selena', 'lyrics', 'lambert', 'jessica', 'celebrity', 'certain', 'jun', 'khloe', 'singer']
+CHUNK:  James Yap
+GSEARCH:  ['yap', 'james', 'shine', 'rain', 'ago', 'player', 'days', 'videos', 'series', 'photos', 'painters', 'instagram', 'help', 'ginebra', 'game']
+CHUNK:  The reason
+GSEARCH:  ['reason', 'hoobastank', 'lyrics', 'song', 'thereason1127', 'theres', 'gadd4', 'am7', 'album', 'single', 'things', 'música', 'mix', 'rock', 'reviews']
+CHUNK:  James
+GSEARCH:  ['james', 'band', 'official', 'manchester', 'new', 'living', '1982', 'english', 'wikipedia', 'facebook', 'extraordinary', 'est', 'god', 'servant', 'times']
+CHUNK:  rather rude and hurtful statements
+GSEARCH:  ['rude', 'hurtful', 'words', 'say', 'disrespectful', 'statements', 'things', 'synonyms', 'comments', 'way', 'relationship', 'speech', 'remarks', 'remark', 'relationships']
+CHUNK:  Bimby
+GSEARCH:  ['bimby', 'yap', 'aquino', 'kris', '2018', 'son', 'james', 'aquinoyap', 'rushed', 'photo', 'birthday', 'bimbys', 'open', 'online', 'home']
+CHUNK:  his son
+GSEARCH:  ['son', 'ago', 'washington', 'denzel', 'film', 'sons', 'football', 'party', 'age', 'hell', 'days', 'father', 'fuck', 'happy', 'harper']
+CHUNK:  Kris
+GSEARCH:  ['kris', 'aquino', 'jenner', 'photos', 'palette', 'years', 'noynoy', 'revealed', 'dagger', 'days', 'face', 'hater', 'rift', 'love', 'instagram']
+CHUNK:  Bimby
+GSEARCH:  ['bimby', 'yap', 'aquino', 'kris', '2018', 'son', 'james', 'aquinoyap', 'rushed', 'photo', 'birthday', 'bimbys', 'open', 'online', 'home']
+CHUNK:  April
+GSEARCH:  ['april', 'group', 'month', 'year', 'fourth', 'calendar', 'pulp', 'paper', 'sustainable', 'julian', 'english', 'gregorian', 'girl', 'wikipedia', 'forest']
+CHUNK:  what
+GSEARCH:  ['what', 'english', 'whatsapp', 'wikipedia', 'bahasa', 'whatif', 'used', 'nice', '150044', 'protogermanic', 'receive', 'rapper', 'quickly', 'questions', 'provocative']
+CHUNK:  the rant
+GSEARCH:  ['rant', 'news', 'sanford', 'open', 'send', 'issues', 'form', 'free', 'rants', 'enforcement', 'hear', 'fox5', 'read', 'kctv5', 'law']
+CHUNK:  Korina
+GSEARCH:  ['korina', 'sanchez', '2018', 'sanchezroxas', 'kris', 'aquino', 'language', 'people', 'job', 'jan', 'did', 'silence', 'look', 'face', 'breaks']
+CHUNK:  whom
+GSEARCH:  ['use', 'object', 'used', 'subject', 'verb', 'grammar', 'sentence', 'definition', 'pronoun', 'vs', 'who', 'letter', 'whomever', 'whoever', 'rules']
+CHUNK:  Kris
+GSEARCH:  ['kris', 'aquino', 'jenner', 'photos', 'palette', 'years', 'noynoy', 'revealed', 'dagger', 'days', 'face', 'hater', 'rift', 'love', 'instagram']
+CHUNK:  the viral post
+GSEARCH:  ['viral', 'facebook', 'post', 'posts', 'want', 'shared', 'shares', 'content', 'reach', 'mishawaka', 'going', 'latest', 'videos', 'news', 'claims']
+CHUNK:  Rated K
+GSEARCH:  ['rated', 'tfc', 'ratedk', 'abscbn', 'pm', 'page', 'aired', 'episode', 'topic', 'news', 'q2', 'pinoy', 'mondays', 'poor', 'posted']
+CHUNK:  the ABS-CBN show Korina hosts
+GSEARCH:  ['korina', 'kris', 'sanchez', 'abscbn', 'morning', 'tv', 'girls', 'host', 'news', 'aquino', 'rated', 'patrol', '2018', 'did', 'wikipedia']
+CHUNK:  a feature
+GSEARCH:  ['feature', 'film', 'definition', 'parts', 'face', 'distinctive', 'performance', 'characteristic', 'time', 'quality', 'product', 'dictionary', 'stack', 'examples', 'attention']
+CHUNK:  James
+GSEARCH:  ['james', 'band', 'official', 'manchester', 'new', 'living', '1982', 'english', 'wikipedia', 'facebook', 'extraordinary', 'est', 'god', 'servant', 'times']
+CHUNK:  his young family
+GSEARCH:  ['young', 'family', 'ago', 'home', 'victims', 'days', 'brigham', 'members', 'love', 'kaden', 'just', 'group', 'expresses', 'children', 'taken']
+CHUNK:  its April
+GSEARCH:  ['april', 'gonna', 'apr', '2018', '25', 'fools', 'newsletter', 'day', 'means', 'meme', 'miss', 'news', '2000', 'nsync', 'congeniality']
+CHUNK:  The episode
+GSEARCH:  ['episode', 'episodes', 'lets', 'series', 'matt', 'event', 'favorite', 'leblanc', 'live', 'love', '2011', 'stories', 'story', 'support', 'tag']
+CHUNK:  Kris
+GSEARCH:  ['kris', 'aquino', 'jenner', 'photos', 'palette', 'years', 'noynoy', 'revealed', 'dagger', 'days', 'face', 'hater', 'rift', 'love', 'instagram']
+CHUNK:  who
+GSEARCH:  ['health', 'world', 'organization', 'united', 'official', 'townshend', 'site', 'roger', 'public', 'pete', 'nations', 'mission', 'international', 'industriallyproduced', 'youtube']
+CHUNK:  a slap
+GSEARCH:  ['slap', 'face', 'definition', 'dictionary', 'english', 'meaning', 'phrase', 'hand', 'synonyms', 'open', 'hit', 'flat', 'wrist', 'define', 'cambridge']
+CHUNK:  her face
+GSEARCH:  ['face', 'opera', 'whats', 'powder', 'thomas', 'woman', 'line', 'day', 'garden', 'cover', 'dalgliesh', 'shes', 'dolls', 'reveals', 'wrong']
+CHUNK:  the points
+GSEARCH:  ['points', 'guy', 'travel', 'deal', 'maximize', '2018', 'home', 'july', 'tpg', 'miles', 'ny', 'new', '12', 'miss', 'paris']
+CHUNK:  Kris
+GSEARCH:  ['kris', 'aquino', 'jenner', 'photos', 'palette', 'years', 'noynoy', 'revealed', 'dagger', 'days', 'face', 'hater', 'rift', 'love', 'instagram']
+CHUNK:  her post
+GSEARCH:  ['post', 'ali', 'body', 'ago', 'postbaby', 'second', 'fedotowsky', 'bachelorette', 'postpartum', 'days', 'fedotowskymanno', 'child', 'riley', 'son', 'doran']
+CHUNK:  any indication
+GSEARCH:  ['indication', 'definition', 'english', 'dictionary', 'meaning', 'reverso', 'examples', 'sentence', 'ludwig', 'context', 'farmers', 'history', 'record', 'synonym', 'markets']
+CHUNK:  her issues
+GSEARCH:  ['issues', 'image', 'lyrics', 'demi', 'body', 'monologue', 'signs', 'hillary', 'documentary', 'new', 'mom', 'vision', 'want', 'wife', 'projecting']
+CHUNK:  Korina
+GSEARCH:  ['korina', 'sanchez', '2018', 'sanchezroxas', 'kris', 'aquino', 'language', 'people', 'job', 'jan', 'did', 'silence', 'look', 'face', 'breaks']
+CHUNK:  which team
+GSEARCH:  ['team', 'whichteam', '2018', 'teams', 'inr', '144734', 'returns', 'matches', 'meant', 'mobile', 'money', 'players', 'polish', 'professional', 'quora']
+CHUNK:  Team Kris
+GSEARCH:  ['kris', 'teamkris', 'team', 'kostov', 'allen', 'videos', 'youtube', 'news', 'photos', 'kristian', 'jul', 'rappler', 'instagram', 'hashtag', 'great']
+CHUNK:  Team Korina
+GSEARCH:  ['korina', 'team', 'kris', 'james', 'aquino', '2018', 'sanchez', 'ng', 'na', 'apr', 'yap', 'feature', 'rivadeneira', 'sanchezroxas', 'rips']
+CONTEXT:  57  of  72
+
+POST:  If MOMOLAND my Liza Soberano TWICE is Angel Locsin?
+CHUNK:  my Liza Soberano
+GSEARCH:  ['soberano', 'liza', 'enrique', 'gil', '2017', '2018', 'pag', 'jan', 'drink', 'ex', 'perfect', 'film', 'birthday', 'lizasoberano', 'life']
+CHUNK:  Angel Locsin
+GSEARCH:  ['angel', 'locsin', 'film', 'fans', 'birthday', 'instagram', 'therealangellocsin', 'news', 'neil', 'arce', 'april', '143redangel', 'television', 'abscbn', 'photos']
+CONTEXT:  58  of  72
+
+POST:  JPOP VS KPOP. Light / glow stick. the difference. spread this for kpop cancer fans (sorry but the toxic really is the fans' cause eh).
+CHUNK:  JPOP
+GSEARCH:  ['jpop', 'music', 'pop', 'japanese', 'list', 'known', 'groups', 'modern', 'musical', 'artists', 'jazz', 'wikipedia', 'poppusu', 'natively', 'new']
+CHUNK:  stick
+GSEARCH:  ['stick', 'definition', 'dictionary', 'meaning', 'long', 'piece', 'verb', 'used', 'synonyms', 'thesauruscom', 'film', 'sticks', 'english', 'antonyms', 'wood']
+CHUNK:  the difference
+GSEARCH:  ['difference', 'style', 'partners', 'wallflowers', 'uncover', 'bringing', 'song', 'chowdhury', 'help', 'subir', '1997', 'relation', 'redefines', 'recover', 'question']
+CHUNK:  kpop cancer fans
+GSEARCH:  ['kpop', 'fans', 'cancer', 'fan', 'wish', 'army', 'annoying', 'bts', 'fulfill', 'youre', 'fanboys', 'seventeen', '13yearold', 'know', 'just']
+CHUNK:  the fans' cause
+GSEARCH:  ['fan', 'cause', 'fans', 'death', 'cold', 'flu', 'problems', 'make', 'air', 'night', 'fuse', 'drop', 'cooling', 'sinus', 'electric']
+CONTEXT:  59  of  72
+
+POST:  TRY YOURS ??.
+CHUNK:  YOURS
+GSEARCH:  ['used', 'lyrics', 'definition', 'clothing', 'im', 'wikipedia', 'pronoun', 'english', 'mucho', 'new', 'form', 'possessive', 'quiéreme', 'recorded', 'refer']
+CONTEXT:  60  of  72
+
+POST:  10 DAYS OF DEPP CONCLUDES! ? Last but not least, one of the most iconic pirates that ever was. JACK SPARROW! ? I'm a huge One Piece fan so Pirates of the Caribbean is definitely amazing to watch. Plus, who does not love Jack? The hardest part about this costume was the wig. It's actually 3 different wigs sewn together. I hand made all the dreads and beaded, attached and braded everything on it. So much time on it but I loved how it came out! The rest of the costume was made by me as well! Definitely plan on wearing it out somewhere ~? Anyway, I really hope you guys enjoyed this theme. I'm a huge fan of Depp characters so it was truly an honor ?? More themes coming soon! Thanks guys for the support. If you guys would like to support it even more, consider becoming a Patreon. Link in bio? Mucho love <3 ~.
+CHUNK:  10 DAYS
+GSEARCH:  ['10days', '10', 'days', 'online', 'simple', 'day', 'amsterdam', 'water', 'weather', 'oil', 'hackerrank', 'iceland', 'hair', 'rapper', 'regular']
+CHUNK:  DEPP
+GSEARCH:  ['depp', 'johnny', 'days', 'lawsuit', 'news', 'ago', 'hollywood', 'day', 'christopher', 'breaking', 'born', 'settled', 'managers', 'latest', 'john']
+CHUNK:  the most iconic pirates
+GSEARCH:  ['pirates', 'famous', 'list', 'history', 'years', 'active', 'jack', 'world', 'time', 'edward', 'calico', 'blackbeard', '10', '2016', '2011']
+CHUNK:  JACK SPARROW
+GSEARCH:  ['sparrow', 'jack', 'caribbean', 'captain', 'pirates', 'series', 'legendary', 'character', 'seas', 'wikipedia', 'trickster', 'pirate', 'seven', 'irreverent', 'screenwriters']
+CHUNK:  a huge One Piece fan
+GSEARCH:  ['piece', 'fan', 'huge', 'tower', 'tokyo', 'fans', 'anime', '15', 'big', 'manga', 'merchandise', 'mom', 'jinbe', 'birthday', 'love']
+CHUNK:  Pirates
+GSEARCH:  ['pirates', 'pittsburgh', 'news', 'scores', 'piracy', 'official', 'stats', 'pirate', 'list', 'rumors', 'james', 'mlbcom', 'latest', 'twitter', 'left']
+CHUNK:  the Caribbean
+GSEARCH:  ['caribbean', 'islands', 'sea', 'visit', 'archipelago', 'west', 'best', 'coast', 'lets', 'south', 'planet', 'places', 'southern', 'reefs', 'region']
+CHUNK:  who
+GSEARCH:  ['health', 'world', 'organization', 'united', 'official', 'townshend', 'site', 'roger', 'public', 'pete', 'nations', 'mission', 'international', 'industriallyproduced', 'youtube']
+CHUNK:  Jack
+GSEARCH:  ['jack', 'definition', 'especially', 'english', 'given', 'objects', 'twitter', 'mast', 'moved', 'muellerstöfen', 'sailing', 'male', 'raising', 'public', 'plural']
+CHUNK:  The hardest part
+GSEARCH:  ['hardest', 'coldplay', 'lyrics', 'song', 'strangest', 'thing', 'taking', 'letting', 'bell', 'band', 'waiting', 'ring', 'universalmusic', 'genius', 'written']
+CHUNK:  this costume
+GSEARCH:  ['costume', 'halloween', 'ideas', 'costumes', 'diy', 'sexy', 'pinterest', 'pet', 'cowboy', 'images', 'scariest', 'perfect', 'family', 'pull', 'oct']
+CHUNK:  the wig
+GSEARCH:  ['wig', 'gabal', 'hair', 'specialist', 'sister', 'fashion', 'directed', 'scary', 'mink', 'horror', 'wikipedia', 'wigs', '2005', 'won', 'min']
+CHUNK:  3 different wigs
+GSEARCH:  ['wigs', 'types', 'hair', 'different', 'wig', 'market', 'switch', '2018', 'guide', 'help', 'use', 'jun', '20', 'protective', 'classified']
+CHUNK:  all the dreads
+GSEARCH:  ['dreads', 'hair', 'dreadlocks', 'natural', 'ski', 'locs', '13', '2018', 'sanskrit', 'soap', 'hairdos', 'pinterest', 'hairstyles', 'different', 'style']
+CHUNK:  everything
+GSEARCH:  ['search', 'files', 'folders', 'windows', 'download', 'instantly', 'definition', 'free', 'exists', 'english', 'synonyms', 'thesauruscom', 'installer', 'file', 'kb']
+CHUNK:  So much time
+GSEARCH:  ['time', 'productivity', 'waste', 'iwsmt', 'site', 'minute', 'deprives', 'replacing', 'button', 'entertainment', 'page', 'lyrics', 'irs', 'people', 'linguee']
+CHUNK:  The rest
+GSEARCH:  ['rest', 'meaning', 'definition', 'things', 'english', 'used', 'dictionary', 'parts', 'im', 'drinking', 'great', 'spectator', 'important', 'refer', 'left']
+CHUNK:  the costume
+GSEARCH:  ['costume', 'society', 'dress', 'party', 'segal', 'store', 'irelands', 'halls', 'george', 'shop', 'costumes', 'journal', 'accessories', 'style', 'profession']
+CHUNK:  me
+GSEARCH:  ['fatigue', 'chronic', 'syndrome', 'myalgic', 'symptoms', 'encephalomyelitis', 'cfs', 'systems', 'longterm', 'neurological', 'condition', 'range', 'action', 'mecfs', 'diagnosis']
+CHUNK:  you guys
+GSEARCH:  ['guys', 'people', 'dictionary', 'use', 'word', 'used', 'folks', 'speaking', 'generally', 'say', 'group', 'groups', 'guy', 'definition', 'gender']
+CHUNK:  this theme
+GSEARCH:  ['theme', 'wordpress', 'responsive', 'linux', 'online', 'multipurpose', 'ecommerce', 'easily', 'mint', 'retailer', 'impreza', 'premium', 'feminine', 'powerful', 'site']
+CHUNK:  a huge fan
+GSEARCH:  ['fan', 'huge', 'big', 'french', 'language', 'english', 'im', 'celebrity', 'popsugar', 'to', 'really', 'hugefan', 'difference', 'sthsb', 'photos']
+CHUNK:  Depp characters
+GSEARCH:  ['depp', 'johnny', 'characters', 'actor', 'scissorhands', 'character', 'john', 'edward', 'pirates', 'caribbean', '2015', '10', 'christopher', 'born', 'sweeny']
+CHUNK:  an honor
+GSEARCH:  ['honor', 'respect', 'recognition', 'english', 'homage', 'academic', 'merriamwebster', 'special', 'ones', 'synonyms', 'esteem', 'sound', 'great', 'silent', 'shown']
+CHUNK:  More themes
+GSEARCH:  ['themes', 'theme', 'windows', '24', '81', 'hugo', 'powerpoint', 'website', 'just', 'desktop', 'drupal', 'new', '2017', 'aug', 'free']
+CHUNK:  Thanks guys
+GSEARCH:  ['guys', 'gifs', 'thanks', 'thank', 'best', 'giphy', 'use', 'say', 'reaction', '26', 'gif', 'place', 'popular', 'funny', 'people']
+CHUNK:  the support
+GSEARCH:  ['support', 'help', 'filemaker', 'center', 'mathematics', 'services', 'definition', 'csf', 'function', 'group', 'families', 'supportcom', 'domain', 'respect', 'hudl']
+CHUNK:  you guys
+GSEARCH:  ['guys', 'people', 'dictionary', 'use', 'word', 'used', 'folks', 'speaking', 'generally', 'say', 'group', 'groups', 'guy', 'definition', 'gender']
+CHUNK:  a Patreon
+GSEARCH:  ['patreon', 'creators', 'artists', 'platform', 'citra', 'way', 'new', '2017', 'dec', 'people', 'membership', 'makes', 'paid', 'like', 'payment']
+CHUNK:  bio
+GSEARCH:  ['bio', 'biography', 'biotechnology', 'innovation', 'french', '2019', 'organization', 'english', 'explore', 'portuguese', 'definition', 'people', 'stories', 'organizations', 'trade']
+CONTEXT:  61  of  72
+
+POST:  [180410] # ?? # ?? .
+CONTEXT:  62  of  72
+
+POST:  ?? Twice is Gay ?? the Musical, also known as ?? What is Love ?? is out boiss goo and watch itt <3 <3 <3 <3 https://ww.youtube.com/watch?v=i0p1bmr0EmE ~ Quantum Astrophysics.
+CHUNK:  the Musical
+GSEARCH:  ['musical', 'official', 'motown', 'broadway', 'tour', 'wikipedia', 'theatre', 'chicago', 'pretty', 'story', 'palace', 'heathers', 'tickets', 'tina', 'stage']
+CHUNK:  What
+GSEARCH:  ['what', 'english', 'whatsapp', 'wikipedia', 'bahasa', 'whatif', 'used', 'nice', '175989', 'protogermanic', 'receive', 'rapper', 'quickly', 'questions', 'provocative']
+CHUNK:  Love
+GSEARCH:  ['love', 'affection', 'person', 'interpersonal', 'english', 'definition', 'thesauruscom', 'romantic', 'desire', 'strong', 'synonyms', 'feelings', 'feeling', 'pleasure', 'antonyms']
+CHUNK:  goo
+GSEARCH:  ['goo', 'album', 'dolls', 'googoodolls', 'provide', 'definition', 'substance', 'videos', 'tour', 'google', 'official', 'features', 'sentence', 'rock', 'search']
+CHUNK:  itt
+GSEARCH:  ['itt', 'institute', 'pumps', 'services', 'leading', 'educational', 'manufacturer', '2016', 'technology', 'home', 'highly', 'company', 'solutions', 'cannon', 'engineered']
+CHUNK:  <3 <3 https://ww.youtube.com/watch?v=i0p1bmr0EmE
+GSEARCH:  ['twice', 'youtube', 'fans', 'https', 'kpop', 'play', 'i0p1bmr0eme', 'fake', 'com', 'stanislas', 'knock', 'video', 'koreamorocco', 'watch', 'emo']
+CONTEXT:  63  of  72
+
+POST:  Meanwhile in the Philippines .. Cosplayer. Kibi Cosplay - Akachi ??.
+CHUNK:  the Philippines
+GSEARCH:  ['philippines', 'islands', 'travel', 'country', 'mindanao', 'history', 'southeast', 'city', 'largest', 'pacific', 'island', 'ocean', 'geographical', 'situated', 'asia']
+CHUNK:  Cosplayer
+GSEARCH:  ['cosplayers', 'cosplay', 'cosplayer', 'love', 'list', 'kururin', 'kosupure', '20', 'izuku', 'home', 'filipina', 'facebook', 'play', 'costume', 'cosplayed']
+CHUNK:  Kibi Cosplay - Akachi
+GSEARCH:  ['kibi', 'lim', 'kibilim', 'twitter', 'cosplayer', '2017', 'performer', '2018', 'facebookcomkibicosplay', 'cosplay', 'major', 'psych', 'philippines', 'collab', 'taken']
+CONTEXT:  64  of  72
+
+POST:  Mama Coco Martin! .
+CHUNK:  Mama Coco Martin
+GSEARCH:  ['coco', 'martin', 'na', 'luna', 'katherine', 'ko', 'niya', 'dna', 'sa', 'si', 'test', 'ako', 'mama', 'child', 'results']
+CONTEXT:  65  of  72
+
+POST:  <3 Beautiful <3 Artist unknown.
+CHUNK:  <3 Beautiful <3 Artist
+GSEARCH:  ['art', 'beautiful', 'beauty', 'artists', 'artist', 'banksy', 'rhythmic', 'rozalskis', 'kharatamal', 'create', 'canvas', 'figurative', 'book', 'moon', 'different']
+CONTEXT:  66  of  72
+
+POST:  H DNArys?.
+CHUNK:  H DNArys
+GSEARCH:  ['daenerys', 'targaryen', 'game', 'thrones', 'aug', '2017', 'season', 'party', 'pinterest', 'dragons', 'hghar', 'gives', 'wig', 'house', 'jon']
+CONTEXT:  67  of  72
+
+POST:  Just dumping some horse info ever since the Horse anime came. All the horse girls are just some of the well known irl horses (related mostly to Japanese race course) from 90's. Most of them are dead but still loved by Japanese people. Anime has done a good job in picking up the same features and personalities of those horses. Padparadscha.
+CHUNK:  some horse info
+GSEARCH:  ['horse', 'horses', 'facts', 'information', 'kids', 'interesting', 'fun', 'tack', 'range', 'fact', 'cool', 'check', 'care', 'plants', 'names']
+CHUNK:  the Horse anime
+GSEARCH:  ['anime', 'horse', '2018', 'uma', 'new', 'musume', 'pretty', 'girls', 'characters', 'derby', 'horses', 'apr', 'racing', 'best', 'girl']
+CHUNK:  All the horse girls
+GSEARCH:  ['horse', 'girl', 'horses', 'girls', 'riding', 'crazy', 'avoid', 'animals', 'odyssey', 'costs', 'oct', 'idea', '23', 'dani', 'love']
+CHUNK:  the well known irl horses
+GSEARCH:  ['horse', 'irish', 'ireland', 'horses', 'pony', 'sport', 'connemara', 'bred', 'millstreet', 'known', 'just', 'donedealie', 'dumping', 'sale', 'year']
+CHUNK:  Japanese race course
+GSEARCH:  ['racecourse', 'japan', 'racing', 'tokyo', 'horse', 'race', 'racecourses', 'hanshin', 'fukushima', 'wikipedia', 'built', 'located', 'course', 'result', 'sapporo']
+CHUNK:  Japanese people
+GSEARCH:  ['people', 'japanese', 'japan', 'stereotype', 'nice', 'origins', 'ethnic', 'polite', 'population', 'country', 'closely', 'culture', 'tours', 'akin', 'story']
+CHUNK:  Anime
+GSEARCH:  ['anime', 'online', 'series', 'watch', 'list', 'best', 'crunchyroll', 'search', 'hunter', 'manga', 'titan', 'news', 'attack', 'animeplanet', 'thousands']
+CHUNK:  a good job
+GSEARCH:  ['good', 'job', 'say', 'doing', 'english', 'did', 'children', 'youve', 'raising', 'dictionary', 'jobs', 'making', 'got', 'place', 'fine']
+CHUNK:  the same features
+GSEARCH:  ['features', 'layer', '2018', 'feature', 'selected', 'select', 'face', 'effects', 'galaxy', 'help', 'samedifferent', 's10', 'iphone', 'characteristics', 'repetition']
+CHUNK:  personalities
+GSEARCH:  ['personality', 'type', 'types', 'test', '16personalities', 'free', 'traits', 'reserved', 'defined', 'refers', 'entp', 'psychological', 'quiet', 'patterns', 'letter']
+CHUNK:  those horses
+GSEARCH:  ['like', 'horses', 'just', 'reba', 'mcentire', 'lyrics', 'video', 'lusted', 'kissed', 'new', 'meaningful', 'horse', 'held', 'personal', 'genitals']
+CHUNK:  Padparadscha
+GSEARCH:  ['padparadscha', 'sapphire', 'gem', 'rare', 'sapphires', 'color', 'ruby', 'pink', 'history', 'orange', 'guide', 'defined', 'meaning', 'gems', 'variety']
+CONTEXT:  68  of  72
+
+POST:  Rebirth of air nomads <3.
+CHUNK:  Rebirth
+GSEARCH:  ['rebirth', '2016', 'film', 'kyle', 'project', 'definition', 'thriller', 'called', 'zack', 'selfhelp', 'wikipedia', 'opportunity', 'rotten', 'second', 'review']
+CHUNK:  air
+GSEARCH:  ['air', 'cheap', 'flights', 'zealand', 'india', 'new', 'destinations', 'canada', 'fly', 'book', 'loyalty', 'official', 'online', 'program', 'risk']
+CONTEXT:  69  of  72
+
+POST:  Here is the look of everyone! The TWICE Philippine tour of the KCC. Availability of tickets to be announced soon! ?? .
+CHUNK:  the look
+GSEARCH:  ['look', 'like', 'womens', 'fashion', 'clothing', 'boutique', 'new', 'uk', 'single', 'roxette', 'pop', 'shes', 'women', 'wikipedia', 'band']
+CHUNK:  everyone
+GSEARCH:  ['email', 'group', 'person', 'everybody', 'vs', 'pronoun', 'refers', 'words', 'individual', 'hes', 'got', 'grammarly', 'online', 'everyonenet', 'ˈevriwʌn']
+CHUNK:  The TWICE Philippine tour
+GSEARCH:  ['twice', 'philippines', 'concerts', '2018', 'manila', 'kpop', 'tour', 'philippine', 'concert', 'tickets', 'jyp', '2017', 'ent', 'dolls', 'awards']
+CHUNK:  the KCC
+GSEARCH:  ['kcc', 'mall', 'zamboanga', 'philippines', 'malls', 'home', 'official', 'general', 'koronadal', 'greenwich', 'good', 'globegarden', 'santos', 'food', 'facebook']
+CHUNK:  Availability
+GSEARCH:  ['availability', 'definition', 'use', 'available', 'übersetzung', 'check', 'force', 'englisch', 'required', 'license', 'reliability', 'deutsch', 'uncountable', 'committable', 'ready']
+CHUNK:  tickets
+GSEARCH:  ['tickets', 'buy', 'dan', 'manila', '2018', 'phil', 'concert', 'ticket', 'disabled', '12', 'sm', 'glory', 'purchase', 'latest', 'rak']
+CONTEXT:  70  of  72
+
+POST:  "Remember Me" Cover (from Disney & Pixar's Coco) by Joseph Vincent You can listen on Spotify here. https://open.spotify.com/track/6NtXT3FfZQPXP5ISoUngRh?si=fKIDRrKBQOCrtluSTGgxJQ.
+CHUNK:  Me
+GSEARCH:  ['fatigue', 'chronic', 'syndrome', 'myalgic', 'symptoms', 'encephalomyelitis', 'cfs', 'systems', 'longterm', 'neurological', 'condition', 'range', 'action', 'mecfs', 'diagnosis']
+CHUNK:  " Cover
+GSEARCH:  ['cover', 'definition', 'betting', 'covers', 'sports', 'refer', 'antonyms', 'thesauruscom', 'news', 'synonyms', 'plays', 'picks', 'online', 'odds', '11']
+CHUNK:  Disney & Pixar's Coco
+GSEARCH:  ['coco', 'disney', '2017', 'pixar', 'pixars', 'movies', 'disneypixar', 'digital', 'latest', 'bluray', 'uhd', 'pixarcoco', 'animation', 'music', '4k']
+CHUNK:  Joseph Vincent
+GSEARCH:  ['joseph', 'vincent', 'music', 'lyrics', 'song', 'photos', 'josephvincent12', 'videos', 'video', 'josephvincent', 'official', 'genius', 'instagram', 'born', 'songs']
+CHUNK:  Spotify
+GSEARCH:  ['spotify', 'music', 'listen', 'free', 'play', 'share', 'access', 'discover', 'service', 'mobile', 'moment', 'tablet', 'support', 'search', 'world']
+CHUNK:  https://open.spotify.com/track/6NtXT3FfZQPXP5ISoUngRh?si=fKIDRrKBQOCrtluSTGgxJQ
+GSEARCH:  ['vincent', 'joseph', 'influencer', 'analysis', 'instagram', 'setthakit', 'pixars', 'platform', 'play', 'rd', 'research', 'share', 'medioq', 'shares', 'soi']
+CONTEXT:  71  of  72
+
+POST:  YAAS GO DISNEY.
+CHUNK:  YAAS
+GSEARCH:  ['yaas', 'sap', 'hybris', 'service', 'microservices', 'platform', 'provides', 'cloud', 'new', '2016', 'use', 'easy', 'ecosystem', 'cloudbased', 'dive']
+CHUNK:  DISNEY
+GSEARCH:  ['disney', 'walt', 'company', 'official', 'online', 'store', 'world', 'toys', 'entertainment', 'shopping', 'site', 'africa', 'shop', 'gifts', 'jobs']
+CONTEXT:  72  of  72
+CONTEXT: Successfully extracted all the assertion types

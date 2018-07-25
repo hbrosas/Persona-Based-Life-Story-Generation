@@ -1,0 +1,29 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "League of Legends.",
+    "CATEGORY": "Games/Toys",
+    "PERSONA": "The Gamer"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Tap Titans.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Gamer"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Nike Basketball.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Gamer"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Nike+ Basketball.",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Gamer"
+  }
+},

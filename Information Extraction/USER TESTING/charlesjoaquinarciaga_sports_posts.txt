@@ -1,0 +1,18 @@
+{
+  "type": "Play",
+  "values": {
+    "Person": "Charles Joaquin Arciaga",
+    "Sport": "basketball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "FanOf",
+  "values": {
+    "Person": "Charles Joaquin Arciaga",
+    "Athlete": "Kobe Bryant",
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},

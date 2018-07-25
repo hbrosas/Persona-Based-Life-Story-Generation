@@ -1,0 +1,246 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Gadget Addict.",
+    "CATEGORY": "Video Creator",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Jason Chaffetz. .",
+    "CATEGORY": "Politician",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Sports Central.",
+    "CATEGORY": "Retail Company",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mae Mae Gonzales.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "BMS Presents: Art & Appetite.",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kirstie Alley.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ate Che Che Gonzales For Congresswoman District 2 Taguig City.",
+    "CATEGORY": "Government Official",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Ivanka Trump.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Under Armour.",
+    "CATEGORY": "Clothing (Brand)",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Leila de Lima.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Party Manila.",
+    "CATEGORY": "Travel Company",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "DLSU CSG.",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Philippine Floorball Association.",
+    "CATEGORY": "Community Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Green Giant FM.",
+    "CATEGORY": "Radio Station",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "TUGON Ateneo.",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "FIFA.",
+    "CATEGORY": "Website",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Shrek.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "adidas.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Beings Of Gokongwei.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Derecho Productions.",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Walt Disney Studios.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Nike Football.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Patrick Star.",
+    "CATEGORY": "Fictional Character",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Fast & Furious. .",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mizuno Morelia.",
+    "CATEGORY": "Product/Service",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "American Dad.",
+    "CATEGORY": "TV Show",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kathryn Bernardo.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "FIFA 13 Ultimate Team Page. .",
+    "CATEGORY": "Community Organization",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Olongapo VINES.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "A Walk",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "We want The Script to come back in Manila. .",
+    "CATEGORY": "Concert Tour",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Toy Story.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Mr Bean.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Eve Torres. .",
+    "CATEGORY": "Dancer",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "I Love Jesus, by iLoveJesusonline.com.",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},

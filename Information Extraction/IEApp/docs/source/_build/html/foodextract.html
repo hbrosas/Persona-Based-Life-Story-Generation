@@ -1,0 +1,346 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>foodextract module &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="gameextract module" href="gameextract.html" />
+    <link rel="prev" title="fanextract module" href="fanextract.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-foodextract">
+<span id="foodextract-module"></span><h1>foodextract module<a class="headerlink" href="#module-foodextract" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="foodextract.FoodieExtractor">
+<em class="property">class </em><code class="descclassname">foodextract.</code><code class="descname">FoodieExtractor</code><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Context Understanding for The Fangirl/Fanboy</p>
+<dl class="attribute">
+<dt id="foodextract.FoodieExtractor.api">
+<code class="descname">api</code><em class="property"> = &lt;context.alchemyapi.AlchemyAPI object&gt;</em><a class="headerlink" href="#foodextract.FoodieExtractor.api" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="foodextract.FoodieExtractor.asstypeinfo">
+<code class="descname">asstypeinfo</code><em class="property"> = &lt;context.asstypes.AssTypeInfo object&gt;</em><a class="headerlink" href="#foodextract.FoodieExtractor.asstypeinfo" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="foodextract.FoodieExtractor.conceptnet">
+<code class="descname">conceptnet</code><em class="property"> = &lt;context.conceptnet.ConceptNet object&gt;</em><a class="headerlink" href="#foodextract.FoodieExtractor.conceptnet" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="foodextract.FoodieExtractor.dbpedia">
+<code class="descname">dbpedia</code><em class="property"> = &lt;context.dbpedia.DBPedia object&gt;</em><a class="headerlink" href="#foodextract.FoodieExtractor.dbpedia" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.extractFoodPostInformation">
+<code class="descname">extractFoodPostInformation</code><span class="sig-paren">(</span><em>post</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.extractFoodPostInformation"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.extractFoodPostInformation" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>extracts the food (subject) from the post</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param post:</th><td class="field-body">post</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">food, food organization</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.extractStoryInformation">
+<code class="descname">extractStoryInformation</code><span class="sig-paren">(</span><em>story</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.extractStoryInformation"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.extractStoryInformation" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>extracts information from the event</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param story:</th><td class="field-body">event</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">action, organization, location, tagged_friends</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.find_root">
+<code class="descname">find_root</code><span class="sig-paren">(</span><em>docu</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.find_root"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.find_root" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>finds the root token of a sentence</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param docu:</th><td class="field-body">sentence/query</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">root token</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.foodieExtract">
+<code class="descname">foodieExtract</code><span class="sig-paren">(</span><em>post</em>, <em>persona</em>, <em>person</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.foodieExtract"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.foodieExtract" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Main function for The Foodie context understanding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param post:</th><td class="field-body">specific post</td>
+</tr>
+<tr class="field-even field"><th class="field-name">param persona:</th><td class="field-body">persona</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">param person:</th><td class="field-body">user</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of extracted information</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.getFood">
+<code class="descname">getFood</code><span class="sig-paren">(</span><em>keywords</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.getFood"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.getFood" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>determines if the keywords generated from Watson API has a food entity</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param keywords:</th><td class="field-body">array of keywords</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of foods</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.getFoodType">
+<code class="descname">getFoodType</code><span class="sig-paren">(</span><em>query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.getFoodType"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.getFoodType" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>distinguishes the food type</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param query:</th><td class="field-body">food</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of categories</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.getPersonMentioned">
+<code class="descname">getPersonMentioned</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.getPersonMentioned"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.getPersonMentioned" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>get the mentioned name of a person</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of names</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="foodextract.FoodieExtractor.getPlace_Organization">
+<code class="descname">getPlace_Organization</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/foodextract.html#FoodieExtractor.getPlace_Organization"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#foodextract.FoodieExtractor.getPlace_Organization" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>gets the place and organization related to the post</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">food organization, location</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="foodextract.FoodieExtractor.gsearch">
+<code class="descname">gsearch</code><em class="property"> = &lt;context.googlesearch.GoogleSearch object&gt;</em><a class="headerlink" href="#foodextract.FoodieExtractor.gsearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="foodextract.FoodieExtractor.nlp">
+<code class="descname">nlp</code><em class="property"> = &lt;spacy.lang.en.English object&gt;</em><a class="headerlink" href="#foodextract.FoodieExtractor.nlp" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="foodextract.FoodieExtractor.person">
+<code class="descname">person</code><em class="property"> = ''</em><a class="headerlink" href="#foodextract.FoodieExtractor.person" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">IEApp</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="database.html">database module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="driver.html">driver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="filemanager.html">filemanager module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clean.html">clean module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="emojiremove.html">emojiremove module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entity.html">entity module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spellcheck.html">spellcheck module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alchemyapi.html">alchemyapi module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="asstypes.html">asstypes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conceptnet.html">conceptnet module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contextunderstanding.html">contextunderstanding module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dbpedia.html">dbpedia module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fanextract.html">fanextract module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">foodextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gameextract.html">gameextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="googlesearch.html">googlesearch module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="likedpagesevents.html">likedpagesevents module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sportextract.html">sportextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="translator.html">translator module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">IEApp</a><ul>
+      <li>Previous: <a href="fanextract.html" title="previous chapter">fanextract module</a></li>
+      <li>Next: <a href="gameextract.html" title="next chapter">gameextract module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/foodextract.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

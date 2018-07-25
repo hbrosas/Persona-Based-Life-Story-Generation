@@ -1,0 +1,36 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Shopee.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Wendy's Philippines.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Pepero Philippines.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Doc2Us.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "MallWorldGame.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Foodie"
+  }
+},

@@ -1,0 +1,177 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>emojiremove &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for emojiremove</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">re</span><span class="o">,</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">spacy</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">	Author: Fanjun</span>
+<span class="sd">	Base Code: remove_emoji</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="EmojiRemove"><a class="viewcode-back" href="../emojiremove.html#emojiremove.EmojiRemove">[docs]</a><span class="k">class</span> <span class="nc">EmojiRemove</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">	A class for removing not only the emoji/emoticons, but also other entities like new lines, whitespaces, URLs and email addresses.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="EmojiRemove.removeExtras"><a class="viewcode-back" href="../emojiremove.html#emojiremove.EmojiRemove.removeExtras">[docs]</a>	<span class="k">def</span> <span class="nf">removeExtras</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Removes the URLs and Email Addresses in the post</span>
+
+<span class="sd">		:param text: raw text</span>
+<span class="sd">	    :return: cleaned text</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;en&#39;</span><span class="p">)</span>
+		<span class="n">doc</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+		<span class="n">ftext</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+		<span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">doc</span><span class="p">:</span>
+			<span class="k">if</span> <span class="ow">not</span> <span class="n">w</span><span class="o">.</span><span class="n">like_url</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">w</span><span class="o">.</span><span class="n">like_email</span><span class="p">:</span>
+				<span class="n">ftext</span> <span class="o">+=</span> <span class="n">w</span><span class="o">.</span><span class="n">text</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
+
+		<span class="k">return</span> <span class="n">ftext</span></div>
+
+<div class="viewcode-block" id="EmojiRemove.removeWhitespaces"><a class="viewcode-back" href="../emojiremove.html#emojiremove.EmojiRemove.removeWhitespaces">[docs]</a>	<span class="k">def</span> <span class="nf">removeWhitespaces</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Removes the whitespaces in the post</span>
+
+<span class="sd">		:param text: raw text</span>
+<span class="sd">	    :return: cleaned text</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">wsPattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">u</span><span class="s2">&quot;&quot;&quot;[* ]+&quot;&quot;&quot;</span><span class="p">)</span>
+		<span class="n">text</span> <span class="o">=</span> <span class="n">wsPattern</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="EmojiRemove.removeNewLine"><a class="viewcode-back" href="../emojiremove.html#emojiremove.EmojiRemove.removeNewLine">[docs]</a>	<span class="k">def</span> <span class="nf">removeNewLine</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Removes the new lines in the post</span>
+
+<span class="sd">		:param text: raw text</span>
+<span class="sd">	    :return: cleaned text</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+		<span class="n">newlinePattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">u</span><span class="s2">&quot;&quot;&quot;[*</span><span class="se">\n</span><span class="s2">]+&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">UNICODE</span><span class="p">)</span>
+		<span class="n">text</span> <span class="o">=</span> <span class="n">newlinePattern</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="EmojiRemove.remove_specialChars"><a class="viewcode-back" href="../emojiremove.html#emojiremove.EmojiRemove.remove_specialChars">[docs]</a>	<span class="k">def</span> <span class="nf">remove_specialChars</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Removes the special characters (except .!?,&#39;&quot; @&amp;:/-]+) in the post</span>
+
+<span class="sd">		:param text: raw text</span>
+<span class="sd">	    :return: cleaned text</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">specialCharPattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">u</span><span class="s2">&quot;&quot;&quot;[^A-Za-z0-9.!?,&#39;&quot; @&amp;:/-]+&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">UNICODE</span><span class="p">)</span>
+		<span class="n">text</span> <span class="o">=</span> <span class="n">specialCharPattern</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="EmojiRemove.remove_emoji"><a class="viewcode-back" href="../emojiremove.html#emojiremove.EmojiRemove.remove_emoji">[docs]</a>	<span class="k">def</span> <span class="nf">remove_emoji</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">		Removes the emojis/emoticons in the post</span>
+<span class="sd">		</span>
+<span class="sd">		:param text: raw text</span>
+<span class="sd">	    :return: cleaned text</span>
+<span class="sd">	    &quot;&quot;&quot;</span>
+
+		<span class="n">emoji_pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span>
+					    <span class="sd">&quot;&quot;&quot;(\:\w+\:|\&lt;[\/\\]*3|[\(\)\\\D|\*\$][\-\^]?[\:\;\=]|[\:\;\=B8]&quot;&quot;&quot;</span><span class="o">+</span>
+					    <span class="sd">&quot;&quot;&quot;[\-\^\&quot;\&#39;]*[3DOPp\@\$\*\\\)\(\/\|\&gt;\]\}\&lt;\[\{]*)(?=\s|[\!\.\?]|$)&quot;&quot;&quot;</span><span class="p">)</span> 
+
+		<span class="n">text</span> <span class="o">=</span> <span class="n">emoji_pattern</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span></div></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">IEApp</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

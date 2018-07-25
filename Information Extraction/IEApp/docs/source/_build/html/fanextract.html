@@ -1,0 +1,426 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>fanextract module &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="foodextract module" href="foodextract.html" />
+    <link rel="prev" title="dbpedia module" href="dbpedia.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-fanextract">
+<span id="fanextract-module"></span><h1>fanextract module<a class="headerlink" href="#module-fanextract" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="fanextract.FanExtractor">
+<em class="property">class </em><code class="descclassname">fanextract.</code><code class="descname">FanExtractor</code><a class="reference internal" href="_modules/fanextract.html#FanExtractor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Context Understanding for The Fangirl/Fanboy</p>
+<dl class="method">
+<dt id="fanextract.FanExtractor.createAssertionStoryPost">
+<code class="descname">createAssertionStoryPost</code><span class="sig-paren">(</span><em>base_data</em>, <em>post</em>, <em>postInfo</em>, <em>storyInfo</em>, <em>assertions</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.createAssertionStoryPost"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.createAssertionStoryPost" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>extracts information from event and shared post caption</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param base_data:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">data frame that contains the specific information that can be extracted</td>
+</tr>
+<tr class="field-even field"><th class="field-name">param post:</th><td class="field-body">post instance</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">param postInfo:</th><td class="field-body">shared post caption</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">param storyInfo:</th></tr>
+<tr class="field-even field"><td>&#160;</td><td class="field-body">event</td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">param assertions:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">list of already extracted information</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">list of extracted information</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.describeSubject">
+<code class="descname">describeSubject</code><span class="sig-paren">(</span><em>sentiment</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.describeSubject"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.describeSubject" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Extracts data from “describing the subject” subject situation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param sentiment:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">user thought</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">describe data</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.extractPost">
+<code class="descname">extractPost</code><span class="sig-paren">(</span><em>post</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.extractPost"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.extractPost" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Extracts data from the shared post caption</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param post:</th><td class="field-body">shared post caption</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">post data</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.extractSentiment">
+<code class="descname">extractSentiment</code><span class="sig-paren">(</span><em>sentiment</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.extractSentiment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.extractSentiment" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>extracts information from the user thoughts</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param sentiment:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">user thought</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">activity data, describe data, subject data, sentiment data</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.extractStory">
+<code class="descname">extractStory</code><span class="sig-paren">(</span><em>story</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.extractStory"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.extractStory" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Extracts data from the event</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param story:</th><td class="field-body">event</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">event data</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.fanExtract">
+<code class="descname">fanExtract</code><span class="sig-paren">(</span><em>post</em>, <em>persona</em>, <em>person</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.fanExtract"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.fanExtract" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Main function for The Fangirl/Fanboy context understanding</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param post:</th><td class="field-body">specific post</td>
+</tr>
+<tr class="field-even field"><th class="field-name">param persona:</th><td class="field-body">persona</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">param person:</th><td class="field-body">user</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of extracted information</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.findSubject">
+<code class="descname">findSubject</code><span class="sig-paren">(</span><em>post</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.findSubject"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.findSubject" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Finds the subject of the post</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param post:</th><td class="field-body">post</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">post data</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.findTitleInQuotes">
+<code class="descname">findTitleInQuotes</code><span class="sig-paren">(</span><em>post</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.findTitleInQuotes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.findTitleInQuotes" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Extracts the title of an object that are enclosed with “”</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param post:</th><td class="field-body">post</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">title</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.find_adj">
+<code class="descname">find_adj</code><span class="sig-paren">(</span><em>docu</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.find_adj"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.find_adj" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.find_verb">
+<code class="descname">find_verb</code><span class="sig-paren">(</span><em>docu</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.find_verb"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.find_verb" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.getSentiment">
+<code class="descname">getSentiment</code><span class="sig-paren">(</span><em>sentiment</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.getSentiment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.getSentiment" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Gets the sentiment from Watson API</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param sentiment:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">user thought</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">sentiment</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.isArt">
+<code class="descname">isArt</code><span class="sig-paren">(</span><em>title</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.isArt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.isArt" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Determines whether the entity is a novel, book, song, or movie</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param title:</th><td class="field-body">title of the entity</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True or False</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="fanextract.FanExtractor.narratingActivity">
+<code class="descname">narratingActivity</code><span class="sig-paren">(</span><em>sentiment</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/fanextract.html#FanExtractor.narratingActivity"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fanextract.FanExtractor.narratingActivity" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Extracts data from narrating an activity subject situation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">param sentiment:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">user thought</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">activity data</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">IEApp</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="database.html">database module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="driver.html">driver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="filemanager.html">filemanager module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clean.html">clean module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="emojiremove.html">emojiremove module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entity.html">entity module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spellcheck.html">spellcheck module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alchemyapi.html">alchemyapi module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="asstypes.html">asstypes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conceptnet.html">conceptnet module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contextunderstanding.html">contextunderstanding module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dbpedia.html">dbpedia module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">fanextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="foodextract.html">foodextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gameextract.html">gameextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="googlesearch.html">googlesearch module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="likedpagesevents.html">likedpagesevents module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sportextract.html">sportextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="translator.html">translator module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">IEApp</a><ul>
+      <li>Previous: <a href="dbpedia.html" title="previous chapter">dbpedia module</a></li>
+      <li>Next: <a href="foodextract.html" title="next chapter">foodextract module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/fanextract.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

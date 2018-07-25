@@ -1,0 +1,238 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>dbpedia module &#8212; Information Extraction  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="fanextract module" href="fanextract.html" />
+    <link rel="prev" title="contextunderstanding module" href="contextunderstanding.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-dbpedia">
+<span id="dbpedia-module"></span><h1>dbpedia module<a class="headerlink" href="#module-dbpedia" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="dbpedia.DBPedia">
+<em class="property">class </em><code class="descclassname">dbpedia.</code><code class="descname">DBPedia</code><a class="reference internal" href="_modules/dbpedia.html#DBPedia"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dbpedia.DBPedia" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="method">
+<dt id="dbpedia.DBPedia.getHypernym">
+<code class="descname">getHypernym</code><span class="sig-paren">(</span><em>query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/dbpedia.html#DBPedia.getHypernym"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dbpedia.DBPedia.getHypernym" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Gets the hypernym of the query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param query:</th><td class="field-body">query</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">hypernym</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="dbpedia.DBPedia.getType">
+<code class="descname">getType</code><span class="sig-paren">(</span><em>query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/dbpedia.html#DBPedia.getType"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dbpedia.DBPedia.getType" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Gets the type of the query</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param query:</th><td class="field-body">query</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of types</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dbpedia.DBPedia.nlp">
+<code class="descname">nlp</code><em class="property"> = &lt;spacy.lang.en.English object&gt;</em><a class="headerlink" href="#dbpedia.DBPedia.nlp" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="dbpedia.DBPedia.search">
+<code class="descname">search</code><span class="sig-paren">(</span><em>query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/dbpedia.html#DBPedia.search"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dbpedia.DBPedia.search" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Distinguishes whether the query exists on DBPedia</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param query:</th><td class="field-body">query</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True or False</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="dbpedia.DBPedia.searchFoodCategory">
+<code class="descname">searchFoodCategory</code><span class="sig-paren">(</span><em>query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/dbpedia.html#DBPedia.searchFoodCategory"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#dbpedia.DBPedia.searchFoodCategory" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Gets the category of food</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">param query:</th><td class="field-body">food</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">array of food categories</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dbpedia.DBPedia.sparql">
+<code class="descname">sparql</code><em class="property"> = None</em><a class="headerlink" href="#dbpedia.DBPedia.sparql" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Information Extraction</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">IEApp</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="database.html">database module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="driver.html">driver module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="filemanager.html">filemanager module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clean.html">clean module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="emojiremove.html">emojiremove module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="entity.html">entity module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spellcheck.html">spellcheck module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alchemyapi.html">alchemyapi module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="asstypes.html">asstypes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conceptnet.html">conceptnet module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contextunderstanding.html">contextunderstanding module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">dbpedia module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fanextract.html">fanextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="foodextract.html">foodextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gameextract.html">gameextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="googlesearch.html">googlesearch module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="likedpagesevents.html">likedpagesevents module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sportextract.html">sportextract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="translator.html">translator module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">IEApp</a><ul>
+      <li>Previous: <a href="contextunderstanding.html" title="previous chapter">contextunderstanding module</a></li>
+      <li>Next: <a href="fanextract.html" title="next chapter">fanextract module</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, FB Persona.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/dbpedia.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

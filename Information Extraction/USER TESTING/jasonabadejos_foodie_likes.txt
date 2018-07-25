@@ -1,0 +1,29 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Oreo.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Potato Corner USA.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Dessert Shop Community.",
+    "CATEGORY": "App Page",
+    "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Frutti FroYo.",
+    "CATEGORY": "Food & Beverage Company",
+    "PERSONA": "The Foodie"
+  }
+},

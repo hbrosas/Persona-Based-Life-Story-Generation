@@ -1,0 +1,30 @@
+{
+  "type": "Play",
+  "values": {
+    "Person": "Issa Garena",
+    "Game": "Arena of Valor",
+    "Type": "Multiplayer online battle arena"
+  },
+  "persona": "The Gamer"
+},{
+  "type": "Supports",
+  "values": {
+    "Person": "Issa Garena",
+    "Team": "Cloud 9",
+    "Game": [
+      "League of Legends",
+      "Fortnite",
+      "Player Unkown's Battlegrounds",
+      "H1Z1",
+      "Super Smash Bros",
+      "Overwatch",
+      "Clash Royale",
+      "Rocket League",
+      "Rainbow Six Siege"
+    ],
+    "Country": [
+      "North America"
+    ]
+  },
+  "persona": "The Gamer"
+},

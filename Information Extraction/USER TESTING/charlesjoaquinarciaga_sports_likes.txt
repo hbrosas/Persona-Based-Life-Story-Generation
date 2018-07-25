@@ -1,0 +1,8 @@
+{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "NBA.",
+    "CATEGORY": "Sports League",
+    "PERSONA": "The Sports Fanatic"
+  }
+},

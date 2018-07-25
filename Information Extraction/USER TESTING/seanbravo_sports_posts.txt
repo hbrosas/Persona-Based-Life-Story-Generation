@@ -1,0 +1,630 @@
+{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "basketball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "wrestling"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "skating"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "swimming"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "sports"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "soccer"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "paintball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "mountain biking"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "olympics"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "boxing"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Sean Bravo",
+    "Sport": "sport fishing"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "National Basketball Association",
+    "Frequency": 26,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Corey Maggette",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Los Angeles Lakers",
+    "Frequency": 17,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Boston Celtics",
+    "Frequency": 6,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "2008\u201309 NBA season",
+    "Frequency": 13,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "NBA Rookie of the Year Award",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Miami Heat",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Atlanta Hawks",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Wilt Chamberlain",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Magic Johnson",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Michael Jordan",
+    "Frequency": 4,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Chris Thomas",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Chicago Bulls",
+    "Frequency": 3,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Cleveland Cavaliers",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "2006\u201307 NBA season",
+    "Frequency": 5,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Basketball",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "National Hockey League",
+    "Frequency": 1,
+    "Sport": [
+      "hockey"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Roger Federer",
+    "Frequency": 1,
+    "Sport": [
+      "tennis"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "LeBron James",
+    "Frequency": 14,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "CM Punk",
+    "Frequency": 1,
+    "Sport": [
+      "wrestling"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Kevin Garnett",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "2005\u201306 NBA season",
+    "Frequency": 4,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "2004 Summer Olympics",
+    "Frequency": 1,
+    "Sport": [
+      "olympics"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "2008 Summer Olympics",
+    "Frequency": 1,
+    "Sport": [
+      "olympics"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Manny Pacquiao",
+    "Frequency": 2,
+    "Sport": [
+      "boxing"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Los Angeles Clippers",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Yao Ming",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Houston Rockets",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "NBA Sixth Man of the Year Award",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "San Antonio Spurs",
+    "Frequency": 5,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "2002\u201303 NBA season",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Slam dunk",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Detroit Pistons",
+    "Frequency": 3,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "African American basketball players",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Minnesota Timberwolves",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Ricky Hatton",
+    "Frequency": 1,
+    "Sport": [
+      "boxing"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Dwyane Wade",
+    "Frequency": 3,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Kobe Bryant",
+    "Frequency": 13,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Small forward",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Toronto Raptors",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "2009\u201310 NBA season",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "National Football League",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Cleveland Browns",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Point guard",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "Danilo Gallinari",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Sean Bravo",
+    "Action": "Shared About",
+    "Subject": "University Athletic Association of the Philippines",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},
