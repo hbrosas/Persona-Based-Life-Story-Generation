@@ -1,0 +1,1644 @@
+{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Khaled Hosseini",
+    "Type": [
+      "author",
+      "novelist",
+      "novel",
+      "novels"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Avatar Korra",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "David Archuleta",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Ben Schwartz",
+    "Type": [
+      "actor",
+      "producer",
+      "writer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Avatar Korra",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Pottermore - More Than An Insider",
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Fandom": "Pottermore",
+    "Type": [
+      "novels",
+      "books"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Harry Potter"
+    ],
+    "Type": [
+      "novels",
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Maynila. Sa mga Kuko ng Liwanag. The Musical",
+    "Type": [
+      "musical",
+      "novel",
+      "theater",
+      "film"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Maynila. Sa mga Kuko ng Liwanag. The Musical",
+    "Sentiment": "negative",
+    "Type": [
+      "musical",
+      "novel",
+      "theater",
+      "film"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "EDM Sauce",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "EDM Sauce",
+    "Sentiment": "negative",
+    "Type": [
+      "music"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hamilton: An American Musical s",
+    "Type": [
+      "musical",
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "David Bonifacio",
+    "Type": [
+      "writer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Doctor Who and the T.A.R.D.I.S.",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "BuzzFeed Geeky",
+    "Type": [
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hamilton: An American Musical",
+    "Type": [
+      "musical",
+      "book",
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Kiseki no Sedai Team (Kuroko no Basuke) ",
+    "Type": [
+      "series",
+      "anime"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Jon Cozart",
+    "Type": [
+      "personality",
+      "musician",
+      "actor"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Cool 92.5",
+    "Type": [
+      "music",
+      "podcasts"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "UNILAD",
+    "Type": [
+      "publisher"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "CollegeHumor",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Fire Nation",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Harry Potter is my Oxygen",
+    "Type": [
+      "books"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Simon Shackleton Music",
+    "Type": [
+      "music",
+      "producer",
+      "musical"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Kiseki no Sedai Team (Kuroko no Basuke) ",
+    "Type": [
+      "series",
+      "anime"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "DJ Billy Daniel Bunter",
+    "Type": [
+      "producer",
+      "music",
+      "actor",
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Daniel Padilla"
+    ],
+    "Fandom": "DJ",
+    "Type": [
+      "producer",
+      "music",
+      "actor",
+      "movie"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": [
+      "Daniel Padilla"
+    ],
+    "Type": [
+      "producer",
+      "music",
+      "actor",
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Books Rock My World",
+    "Type": [
+      "books",
+      "singer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Avatar Korra",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hermionaphobia- The fear of being killed -or worse- expelled",
+    "Type": [
+      "movie",
+      "actress"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Hermionaphobia- The fear of being killed -or worse- expelled",
+    "Sentiment": "positive",
+    "Type": [
+      "movie",
+      "actress"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Kiseki no Sedai Team (Kuroko no Basuke) ",
+    "Type": [
+      "series",
+      "anime"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Harry Potter: Over the Years",
+    "Type": [
+      "series",
+      "novels",
+      "film"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Japanese ACGN",
+    "Type": [
+      "anime",
+      "novel"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "sentiment",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "Japanese ACGN",
+    "Sentiment": "negative",
+    "Type": [
+      "anime",
+      "novel"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Mickey Lindo",
+    "FanOf": "How I Met Your Mother",
+    "Type": [
+      "series"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Nina Gigantes: The Book Launch Party",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Curves Circuit with Zumba Pink Party",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "#25YearsStrong CCWZ Party",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Birthday Buffet 3: Let's Destroy the Bourgeoisie",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Marvel Madness: The Third General Assembly",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "FEBRUARY 2016 KOMIKET",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Reverie: Spoken Word Night",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Character Creation",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Zine-Making Seminar & Workshop (with Paolo Jose Cruz)",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "My Weird Birthday Intimate (But not really intimate) Get-Together",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "NOT A CELEBRATION JUST A HANG OUT",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "GRAD PICS/NOTES",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Mickey's ACTUAL Birthday Thing",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Mickey's Birthday..",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "2013",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Alternate Name Day II",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Birthday Celebration @ Don Day",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "BE PART OF A GROUP EXERCISE/ SCIENCE EXPERIMENT",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "DEADLINE OF FILIPINO SCRAPBOOK!",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "HOLA WILDHEARTS, HELP PLEASE",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "REPRESENT! The Legit Status Fundraising Concert",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Christmas Day...",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "CIRCA: MCHS fair concert 2010",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "INFANZIA - MCHS Fair 2010",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Hana-tox.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "CinemaBravo.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Musical Theatre Moments.",
+  "CATEGORY": "Theatrical Productions",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Art Capitol.",
+  "CATEGORY": "Arts & Crafts Store",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Curves.",
+  "CATEGORY": "Gym/Physical Fitness Center",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Lana Jay.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tastemade Store.",
+  "CATEGORY": "Kitchen/Cooking",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Liza Koshy.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "PJ's Art Box.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Postize.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "TED-Ed.",
+  "CATEGORY": "Education Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Daily Dogs Stories.",
+  "CATEGORY": "Personal Blog",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Art of Patricia Ramos.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "HGTV.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "LGBTQ@Facebook.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Circus-usagi.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Rosso Mimi.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Curves Eastwood.",
+  "CATEGORY": "Gym/Physical Fitness Center",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Rejected Princesses.",
+  "CATEGORY": "Arts & Humanities Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jubilee.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "So Yummy.",
+  "CATEGORY": "Cooking School",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Amazing Life.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Green & White 2017.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Parada.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Dodo.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Bored Panda Art.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "WhiteHole. \"",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "How to DAD.",
+  "CATEGORY": "Coach",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jasu Wonder World.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Emily Canham.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Writing About Writing.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Nerd Corner.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Fandom Trinkets.",
+  "CATEGORY": "Accessories",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tasty.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Manila International Book Fair. .",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Harry Potter - the story that I grew up with..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Depression Kills.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "YAOI na THIS..",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "BuzzFeed.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "BuzzFeed Food.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Nobiru Gemu - A Visual Novel Project.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Upworthy.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Brain Dare.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Hiro Hamada. ?",
+  "CATEGORY": "Fictional Character",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ligaya.",
+  "CATEGORY": "Book Series",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Yellow Diamond Universe.",
+  "CATEGORY": "Fictional Character",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Alvin and the Chipmunks.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "DLSU Business College Government.",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "DLSU CSO: Frosh Welcoming and Annual Recruitment Week. .",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Squishy Star.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Tonight Show Starring Jimmy Fallon.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Gamefowl Art by: Miko Kaw Hok Uy.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Voice of the POOR.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "StylishEve.",
+  "CATEGORY": "Magazine",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "McDonald's.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Chillingo.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "DLSU Library - Turn 1 into a Million.",
+  "CATEGORY": "Library",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Fluffyparcel.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pocket Princesses.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Anime Manga v.2.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "LEAP 2K14.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Disney Memes.",
+  "CATEGORY": "Arts & Humanities Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Walt Disney Studios.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Everything Nerdy and Anything in Between.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Potterolgic.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "FarmVille.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Saturday Night Live.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sushi. .",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Maltesers UK.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Sims.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Did You Know.",
+  "CATEGORY": "News & Media Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Procrastinating. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tetris Battle.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Fred.",
+  "CATEGORY": "Comedian",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Dippin' Dots.",
+  "CATEGORY": "Ice Cream Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jesus Daily.",
+  "CATEGORY": "Broadcasting & Media Production Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Avatar: The Last Airbender.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "C.L.A.S.S - Come Late And Start Sleeping.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Little Women. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Glee.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "\"Is there gonna be food?\"",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "laying in bed for hours just thinking about everything.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "How Everyone has their own version of okay.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I Want To STOP \"Becoming a Fan\"",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "BABY, BABY, BABY, OH.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I Love Laughing. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Logan Lerman. .",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I LOVE IT",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Masarap ang pagkain, lalo na pag libre. :-).",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I WILL NEVER CHEAT ON SOMEBODY",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I stayed up for YOU and you fell asleep,thanks..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "GALIT KA NA NGA, pero isang ngiti niya lang, nawala na lahat ng galit mo..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "1st day of school: I'm so excited!",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Missing the good old days...",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ok im gonna study now...",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Science Lovers Only.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "STOP MOVING!!",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Regrets when you just bought something & then found something better..",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "laughing until you run out of air and it sounds like you are suffocating.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Russell.",
+  "CATEGORY": "Movie Character",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "New Year = New Start :).",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I Have Always Wanted to Get in a Cab and Say.\"FOLLOW THAT CAR!!\".",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Squirt. \"",
+  "CATEGORY": "Movie Character",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Starbucks.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Weekends!. Everybody loves 'em!.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I LOVE JESUS. .",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Chewing Gum.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Skittles.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "TGIFriday's Philippines.",
+  "CATEGORY": "American Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Green Day.",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jason Mraz.",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Linkin Park. .",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I Love Jesus.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jeff Dunham.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Manny Pacquiao.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},
