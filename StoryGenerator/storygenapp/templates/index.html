@@ -1,0 +1,120 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+	<title>Index | YOU</title>
+
+	<!-- Stylesheets -->
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'css/index-style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="the-body">
+	<div class="main-container">
+			<img src = "{% static 'img/you_dark.png' %}" class="img-responsive logo">
+            <h3 class="header">A Persona-Based Life Story Generator</h3>
+			<button class="btn btn-small btn-block submitbtn lgsBtn" type="button" id="startModalBtn">Let's Get Started!</button>
+            <button class="btn btn-small btn-block submitbtn helpBtn" type="button" id="helpModalBtn">Help</button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="startModal" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Before getting started ...</h4>
+                </div>
+
+                <div class="modal-body">
+                    Proceeding to our next steps in generating your story requires you to perform and to agree on the following: <br><br>
+                    <ol>
+                        <li>You will enter your Facebook login credentials. We will not have an access to your email and password. Facebook is responsible for connecting your account to our system.</li>
+                        <li>You will approve the permissions which allows the software system to access your Facebook data to generate your persona-based life story. These permissions will allow the system to access specifically your profile information, posts, liked pages, managed and joined groups.</li>
+                        <li>Wait until the extraction of Facebook data is completed.</li>
+                        <li>Close the incognito browser to logout your Facebook account.</li>
+                        <!--<li>The system will generate your persona-based life story according to your posts, liked pages and groups. You may examine and confirm the persona generated.</li>
+                        <li>You have the option to save the story generated in a text file. You will be the one responsible for keeping the file.</li>-->
+                    </ol>
+                    <!--Note that by using the YOU: A Persona-Based Life Story Generator, you agree that the generated persona-based life story will be stored for research purposes. Rest assured that the generated story will be kept confidential.-->
+                    All the collected Facebook data will be stored in our database anonymously for it to remain confidential.
+                </div>
+
+                <div class="modal-footer">
+                    <div class="pull-left">
+                        <div class="checkbox">
+                            <label class="agree-text">
+                                <input type="checkbox"> I agree to the terms and conditions
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="pull-right">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="loginFB">
+                            <i class="fa fa-facebook" aria-hidden="true"></i> &nbsp; Log in on Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="helpModal" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Need Help?</h4>
+                </div>
+
+                <div class="modal-body">
+                    <mark>You.</mark> is an application that generates your persona-based life story using your facebook data. This application will generate your <mark>Top 3</mark> personas and will create stories on each of them.
+                    <br><br>
+
+                    <strong><mark><i class="fa fa-question-circle" aria-hidden="true"></i> &nbsp;Frequently Asked Questions</mark></strong>
+
+                    <dl class="faqs">
+                        <dt>How are you going to access my Facebook data?</dt>
+                        <dd>You will log in on your facebook account by clicking the "Log in on Facebook" button in the Let's Get Started Modal.</dd>
+                        <dt>How can I ensure that you are not hacking me?</dt>
+                        <dd>The Facebook Login API that we used came from Facebook. Thus, we have no access to your user credentials.</dd>
+                        <dt>Since I have logged in using my Facebook account, can I logout my account too?</dt>
+                        <dd>Yes, you can! Logout button can be found in the profile page.</dd>
+                        <dt>I liked the story. Can I save it?</dt>
+                        <dd>Yes, you can! Just click the "Save" button that can be found at the bottom part of the profile page.</dd>
+                    </dl>
+                </div>
+
+                <div class="modal-footer">
+                    <div class="pull-right">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- Scripts -->
+	<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/facebook-api.js' %}"></script>
+	<!-- body -->
+    <script>
+        $(document).on("click", "#startModalBtn", function() {
+            $("#startModal").modal('toggle');
+        });
+
+        $(document).on("click", "#helpModalBtn", function() {
+            $("#helpModal").modal('toggle');
+        });
+    </script>
+
+
+</body>
+
+</html>

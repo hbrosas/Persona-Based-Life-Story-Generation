@@ -1,0 +1,1843 @@
+{
+  "type": "Play",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Sport": "soccer"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Sport": "sport fishing"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Sport": "basketball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Play",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Sport": "football"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Celtic F.C.",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Manchester United F.C.",
+    "Frequency": 2,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Baseball",
+    "Frequency": 1,
+    "Sport": [
+      "baseball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Basketball",
+    "Frequency": 3,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "DeAndre Jordan",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "LeBron James",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Detroit Pistons",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "National Basketball Association",
+    "Frequency": 10,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "NBA Most Valuable Player Award",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "All-NBA Team",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Stephanie McMahon",
+    "Frequency": 1,
+    "Sport": [
+      "wrestling"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Real Madrid C.F.",
+    "Frequency": 2,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "FIFA World Player of the Year",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "NBA on ESPN",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "The Final",
+    "Frequency": 1,
+    "Sport": [
+      "olympics"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Kevin Durant",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Promotion and relegation",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Dallas Mavericks",
+    "Frequency": 7,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Miami Heat",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "NFL on CBS",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "NBA Finals",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Indiana Pacers",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Cowboys Stadium",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "WrestleMania",
+    "Frequency": 1,
+    "Sport": [
+      "wrestling"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Shawn Michaels",
+    "Frequency": 1,
+    "Sport": [
+      "wrestling"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Los Angeles Lakers",
+    "Frequency": 2,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "University Athletic Association of the Philippines",
+    "Frequency": 2,
+    "Sport": [
+      "boxing"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Los Angeles Clippers",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Boston Celtics",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Golden State Warriors",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "The Score",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "The Beautiful Game",
+    "Frequency": 1,
+    "Sport": [
+      "football",
+      "soccer"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "2006\u201307 NBA season",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Philadelphia 76ers",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "2006 NBA Finals",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "New Orleans Hornets",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Fayetteville Patriots",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Paul Scholes",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Theo Walcott",
+    "Frequency": 1,
+    "Sport": [
+      "football"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "England",
+    "Frequency": 1,
+    "Sport": [
+      "cricket"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Olympic Games",
+    "Frequency": 1,
+    "Sport": [
+      "olympics"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Princeton offense",
+    "Frequency": 1,
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Shared_About",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Shared About",
+    "Subject": "Princeton University",
+    "Frequency": 1,
+    "Sport": [
+      "soccer"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "Supports",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Action": "Supports",
+    "Team": "Dallas Mavericks",
+    "Sport": [
+      "basketball"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "FanOf",
+  "values": {
+    "Person": "Jorge Francisco",
+    "Athlete": "Manny Pacquiao",
+    "Sport": [
+      "boxing"
+    ]
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "League",
+  "values": {
+    "Person": "Jorge Francisco",
+    "League": "NBA",
+    "Sport": "Basketball"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "type": "League",
+  "values": {
+    "Person": "Jorge Francisco",
+    "League": "WWE",
+    "Sport": "Wrestling"
+  },
+  "persona": "The Sports Fanatic"
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Finding Cayetano",
+    "RSVP": "unsure",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "CCS Boljakan Night 2017",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "SCG Fundraising Activity [FIND OUT MORE FIRST]",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Lasallian Showtime: Dance Competition powered by Sony Extra Bass",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Social Conversations: Where do we go from here?",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "DLSU-PUSO FAMILY DAY",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Startup Weekend Manila DLSU",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "FAME 2017",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "2017 FIFA 17 Jan",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Final LA Session",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Santugon Thanksgiving Party 2016",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "No Pressure at Supremo",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "The Silent Sit-In Before the Presidential Debates",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Party Manila Traffic Light Pub Crawl",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "UAAP FOOTBALL OPENING DAY",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Frosh Block Officers Meeting",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Legislative Assembly Year-End Session and Dinner",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Coachilla",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Hail! (The Culminating Concert for DLSU's University Week 2015)",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Alyssa's 18th Birthday",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Please vote for me as your baby lips candy cutie!!!!!!!!!!!",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Alec Gabriel Niguidula Ducusin's Baptism",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "CSA FAMILY FUN RUN",
+    "RSVP": "attending",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Gadget Addict.",
+  "CATEGORY": "Video Creator",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Lasallian Mission at DLSU.",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Navara Nation Philippines.",
+  "CATEGORY": "Social Club",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Abangers Session.",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "DLSU School of Economics Government.",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Investagrams.",
+  "CATEGORY": "Internet Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jason Chaffetz. .",
+  "CATEGORY": "Politician",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "De La Salle University, College of Computer Studies.",
+  "CATEGORY": "Community College",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Hackachu.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "CarGuide.",
+  "CATEGORY": "News & Media Website",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Makati Ford.",
+  "CATEGORY": "Car Dealership",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "NFL.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Aries Tee.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "ISportsTimes.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Associa\u00e7\u00e3o Chapecoense de Futebol.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Futbol Atbp.. the most comprehensive football shop in the Philippines.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Captivate Solutions.",
+  "CATEGORY": "Advertising Agency",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Dance Central. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Right Side Broadcasting.",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "De La Salle University - Fencing Team.",
+  "CATEGORY": "School Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sports Central.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Coach Lee.",
+  "CATEGORY": "Coach",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Mae Mae Gonzales.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Burger Transit #TBT.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Overwatch.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "FIFA Manila.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ateneans for Roxas Robredo 2016.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "BMS Presents: Art & Appetite.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Kirstie Alley.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Leicester City Football Club.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ate Che Che Gonzales For Congresswoman District 2 Taguig City.",
+  "CATEGORY": "Government Official",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ivanka Trump.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Donald Trump Is My President.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Under Armour.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Philippine Tackle Football League.",
+  "CATEGORY": "Sports & Recreation",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "LMG Events.",
+  "CATEGORY": "Event Planner",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Leila de Lima.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Viddsee.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Party Manila.",
+  "CATEGORY": "Travel Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "DLSU CSG.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "De La Salle Floorball.",
+  "CATEGORY": "School Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Philippine Floorball Association.",
+  "CATEGORY": "Community Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Open Court.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "UAAP Sports TV.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Green Giant FM.",
+  "CATEGORY": "Radio Station",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "TUGON Ateneo.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Philippine Star.",
+  "CATEGORY": "Newspaper",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "FIFA.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "A+C Sport.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Shrek.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "adidas.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Football Champion by Pascual Creamy Delight.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Positive Playlist.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Football Manila.",
+  "CATEGORY": "Stadium, Arena & Sports Venue",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Calle Agno.",
+  "CATEGORY": "Grocery Store",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "PlayBook Video Game Lounge and Bookshop.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Rajon Rondo.",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "La Nordiques Nation.",
+  "CATEGORY": "Recreation & Sports Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Xbox Philippines.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Beings Of Gokongwei.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jus & Jerry's Food Corp..",
+  "CATEGORY": "Fast Food Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "De La Salle Zobel Basketball Teams.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+ }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Derecho Productions.",
+  "CATEGORY": "Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Philippine Social Security System.",
+  "CATEGORY": "Government Building",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "MMDA.",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "ADO Den Haag. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Walt Disney Studios.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy" 
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Futbol Filipinas Academia.",
+  "CATEGORY": "School",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pilipinas Cup.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Asian Basketball.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Kinect Sports. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Xbox UK.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Nike Football.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tune Hotels. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Football Manager.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Patrick Star.",
+  "CATEGORY": "Fictional Character",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Fast & Furious. .",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Alicia Keys.",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Basketball. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Mizuno Morelia.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "PUMA Football.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "American Dad.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Barangay Ginebra Kings.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Kathryn Bernardo.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Soccer.",
+  "CATEGORY": "Sport",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "FIFA 13 Ultimate Team Page. .",
+  "CATEGORY": "Community Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "EA SPORTS NBA LIVE.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "NBA Live 10. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "WorldGaming.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "UEFA EURO 2020. .",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Bambi's House of Desserts.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Shoccer.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "FarmVille.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Xbox.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "PlayStation.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Olongapo VINES.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Disneyland.",
+  "CATEGORY": "Amusement & Theme Park",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "A Walk",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Dallas Mavericks.",
+  "CATEGORY": "Sports Club",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "PBA 2K Series.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Kinect Sports.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "PBA.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Happy Feet (OLSTAH).",
+  "CATEGORY": "Professional Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "We want The Script to come back in Manila. .",
+  "CATEGORY": "Concert Tour",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Gary Payton. .",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Seattle Supersonics.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "NBA G League.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Starbucks.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Toy Story.",
+  "CATEGORY": "Movie",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Manchester United is better than Manchester Shity. .",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Texas Rangers. .",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Mr Bean.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Eve Torres. .",
+  "CATEGORY": "Dancer",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "God gives us blessings, let's give Him glory..",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "ASEAN Basketball League.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Like stars, God's promise shines the brightest in the dark..",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "NBA 2K11. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Michael Owen. .",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "2006 FIFA World Cup. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Azkals (Philippine National Football Team).",
+  "CATEGORY": "Sports",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "NBA.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Uncle Kracker. ",
+  "CATEGORY": "Musician/Band",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Fifa 11.",
+  "CATEGORY": "Games/Toys",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I Love Jesus, by iLoveJesusonline.com.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "MANG ROMY.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Save Our Sonics. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "WWE SmackDown. .",
+  "CATEGORY": "Interest",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "EA SPORTS FIFA.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Nba Basketball. .",
+  "CATEGORY": "TV",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Association football. .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Texas Rangers.",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Straight Edge Society.",
+  "CATEGORY": "Nonprofit Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Volkswagen Philippines.",
+    "CATEGORY": "Motor Vehicle Company",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "DLSU University Vision-Mission Week.",
+    "CATEGORY": "Community",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Kia Motors Philippines.",
+    "CATEGORY": "Motor Vehicle Company",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "South Manila Educational Consortium - Student Council.",
+    "CATEGORY": "Organization",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Oras Na, Roxas Na.. \"",
+    "CATEGORY": "Cause",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "University Vision-Mission Week 2015.",
+    "CATEGORY": "Community",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "FIBA Memes.",
+    "CATEGORY": "Community",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Rugby Challenge Official Game.",
+    "CATEGORY": "Software",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Miracle in Cell No.7.",
+    "CATEGORY": "Movie",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "S?kat FC (formerly Sm\u00fcch FC).",
+    "CATEGORY": "Amateur Sports Team",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Justin Timberlake.",
+    "CATEGORY": "Musician/Band",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Weekend Futbol League.",
+    "CATEGORY": "Sports League",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Golden Blossoms Flower Shoppe.",
+    "CATEGORY": "Florist",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Premier League.",
+    "CATEGORY": "Sports League",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "David Villa S\u00e1nchez.",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "AJ Perez.",
+    "CATEGORY": "Artist",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Undertaker.",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "WWE All Stars. .",
+    "CATEGORY": "Video Game",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Younghusband Football.",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Anton Edward Del Rosario Of Azkals Philippine Football Team..",
+    "CATEGORY": "Athlete",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "League of Legends - Philippines.",
+    "CATEGORY": "Video Game",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "WWE SmackDown vs. Raw 2011. .",
+    "CATEGORY": "Interest",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Neil Etheridge. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Phil Younghusband. .",
+    "CATEGORY": "Public Figure",
+    "PERSONA": "The Sports Fanatic"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+    "PAGE": "Manchester United F.C.. .",
+    "CATEGORY": "Stadium, Arena & Sports Venue",
+    "PERSONA": "The Sports Fanatic"
+  }
+},

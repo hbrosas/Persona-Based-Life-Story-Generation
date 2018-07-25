@@ -1,0 +1,1757 @@
+{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "lunch",
+    "Type": [
+      "Lunch"
+    ],
+    "Sentiment": "my breakfast, lunch and dinner snacks! ? ? .",
+    "Sentiment_Class": "positive",
+    "date": "September 13, 2017",
+    "time": "23:23"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "korean spicy noodles",
+    "Action": "crave",
+    "Organization": [],
+    "Type": [
+      "grains and pasta"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "June 20, 2017",
+    "time": "14:36"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "korean spicy noodles",
+    "Type": [
+      "grains and pasta"
+    ],
+    "Sentiment": "i am craving for korean spicy noodles right now! ! ? ?",
+    "Sentiment_Class": "positive",
+    "date": "June 20, 2017",
+    "time": "14:36"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "pizza",
+    "Type": [
+      "italian cuisine"
+    ],
+    "Sentiment": "Are we pizza, arcade bags? penge happiness!",
+    "Sentiment_Class": "positive",
+    "date": "June 18, 2017",
+    "time": "13:34"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "isaw",
+    "Action": "crave",
+    "Organization": [],
+    "Type": [
+      "Offal",
+      "Philippine cuisine",
+      "Street food"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "April 09, 2017",
+    "time": "09:46"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "isaw",
+    "Type": [
+      "Offal",
+      "Philippine cuisine",
+      "Street food"
+    ],
+    "Sentiment": "craving for isaw! ! ? ?",
+    "Sentiment_Class": "positive",
+    "date": "April 09, 2017",
+    "time": "09:46"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": null,
+    "Action": "be",
+    "Organization": [
+      "Bubblicitea Cafe"
+    ],
+    "Type": null,
+    "Tagged_Friends": [
+      "Mariz Quintos"
+    ],
+    "Location": [],
+    "date": "April 03, 2017",
+    "time": "10:57"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "ramen",
+    "Action": "crave",
+    "Organization": [],
+    "Type": [
+      "japanese cuisine"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "ramen",
+    "Type": [
+      "japanese cuisine"
+    ],
+    "Sentiment": "craving for ramen! ! ? ?",
+    "Sentiment_Class": "positive",
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "isaw delivery",
+    "Type": [
+      "Offal",
+      "Philippine cuisine",
+      "Street food"
+    ],
+    "Sentiment": "isaw delivery from my love! ? ? ughh craving satisfied? thank you, iloveyou! ? ? I'm full asdfghjkl? .",
+    "Sentiment_Class": "positive",
+    "date": "July 18, 2016",
+    "time": "12:20"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_sentiment",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "oreo cheesecake",
+    "Type": [
+      "desserts and baking"
+    ],
+    "Sentiment": "oreo cheesecake.",
+    "Sentiment_Class": "positive",
+    "date": "September 02, 2013",
+    "time": "06:26"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "wintermelon milktea",
+    "Action": "crave",
+    "Organization": [],
+    "Type": [
+      "coffee and tea"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "coca cola",
+    "Action": "drink",
+    "Organization": [],
+    "Type": [
+      "soft drinks"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "red wine",
+    "Action": "drink",
+    "Organization": [],
+    "Type": [
+      "wine"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "food_activity",
+  "values": {
+    "Person": "Marianne Lyn",
+    "Food": "margarita",
+    "Action": "drink",
+    "Organization": [],
+    "Type": [
+      "cocktails and beer"
+    ],
+    "Tagged_Friends": [],
+    "Location": [],
+    "date": "March 24, 2017",
+    "time": "15:41"
+  },
+  "persona": "The Foodie"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Daily History",
+    "Type": [
+      "music",
+      "film",
+      "musical"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Lyrics Art",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Justin Bieber",
+    "Type": [
+      "music",
+      "singer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "DJ Carlo Atendido",
+    "Type": [
+      "actor",
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "fandom",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": [
+      "Daniel Padilla"
+    ],
+    "Fandom": "DJ",
+    "Type": [
+      "actor",
+      "movie"
+    ]
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": [
+      "Daniel Padilla"
+    ],
+    "Type": [
+      "actor",
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Emma Watson . ",
+    "Type": [
+      "actress"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Your EDM",
+    "Type": [
+      "music"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "9GAG",
+    "Type": [
+      "movie"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Two Stuck In One",
+    "Type": [
+      "book"
+    ],
+    "Tagged_Friends": [],
+    "Organization": [],
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Bruno Mars",
+    "Type": [
+      "producer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Pia Mia",
+    "Type": [
+      "singer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},{
+  "type": "shared_about",
+  "values": {
+    "Person": "Marianne Lyn",
+    "FanOf": "Pia Mia",
+    "Type": [
+      "singer"
+    ],
+    "Tagged_Friends": [],
+    "Organization": null,
+    "Location": null
+  },
+  "persona": "The Fangirl/Fanboy"
+},
+{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Cheez Whiz.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Philippine Star.",
+  "CATEGORY": "Newspaper",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "CNN Philippines.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "adidas.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Carousel Creamery.",
+  "CATEGORY": "Ice Cream Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Thinking Minds.",
+  "CATEGORY": "Education Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Maria's Backyard.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Rody Day's Jr..",
+  "CATEGORY": "Filipino Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ino.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "H&M. Fashion and quality at the best price in a sustainable way..",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Larawan ni Geof - Jihofri.",
+  "CATEGORY": "Photographer",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Skulptz. .",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Artzs.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Business Solutions.",
+  "CATEGORY": "Marketing Agency",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "N\u00f6veked\u00e9s.hu.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Baby Lover.",
+  "CATEGORY": "Media",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I Can See Your Voice PH. \"",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Limited Edt.",
+  "CATEGORY": "Footwear Store",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pub Express PH. .",
+  "CATEGORY": "Pub",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Emperador Brandy.",
+  "CATEGORY": "Wine/Spirits",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Kami.com.ph.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Depression Kills.",
+  "CATEGORY": "Library",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Depression Kills.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Lazada Super Moms.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Lazada.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pwesto Community Mall.",
+  "CATEGORY": "Shopping Mall",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "MAC Cosmetics.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Studio Zen Taft Avenue Private Dormitel Residences.",
+  "CATEGORY": "Apartment & Condo Building",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "7-Eleven Philippines.",
+  "CATEGORY": "Convenience Store",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jazzy Chicken, Malabon.",
+  "CATEGORY": "Chicken Joint",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Cloud9 Philippines.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Bike Attack Moto Gear & Apparel.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Lyrics Art.",
+  "CATEGORY": "Art",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Mr. Softy Ice Cream.",
+  "CATEGORY": "Ice Cream Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pedigree Philippines.",
+  "CATEGORY": "Pet Supplies",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Malabon Food Trip.",
+  "CATEGORY": "Blogger",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Macky Kassandra's online shop.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Philhealth Local Health Insurance Office - Caloocan City. .",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "CHOCOLATE FACTORY.",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sports5.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "TV5.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Starbucks.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "MEET UP Bar & Restaurant. .",
+  "CATEGORY": "Pub",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Mabini Home Bakeshop. .",
+  "CATEGORY": "Cupcake Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Adober Studios.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pinoy Big Brother Abs-Cbn.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Beat  Makers Dance Crew. .",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sinangag Club.",
+  "CATEGORY": "Food Stand",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Papa Bol.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "HYGO Pretty.",
+  "CATEGORY": "Magazine",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Farron Cafe.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Purpose Tour Manila.",
+  "CATEGORY": "Concert Tour",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "HOT STAR Large Fried Chicken Philippines.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Hyper Blitz Gaming Corner.",
+  "CATEGORY": "Computer Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "GMA Drama.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "TKS NOODLE HOUSE.",
+  "CATEGORY": "Chinese Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Chachi Gonzales. .",
+  "CATEGORY": "Dancer",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Amoy Mo 'To Perfume Collection.",
+  "CATEGORY": "Cosmetics Store",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "HotBites.",
+  "CATEGORY": "Food Stand",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jess & Pat's.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Parenting.",
+  "CATEGORY": "Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Dunkin' Donuts.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tramway Garden Buffet - Timog.",
+  "CATEGORY": "Buffet Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tramway Buffet Restaurant, Roxas Boulevard.",
+  "CATEGORY": "Buffet Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "R. Lapids Chicharon and Barbecue.",
+  "CATEGORY": "Foodservice Distributor",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sigsaga Yakiniku Buffet.",
+  "CATEGORY": "Yakiniku Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tita Mae's Kitchen.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "OtakuKart.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "CBI Aqua Park.",
+  "CATEGORY": "Park",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "I Love Milk tea.",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "La Consolacion College - Caloocan Inc..",
+  "CATEGORY": "School",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Rave Radio.",
+  "CATEGORY": "DJ",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "COPPER.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Coast Food Park.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "DJ Carlo Atendido.",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "ShoeElite.ph.",
+  "CATEGORY": "Outdoor & Sporting Goods Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "DJ Chacha (Ang Nag-iisang",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Marimba Remix.",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "EconomyTrivia.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "BLK 513.",
+  "CATEGORY": "Frozen Yogurt Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "SPLASH ISLAND.",
+  "CATEGORY": "Sports & Recreation",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "OXYGEN\u0099. Fresh daily!",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pepper.ph.",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Typewriters voice.",
+  "CATEGORY": "Motivational Speaker",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "ANIME 101.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Backyardigans foodhubktv.",
+  "CATEGORY": "Bar & Grill",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The TapsiShop.",
+  "CATEGORY": "Filipino Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Eat Bulaga.",
+  "CATEGORY": "TV Show",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Coffee Bar.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Classic Model Philippines.",
+  "CATEGORY": "Event",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pennyworthtravels.",
+  "CATEGORY": "Blogger",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Bo's Coffee.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "GLOCO Gaming.",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jollibee.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Adventure Food Park.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "ARMORY APPAREL.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sinio Official.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Star City.",
+  "CATEGORY": "Amusement & Theme Park",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Maxim Dandan.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Angelo Barbecue+Drinks. .",
+  "CATEGORY": "Barbecue Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Blue Magic.",
+  "CATEGORY": "Gift Shop",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "GMA News.",
+  "CATEGORY": "Broadcasting & Media Production Company",
+  "PERSONA": "The Fangirl/Fanboy"
+   }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The Yard Food Parks.",
+  "CATEGORY": "Locality",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Doctor ASKY.",
+  "CATEGORY": "News & Media Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Gamer's Secret Files.",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Mayor Oscar \"OCA\" Malapitan.",
+  "CATEGORY": "Government Organization",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Regal Entertainment Inc..",
+  "CATEGORY": "Performing Arts",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "President Rodrigo  Duterte.",
+  "CATEGORY": "Media",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Trust me, I'm a Medical Technologist.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "NAYC Rumors.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Senyora.",
+  "CATEGORY": "Author",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Galawang Bida. ?",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "OFC AlDub-MaiDen Nation.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Beauty On a Budget (B.O.B).",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Street League Skateboarding.",
+  "CATEGORY": "Sports League",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Donnalyn Bartolome.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "FANCY FEET",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "The CHS Files.",
+  "CATEGORY": "School",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "McDonald's.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Angaz Online Souq.",
+  "CATEGORY": "Clothing Store",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "NAZARENUS COLLEGE AND HOSPITAL FOUNDATION INC.. Private Non-Sectarian",
+  "CATEGORY": "Hospital",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "boohoo.com.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Gilas Pilipinas program. .",
+  "CATEGORY": "Athlete",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Barangay Ginebra Kings. .",
+  "CATEGORY": "Sports Team",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Happy Chaplin.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Fi\u00e8vre.",
+  "CATEGORY": "Retail Company",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Basta Dancer.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Krystal Fanatics. .",
+  "CATEGORY": "Magazine",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "IWant TV.",
+  "CATEGORY": "Entertainment Website",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "True Love Waits.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Dance Dance Revolution (Game Boy Color video games). .",
+  "CATEGORY": "Video Game",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Teejay Marquez.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Seryoso ka?.",
+  "CATEGORY": "Just For Fun",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Puppies. .",
+  "CATEGORY": "TV",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "GMA Network.",
+  "CATEGORY": "TV Network",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "A LOVE STORY QOUTES. .",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Gandang Di Mo Inakala :'>.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ivan Dorschner.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Badminton. .",
+  "CATEGORY": "Sport",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ha Baket?",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Tramway Garden Buffet. .",
+  "CATEGORY": "Asian Restaurant",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Noon:",
+  "CATEGORY": "Community",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Bopler Tap Tour.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Cupid.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Dance Dance Revolution EXTREME (North America). .",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Fangirl/Fanboy"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Shopee.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Wendy's Philippines.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Camanava Foodtrip.",
+  "CATEGORY": "Reference Website",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Turks Porta Vaga.",
+  "CATEGORY": "Shopping Mall",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "When In Manila Food.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "La Verti Residences Pasay City Condominium.",
+  "CATEGORY": "Apartment & Condo Building",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Pepero Philippines.",
+  "CATEGORY": "Food & Beverage Company",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Cadbury Dairy Milk.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Turks.",
+  "CATEGORY": "Restaurant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sky Ranch.",
+  "CATEGORY": "Amusement & Theme Park",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Jazzy Chicken.",
+  "CATEGORY": "Fast Food Restaurant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Doc2Us.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Folded&Hung.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "kate spade new york.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Elite Chat Chemistry Memes.",
+  "CATEGORY": "Chemical Company",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Papa John's Pizza.",
+  "CATEGORY": "Pizza Place",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Amare la cucina.",
+  "CATEGORY": "Pizza Place",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Grub Hub.",
+  "CATEGORY": "Food Consultant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Red Ribbon.",
+  "CATEGORY": "Bakery",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Cup Fiction.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Infinitea.",
+  "CATEGORY": "Coffee Shop",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Super Bowl of China.",
+  "CATEGORY": "Cantonese Restaurant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Faminioz.",
+  "CATEGORY": "Family Style Restaurant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "",
+  "CATEGORY": "Local & Travel Website",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "True Skateboarding.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "happyplus Card.",
+  "CATEGORY": "Product/Service",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Parisian Shoes and Bags.",
+  "CATEGORY": "Shopping & Retail",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Starfeed Food.",
+  "CATEGORY": "Media/News Company",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "MANOEUVRES.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "TagaytayFoodtrip.",
+  "CATEGORY": "Local Business",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Muscle Worx Gym. .",
+  "CATEGORY": "Gym/Physical Fitness Center",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Penshoppe.",
+  "CATEGORY": "Clothing (Brand)",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Sobrang Short Stories.",
+  "CATEGORY": "Publisher",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "PEPE Clothing. .",
+  "CATEGORY": "Men's Clothing Store",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Crush ng LCCian.",
+  "CATEGORY": "Community",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "TeaNapay milktea, frappe, sandwiches atbp..",
+  "CATEGORY": "Breakfast & Brunch Restaurant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Everything But Cheese.",
+  "CATEGORY": "Burger Restaurant",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Mikee Quintos.",
+  "CATEGORY": "Actor",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "La Consolacion College-Caloocan.",
+  "CATEGORY": "College & University",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Niana Guerrero.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Caloocan High School-Campus Integrity Crusader.",
+  "CATEGORY": "Political Organization",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "MOCHA GIRLS.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Cool Spotted ?.",
+  "CATEGORY": "Artist",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "Ang taong madramang magpost, malamang may pinapatamaan :\">.",
+  "CATEGORY": "Public Figure",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "CHS Robotics Club.",
+  "CATEGORY": "School",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "likes",
+  "VALUES": {
+  "PAGE": "MallWorldGame.",
+  "CATEGORY": "App Page",
+  "PERSONA": "The Foodie"
+  }
+},{
+  "TYPE": "events",
+  "VALUES": {
+    "EVENT": "Vans' 50th Anniversary House Of Vans",
+    "RSVP": "unsure",
+    "PERSONA": "The Fangirl/Fanboy"
+  }
+},
