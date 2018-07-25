@@ -31,26 +31,26 @@ class Driver:
 			print("PRE-PROCESSING: Preparing for cleaning stage")
 			cleaned_posts = cleaner.cleanData(posts, profile)
 			print("PRE-PROCESSING: Posts successfully cleaned")
-			print("CONTEXT: Getting ready for context understanding")
-			contexter = ContextUnderstanding()
-			print("CONTEXT: Currently on context understanding")
-			assertions = contexter.getContext(persona, cleaned_posts, profile)
-			print("CONTEXT: Successfully extracted all the assertion types")
-			print("CONTEXT: You've got ", len(assertions), " number of assertions")
-			# print(assertions)
+			# print("CONTEXT: Getting ready for context understanding")
+			# contexter = ContextUnderstanding()
+			# print("CONTEXT: Currently on context understanding")
+			# assertions = contexter.getContext(persona, cleaned_posts, profile)
+			# print("CONTEXT: Successfully extracted all the assertion types")
+			# print("CONTEXT: You've got ", len(assertions), " number of assertions")
+			# # print(assertions)
 
-			if persona == "The Fangirl/Fanboy":
-				filename = profile.tablename + "_fangirlfanboy_posts" 
-			elif persona == "The Gamer":
-				filename = profile.tablename + "_gamer_posts" 
-			elif persona == "The Sports Fanatic":
-				filename = profile.tablename + "_sports_posts" 
-			elif persona == "The Foodie":
-				filename = profile.tablename + "_foodie_posts" 
+			# if persona == "The Fangirl/Fanboy":
+			# 	filename = profile.tablename + "_fangirlfanboy_posts" 
+			# elif persona == "The Gamer":
+			# 	filename = profile.tablename + "_gamer_posts" 
+			# elif persona == "The Sports Fanatic":
+			# 	filename = profile.tablename + "_sports_posts" 
+			# elif persona == "The Foodie":
+			# 	filename = profile.tablename + "_foodie_posts" 
 
-			print("SAVING: Currently saving your assertions...")
-			FileManager.writeFile(assertions, filename)
-			print("SAVING: Successfully saved your assertions")
+			# print("SAVING: Currently saving your assertions...")
+			# FileManager.writeFile(assertions, filename)
+			# print("SAVING: Successfully saved your assertions")
 
 		elif data == 2:
 			print("EXTRACTION: Getting labelled likes")
@@ -103,11 +103,11 @@ class Driver:
 
 		
 
-	# def init2():
-	# 	query = "Teejay Marquez"
-	# 	gs = GoogleSearch()
-	# 	# print(gs.searchGoogleAPI(query))
-	# 	print(gs.search(query))
+	def init2():
+		query = "kim jennie"
+		gs = GoogleSearch()
+		# print(gs.searchGoogleAPI(query))
+		print(gs.search(query))
 
 	# def init3():
 	# 	query = "volleyball"
@@ -123,13 +123,13 @@ class Driver:
 	# 	dbpedia.getHypernym("isaw")
 
 	# # 1 for Posts, 2 for Liked Pages, 3 for Events
-	persona = "The Fangirl/Fanboy"
-	name = "AR QLazaga"
-	init(persona, name, 1)
-	init(persona, name, 2)
-	init(persona, name, 3)
+	# persona = "The Foodie"
+	# name = "Marianne Lyn"
+	# init(persona, name, 1)
+	# init(persona, name, 2)
+	# init(persona, name, 3)
 
-	# init2() # Google Search
+	init2() # Google Search
 	# init3() # ConceptNet
 	# init4()
 	# init5()

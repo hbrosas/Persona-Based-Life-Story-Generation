@@ -33,7 +33,7 @@ class Database:
 		posts = []
 		db = Database()
 		cursor = db.connectDB()
-		cursor.execute("SELECT * FROM " + tableName + " WHERE label = '" + persona + "';")
+		cursor.execute("SELECT * FROM " + tableName + " WHERE label = '" + persona + "' LIMIT 10;")
 		rows = cursor.fetchall()
 
 		for row in rows:

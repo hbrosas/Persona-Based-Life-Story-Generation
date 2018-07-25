@@ -48,20 +48,20 @@ class Clean:
 			p = self.extractElements(p)
 			if p is not None:
 				# Comment this
-				# if not p.story == "":
-				# 	print("CLEANED STORY: ", p.story)
+				if not p.story == "":
+					print("CLEANED STORY: ", p.story)
 					
 				if not p.post == "":
 					p.post = self.translate(p.post)
 					# Comment this
-					# print("CLEANED POST: ", p.post)
+					print("CLEANED POST: ", p.post)
 
 				if not p.sentiment == "":
 					p = self.clean(2, p)
 					# Comment this
-					# print("CLEANED SENTIMENT: ", p.sentiment)
+					print("CLEANED SENTIMENT: ", p.sentiment)
 
-				# print("POST: ", p.original_post)
+				print("POST: ", p.original_post)
 				# print("STORY: ", p.story)
 				# print("SHARED POST CAPTION: ", p.post)
 				# print("SENTIMENT: ", p.sentiment)

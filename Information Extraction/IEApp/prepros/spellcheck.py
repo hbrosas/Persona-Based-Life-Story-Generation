@@ -68,10 +68,10 @@ class SpellChecker:
 	def findMostSimilar(self, word, tokens):
 		similar = ""
 		highest = 0
-
+		print("TOKENS: ", tokens)
 		for t in tokens:
 			score = fuzz.ratio(word, t)
-			# print(t, " to ", word, " SCORE: ", score)
+			print(t, " to ", word, " SCORE: ", score)
 			if score > highest:
 				similar = t
 				highest = score
